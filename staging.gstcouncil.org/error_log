@@ -1,0 +1,4 @@
+[21-Jun-2017 17:45:08 UTC] PHP Fatal error:  Allowed memory size of 41943040 bytes exhausted (tried to allocate 196608 bytes) in /home/gstc/public_html/wp-content/plugins/wp-views/embedded/inc/wpv-import-export-embedded.php on line 1612
+[21-Jun-2017 17:45:10 UTC] PHP Fatal error:  Allowed memory size of 41943040 bytes exhausted (tried to allocate 196608 bytes) in /home/gstc/public_html/wp-content/plugins/wp-views/embedded/inc/wpv-import-export-embedded.php on line 1612
+[21-Jun-2017 17:45:12 UTC] PHP Fatal error:  Allowed memory size of 41943040 bytes exhausted (tried to allocate 196608 bytes) in /home/gstc/public_html/wp-content/plugins/wp-views/embedded/inc/wpv-import-export-embedded.php on line 1612
+[21-Jun-2017 17:45:13 UTC] PHP Fatal error:  Allowed memory size of 41943040 bytes exhausted (tried to allocate 196608 bytes) in /home/gstc/public_html/wp-content/plugins/wp-views/embedded/inc/wpv-import-export-embedded.php on line 1612

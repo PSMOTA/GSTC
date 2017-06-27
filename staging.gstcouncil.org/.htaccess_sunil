@@ -1,0 +1,38 @@
+
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+
+# END WordPress
+
+# Wordfence WAF
+<IfModule LiteSpeed>
+php_value auto_prepend_file '/home/gstc/wp.gstcouncil.org/wordfence-waf.php'
+###LSCACHE START PLUGIN - Do not edit the contents of this block!###
+RewriteEngine on
+CacheLookup public on
+###LSCACHE START RESOURCE###
+RewriteRule wp-content/.*/(loader|fonts)\.php - [E=cache-control:max-age=3600]
+###LSCACHE END RESOURCE###
+###LSCACHE START FAVICON###
+RewriteRule favicon\.ico$ - [E=cache-control:max-age=86400]
+###LSCACHE END FAVICON###
+###LSCACHE END PLUGIN - Do not edit the contents of this block!###
+</IfModule>
+<Files ".user.ini">
+<IfModule mod_authz_core.c>
+	Require all denied
+</IfModule>
+<IfModule !mod_authz_core.c>
+	Order deny,allow
+	Deny from all
+</IfModule>
+</Files>
+
+# END Wordfence WAF

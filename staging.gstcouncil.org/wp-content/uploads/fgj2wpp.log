@@ -1,0 +1,156 @@
+=== START save 2017-02-24 01:16:45 ===
+Settings saved
+=== END save 2017-02-24 01:16:45 ===
+
+=== START test_database 2017-03-03 01:06:19 ===
+Connected with success to the Joomla database
+Joomla data found:
+72 categories
+706 articles
+6 web links
+575 users
+
+[WARNING] Your Joomla database contains some contacts. You need the <a href="https://www.fredericgilles.net/fg-joomla-to-wordpress/contact-manager/" target="_blank">Contact Manager add-on</a> to import them.
+[WARNING] Your Joomla database contains user groups. You need the <a href="https://www.fredericgilles.net/fg-joomla-to-wordpress/usergroups/" target="_blank">User Groups add-on</a> to import them.
+=== END test_database 2017-03-03 01:06:19 ===
+
+=== START test_database 2017-03-04 07:09:59 ===
+Connected with success to the Joomla database
+Joomla data found:
+72 categories
+706 articles
+6 web links
+575 users
+
+[WARNING] Your Joomla database contains some contacts. You need the <a href="https://www.fredericgilles.net/fg-joomla-to-wordpress/contact-manager/" target="_blank">Contact Manager add-on</a> to import them.
+[WARNING] Your Joomla database contains user groups. You need the <a href="https://www.fredericgilles.net/fg-joomla-to-wordpress/usergroups/" target="_blank">User Groups add-on</a> to import them.
+=== END test_database 2017-03-04 07:09:59 ===
+
+=== START import 2017-03-04 07:14:13 ===
+Connected with success to the Joomla database
+Joomla data found:
+72 categories
+706 articles
+6 web links
+575 users
+
+[WARNING] Your Joomla database contains some contacts. You need the <a href="https://www.fredericgilles.net/fg-joomla-to-wordpress/contact-manager/" target="_blank">Contact Manager add-on</a> to import them.
+[WARNING] Your Joomla database contains user groups. You need the <a href="https://www.fredericgilles.net/fg-joomla-to-wordpress/usergroups/" target="_blank">User Groups add-on</a> to import them.
+Importing categories...
+69 categories imported
+Importing posts...
+[ERROR] Can't copy http://www.gstcouncil.org/images/stories/staff_board/SteveNoakes.jpg to /home/gstc/wp.gstcouncil.org/wp-content/uploads/2010/08/SteveNoakes.jpg : Not Found
+[ERROR] Can't copy http://www.gstcouncil.org/images/Basecamp_logo.jpg to /home/gstc/wp.gstcouncil.org/wp-content/uploads/2010/08/Basecamp_logo.jpg : Not Found
+[ERROR] Can't copy http://www.gstcouncil.org/images/member_logos_sm/CarpeDM-logo.jpg to /home/gstc/wp.gstcouncil.org/wp-content/uploads/2010/08/CarpeDM-logo.jpg : Not Found
+[ERROR] Can't copy http://www.gstcouncil.org/images/stories/members-page/ECNC.jpg to /home/gstc/wp.gstcouncil.org/wp-content/uploads/2010/08/ECNC.jpg : Not Found
+[ERROR] Can't copy http://www.gstcouncil.org/images/stories/members/green_globe.jpg to /home/gstc/wp.gstcouncil.org/wp-content/uploads/2010/08/green_globe.jpg : Not Found
+[ERROR] Can't copy http://www.gstcouncil.org/images/green-loons-logo%20copy.png to /home/gstc/wp.gstcouncil.org/wp-content/uploads/2010/08/green-loons-logo copy.png : Not Found
+[ERROR] Can't copy http://www.gstcouncil.org/images/member_logos_sm/PATA.jpeg to /home/gstc/wp.gstcouncil.org/wp-content/uploads/2010/08/PATA.jpeg : Not Found
+[ERROR] Can't copy http://www.gstcouncil.org/images/stories/members-page/royal-caribbean.gif to /home/gstc/wp.gstcouncil.org/wp-content/uploads/2010/08/royal-caribbean.gif : Not Found
+[ERROR] Can't copy http://www.gstcouncil.org/images/stories/members-page/logos-sti.jpg to /home/gstc/wp.gstcouncil.org/wp-content/uploads/2010/08/logos-sti.jpg : Not Found
+[ERROR] Can't copy http://www.gstcouncil.org/images/stories/members-page/TourCert.gif to /home/gstc/wp.gstcouncil.org/wp-content/uploads/2010/08/TourCert.gif : Not Found
+[ERROR] Can't copy http://www.gstcouncil.org/images/member_logos_sm/Logo_TURISTIKO-01.jpg to /home/gstc/wp.gstcouncil.org/wp-content/uploads/2010/08/Logo_TURISTIKO-01.jpg : Not Found
+[ERROR] Can't copy http://www.gstcouncil.org/images/stories/members-page/UNWTO_p07.jpg to /home/gstc/wp.gstcouncil.org/wp-content/uploads/2010/08/UNWTO_p07.jpg : Not Found
+[ERROR] Can't copy http://www.gstcouncil.org/images/stories/members-page/logos-sti.jpg to /home/gstc/wp.gstcouncil.org/wp-content/uploads/2010/09/logos-sti.jpg : Not Found
+[ERROR] Can't copy http://www.gstcouncil.org/images/stories/members-page/logos-sti.jpg to /home/gstc/wp.gstcouncil.org/wp-content/uploads/2010/09/logos-sti.jpg : Not Found
+[ERROR] Can't copy http://www.gstcouncil.org/images/member_logos_sm/EarthCheck300dpi.jpg to /home/gstc/wp.gstcouncil.org/wp-content/uploads/2010/09/EarthCheck300dpi.jpg : Not Found
+[ERROR] Can't copy http://www.gstcouncil.org/images/member_logos_sm/EarthCheck300dpi.jpg to /home/gstc/wp.gstcouncil.org/wp-content/uploads/2010/09/EarthCheck300dpi.jpg : Not Found
+[ERROR] Can't copy http://www.gstcouncil.org/images/stories/members-page/royal-caribbean.gif to /home/gstc/wp.gstcouncil.org/wp-content/uploads/2010/09/royal-caribbean.gif : Not Found
+[ERROR] Can't copy http://www.gstcouncil.org/images/stories/members-page/royal-caribbean.gif to /home/gstc/wp.gstcouncil.org/wp-content/uploads/2010/09/royal-caribbean.gif : Not Found
+[ERROR] Can't copy http://www.gstcouncil.org/images/stories/members-page/UNEP_logo.jpg to /home/gstc/wp.gstcouncil.org/wp-content/uploads/2010/09/UNEP_logo.jpg : Not Found
+[ERROR] Can't copy http://www.gstcouncil.org/images/stories/members-page/UNEP_logo.jpg to /home/gstc/wp.gstcouncil.org/wp-content/uploads/2010/09/UNEP_logo.jpg : Not Found
+[ERROR] Can't copy http://www.gstcouncil.org/images/stories/members-page/TourCert.gif to /home/gstc/wp.gstcouncil.org/wp-content/uploads/2011/03/TourCert.gif : Not Found
+[ERROR] Can't copy http://www.gstcouncil.org/images/stories/members-page/TourCert.gif to /home/gstc/wp.gstcouncil.org/wp-content/uploads/2011/03/TourCert.gif : Not Found
+[ERROR] Can't copy http://www.gstcouncil.org/templates/travelforever/images/rss-icon.jpg to /home/gstc/wp.gstcouncil.org/wp-content/uploads/2011/06/rss-icon.jpg : Not Found
+[ERROR] Can't copy http://www.gstcouncil.org/templates/travelforever/images/rss-icon.jpg to /home/gstc/wp.gstcouncil.org/wp-content/uploads/2011/06/rss-icon.jpg : Not Found
+[ERROR] Can't copy http://www.gstcouncil.org/templates/travelforever/images/gray-line.jpg to /home/gstc/wp.gstcouncil.org/wp-content/uploads/2011/06/gray-line.jpg : Not Found
+[ERROR] Can't copy http://www.gstcouncil.org/images/stories/members/55Sabre.jpg to /home/gstc/wp.gstcouncil.org/wp-content/uploads/2011/06/55Sabre.jpg : Not Found
+[ERROR] Can't copy http://www.gstcouncil.org/images/recognized_standards/image015.jpg to /home/gstc/wp.gstcouncil.org/wp-content/uploads/2012/12/image015.jpg : Not Found
+[ERROR] Can't copy http://www.gstcouncil.org/images/recognized_standards/image015.jpg to /home/gstc/wp.gstcouncil.org/wp-content/uploads/2012/12/image015.jpg : Not Found
+[ERROR] Can't copy http://www.gstcouncil.org/images/recognized_standards/image025.png to /home/gstc/wp.gstcouncil.org/wp-content/uploads/2012/12/image025.png : Not Found
+[ERROR] Can't copy http://www.gstcouncil.org/images/recognized_standards/image025.png to /home/gstc/wp.gstcouncil.org/wp-content/uploads/2012/12/image025.png : Not Found
+[ERROR] Can't copy http://www.gstcouncil.org/images/M_images/cuenca%20lago%20llanquihue.jpg to /home/gstc/wp.gstcouncil.org/wp-content/uploads/2013/07/cuenca lago llanquihue.jpg : Not Found
+[ERROR] Can't copy http://www.gstcouncil.org/images/M_images/cuenca%20lago%20llanquihue.jpg to /home/gstc/wp.gstcouncil.org/wp-content/uploads/2013/07/cuenca lago llanquihue.jpg : Not Found
+[ERROR] Can't copy http://www.gstcouncil.org/images/M_images/south%20sardinia.jpg to /home/gstc/wp.gstcouncil.org/wp-content/uploads/2013/10/south sardinia.jpg : Not Found
+[ERROR] Can't copy http://www.gstcouncil.org/images/M_images/south%20sardinia.jpg to /home/gstc/wp.gstcouncil.org/wp-content/uploads/2013/10/south sardinia.jpg : Not Found
+[ERROR] Can't copy http://www.gstcouncil.org/images/staff_photos/randy%20at%20gstc%20pata.jpg to /home/gstc/wp.gstcouncil.org/wp-content/uploads/2014/03/randy at gstc pata.jpg : Not Found
+[ERROR] Can't copy http://www.gstcouncil.org/images/staff_photos/randy%20at%20gstc%20pata.jpg to /home/gstc/wp.gstcouncil.org/wp-content/uploads/2014/03/randy at gstc pata.jpg : Not Found
+[ERROR] Can't copy http://www.gstcouncil.org/images/staff_photos/randy%20at%20gstc%20pata.jpg to /home/gstc/wp.gstcouncil.org/wp-content/uploads/2014/07/randy at gstc pata.jpg : Not Found
+[ERROR] Can't copy http://www.gstcouncil.org/images/staff_photos/randy%20at%20gstc%20pata.jpg to /home/gstc/wp.gstcouncil.org/wp-content/uploads/2014/07/randy at gstc pata.jpg : Not Found
+[ERROR] Can't copy http://www.gstcouncil.org/images/Basecamp_logo.jpg to /home/gstc/wp.gstcouncil.org/wp-content/uploads/2014/09/Basecamp_logo.jpg : Not Found
+[ERROR] Can't copy http://www.gstcouncil.org/images/Basecamp_logo.jpg to /home/gstc/wp.gstcouncil.org/wp-content/uploads/2014/09/Basecamp_logo.jpg : Not Found
+[ERROR] Can't copy http://www.gstcouncil.org/images/pdf/A_1._nov_6_TALLER_CAPACITACION_GSTC_low-2.pdf to /home/gstc/wp.gstcouncil.org/wp-content/uploads/2014/09/A_1._nov_6_TALLER_CAPACITACION_GSTC_low-2.pdf : Not Found
+[ERROR] Can't copy http://www.gstcouncil.org/images/stories/members/Logo_mc_Gro&szlig;.jpg to /home/gstc/wp.gstcouncil.org/wp-content/uploads/2015/02/Logo_mc_Gro&szlig;.jpg : Not Found
+[ERROR] Can't copy http://www.gstcouncil.org/images/stories/members/Logo_mc_Gro&szlig;.jpg to /home/gstc/wp.gstcouncil.org/wp-content/uploads/2015/02/Logo_mc_Gro&szlig;.jpg : Not Found
+[ERROR] Can't copy http://www.gstcouncil.org/images/member_logos_sm/Settemari.jpg to /home/gstc/wp.gstcouncil.org/wp-content/uploads/2015/02/Settemari.jpg : Not Found
+[ERROR] Can't copy http://www.gstcouncil.org/images/member_logos_sm/Settemari.jpg to /home/gstc/wp.gstcouncil.org/wp-content/uploads/2015/02/Settemari.jpg : Not Found
+[ERROR] Can't copy http://www.gstcouncil.org/images/member_logos_sm/TLB_logo.jpg to /home/gstc/wp.gstcouncil.org/wp-content/uploads/2015/02/TLB_logo.jpg : Not Found
+[ERROR] Can't copy http://www.gstcouncil.org/images/member_logos_sm/TLB_logo.jpg to /home/gstc/wp.gstcouncil.org/wp-content/uploads/2015/02/TLB_logo.jpg : Not Found
+[ERROR] Can't copy http://www.gstcouncil.org/images/member_logos_sm/glp_new_logo.png to /home/gstc/wp.gstcouncil.org/wp-content/uploads/2015/02/glp_new_logo.png : Not Found
+[ERROR] Can't copy http://www.gstcouncil.org/images/member_logos_sm/glp_new_logo.png to /home/gstc/wp.gstcouncil.org/wp-content/uploads/2015/02/glp_new_logo.png : Not Found
+[ERROR] Can't copy http://www.gstcouncil.org/images/member_logos_sm/Flocert_x150.jpg to /home/gstc/wp.gstcouncil.org/wp-content/uploads/2015/04/Flocert_x150.jpg : Not Found
+[ERROR] Can't copy http://www.gstcouncil.org/images/member_logos_sm/Flocert_x150.jpg to /home/gstc/wp.gstcouncil.org/wp-content/uploads/2015/04/Flocert_x150.jpg : Not Found
+[ERROR] Can't copy http://www.gstcouncil.org/images/member_logos_sm/EarthCheck300dpi.jpg to /home/gstc/wp.gstcouncil.org/wp-content/uploads/2015/08/EarthCheck300dpi.jpg : Not Found
+[ERROR] Can't copy http://www.gstcouncil.org/images/member_logos_sm/EarthCheck300dpi.jpg to /home/gstc/wp.gstcouncil.org/wp-content/uploads/2015/08/EarthCheck300dpi.jpg : Not Found
+[ERROR] Can't copy http://www.gstcouncil.org/images/member_logos_sm/LOGO_ELISA.jpg to /home/gstc/wp.gstcouncil.org/wp-content/uploads/2015/08/LOGO_ELISA.jpg : Not Found
+[ERROR] Can't copy http://www.gstcouncil.org/images/member_logos_sm/LOGO_ELISA.jpg to /home/gstc/wp.gstcouncil.org/wp-content/uploads/2015/08/LOGO_ELISA.jpg : Not Found
+[ERROR] Can't copy http://www.gstcouncil.org/images/member_logos_sm/TUI_Group_black_lightblue_3C.jpg to /home/gstc/wp.gstcouncil.org/wp-content/uploads/2015/09/TUI_Group_black_lightblue_3C.jpg : Not Found
+[ERROR] Can't copy http://www.gstcouncil.org/images/member_logos_sm/TUI_Group_black_lightblue_3C.jpg to /home/gstc/wp.gstcouncil.org/wp-content/uploads/2015/09/TUI_Group_black_lightblue_3C.jpg : Not Found
+[ERROR] Can't copy http://www.gstcouncil.org/images/member_logos_sm/GPL_150x.png to /home/gstc/wp.gstcouncil.org/wp-content/uploads/2015/10/GPL_150x.png : Not Found
+[ERROR] Can't copy http://www.gstcouncil.org/images/member_logos_sm/GPL_150x.png to /home/gstc/wp.gstcouncil.org/wp-content/uploads/2015/10/GPL_150x.png : Not Found
+[ERROR] Can't copy http://www.gstcouncil.org/images/member_logos_sm/EarthCheck300dpi.jpg to /home/gstc/wp.gstcouncil.org/wp-content/uploads/2016/06/EarthCheck300dpi.jpg : Not Found
+[ERROR] Can't copy http://www.gstcouncil.org/images/member_logos_sm/EarthCheck300dpi.jpg to /home/gstc/wp.gstcouncil.org/wp-content/uploads/2016/06/EarthCheck300dpi.jpg : Not Found
+[ERROR] Can't copy http://www.gstcouncil.org/images/member_logos_sm/EarthCheck300dpi.jpg to /home/gstc/wp.gstcouncil.org/wp-content/uploads/2016/06/EarthCheck300dpi.jpg : Not Found
+[ERROR] Can't copy http://www.gstcouncil.org/images/member_logos_sm/EarthCheck300dpi.jpg to /home/gstc/wp.gstcouncil.org/wp-content/uploads/2016/06/EarthCheck300dpi.jpg : Not Found
+[ERROR] Can't copy http://www.gstcouncil.org/images/Integrity_Program/Criteria/CriteriaTranslations/%20Greek-GSTC-Dv2_2015.pdf to /home/gstc/wp.gstcouncil.org/wp-content/uploads/2017/01/ Greek-GSTC-Dv2_2015.pdf : Not Found
+=== START test_database 2017-03-04 08:03:16 ===
+Connected with success to the Joomla database
+Joomla data found:
+72 categories
+706 articles
+6 web links
+575 users
+
+[WARNING] Your Joomla database contains some contacts. You need the <a href="https://www.fredericgilles.net/fg-joomla-to-wordpress/contact-manager/" target="_blank">Contact Manager add-on</a> to import them.
+[WARNING] Your Joomla database contains user groups. You need the <a href="https://www.fredericgilles.net/fg-joomla-to-wordpress/usergroups/" target="_blank">User Groups add-on</a> to import them.
+=== END test_database 2017-03-04 08:03:16 ===
+
+=== START stop_import 2017-03-04 08:08:08 ===
+=== END stop_import 2017-03-04 08:08:08 ===
+
+=== START import 2017-03-04 08:08:12 ===
+Connected with success to the Joomla database
+Joomla data found:
+72 categories
+706 articles
+6 web links
+575 users
+
+[WARNING] Your Joomla database contains some contacts. You need the <a href="https://www.fredericgilles.net/fg-joomla-to-wordpress/contact-manager/" target="_blank">Contact Manager add-on</a> to import them.
+[WARNING] Your Joomla database contains user groups. You need the <a href="https://www.fredericgilles.net/fg-joomla-to-wordpress/usergroups/" target="_blank">User Groups add-on</a> to import them.
+Importing categories...
+0 categories imported
+Importing posts...
+22 posts imported
+47 medias imported
+0 tags imported
+2 links categories imported
+Importing web links...
+6 web links imported
+Importing users...
+555 users imported
+Importing menus...
+194 menu items imported
+Importing modules...
+[ERROR] Can't copy http://www.gstcouncil.org/components/com_jckman/icons/jck-manager-logo.png to /home/gstc/wp.gstcouncil.org/wp-content/uploads/2017/03/jck-manager-logo.png : Not Found
+[ERROR] Can't copy http://www.gstcouncil.org/components/com_arkeditor/icons/ark-editor-logo-lg.png to /home/gstc/wp.gstcouncil.org/wp-content/uploads/2017/03/ark-editor-logo-lg.png : Not Found
+14 modules imported
+0 tags imported
+Don't forget to modify internal links.
+IMPORT COMPLETE
+=== END import 2017-03-04 08:12:09 ===
+
+=== START modify_links 2017-03-04 08:43:55 ===
+191 internal links modified
+=== END modify_links 2017-03-04 08:44:04 ===
+

@@ -1,0 +1,2904 @@
+Jun 20 17:24:32  [info] 
+$Fatal Error Details = array(3) {
+  ["message"]=>
+  string(45) "Could not find an entry for x_subscription_id"
+  ["code"]=>
+  NULL
+  ["exception"]=>
+  object(CRM_Core_Exception)#3513 (10) {
+    ["errorData":"CRM_Core_Exception":private]=>
+    array(1) {
+      ["error_code"]=>
+      int(0)
+    }
+    ["cause":protected]=>
+    NULL
+    ["_trace":"PEAR_Exception":private]=>
+    NULL
+    ["message":protected]=>
+    string(45) "Could not find an entry for x_subscription_id"
+    ["string":"Exception":private]=>
+    string(0) ""
+    ["code":protected]=>
+    int(0)
+    ["file":protected]=>
+    string(94) "/home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Payment/AuthorizeNetIPN.php"
+    ["line":protected]=>
+    int(338)
+    ["trace":"Exception":private]=>
+    array(18) {
+      [0]=>
+      array(6) {
+        ["file"]=>
+        string(94) "/home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Payment/AuthorizeNetIPN.php"
+        ["line"]=>
+        int(57)
+        ["function"]=>
+        string(8) "retrieve"
+        ["class"]=>
+        string(32) "CRM_Core_Payment_AuthorizeNetIPN"
+        ["type"]=>
+        string(2) "->"
+        ["args"]=>
+        array(2) {
+          [0]=>
+          string(17) "x_subscription_id"
+          [1]=>
+          string(6) "String"
+        }
+      }
+      [1]=>
+      array(6) {
+        ["file"]=>
+        string(91) "/home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Payment/AuthorizeNet.php"
+        ["line"]=>
+        int(768)
+        ["function"]=>
+        string(4) "main"
+        ["class"]=>
+        string(32) "CRM_Core_Payment_AuthorizeNetIPN"
+        ["type"]=>
+        string(2) "->"
+        ["args"]=>
+        array(0) {
+        }
+      }
+      [2]=>
+      array(6) {
+        ["file"]=>
+        string(78) "/home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Payment.php"
+        ["line"]=>
+        int(1216)
+        ["function"]=>
+        string(25) "handlePaymentNotification"
+        ["class"]=>
+        string(29) "CRM_Core_Payment_AuthorizeNet"
+        ["type"]=>
+        string(2) "::"
+        ["args"]=>
+        array(0) {
+        }
+      }
+      [3]=>
+      array(6) {
+        ["file"]=>
+        string(78) "/home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Payment.php"
+        ["line"]=>
+        int(1120)
+        ["function"]=>
+        string(19) "handlePaymentMethod"
+        ["class"]=>
+        string(16) "CRM_Core_Payment"
+        ["type"]=>
+        string(2) "::"
+        ["args"]=>
+        array(2) {
+          [0]=>
+          string(19) "PaymentNotification"
+          [1]=>
+          array(3) {
+            ["processor_name"]=>
+            NULL
+            ["processor_id"]=>
+            NULL
+            ["mode"]=>
+            NULL
+          }
+        }
+      }
+      [4]=>
+      array(4) {
+        ["function"]=>
+        string(9) "handleIPN"
+        ["class"]=>
+        string(16) "CRM_Core_Payment"
+        ["type"]=>
+        string(2) "::"
+        ["args"]=>
+        array(0) {
+        }
+      }
+      [5]=>
+      array(4) {
+        ["file"]=>
+        string(77) "/home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php"
+        ["line"]=>
+        int(276)
+        ["function"]=>
+        string(14) "call_user_func"
+        ["args"]=>
+        array(1) {
+          [0]=>
+          array(2) {
+            [0]=>
+            string(16) "CRM_Core_Payment"
+            [1]=>
+            string(9) "handleIPN"
+          }
+        }
+      }
+      [6]=>
+      array(6) {
+        ["file"]=>
+        string(77) "/home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php"
+        ["line"]=>
+        int(84)
+        ["function"]=>
+        string(7) "runItem"
+        ["class"]=>
+        string(15) "CRM_Core_Invoke"
+        ["type"]=>
+        string(2) "::"
+        ["args"]=>
+        array(1) {
+          [0]=>
+          array(14) {
+            ["id"]=>
+            string(2) "38"
+            ["domain_id"]=>
+            string(1) "1"
+            ["path"]=>
+            string(19) "civicrm/payment/ipn"
+            ["access_callback"]=>
+            string(1) "1"
+            ["access_arguments"]=>
+            array(2) {
+              [0]=>
+              array(1) {
+                [0]=>
+                string(21) "access CiviContribute"
+              }
+              [1]=>
+              string(3) "and"
+            }
+            ["page_callback"]=>
+            array(2) {
+              [0]=>
+              string(16) "CRM_Core_Payment"
+              [1]=>
+              string(9) "handleIPN"
+            }
+            ["breadcrumb"]=>
+            array(2) {
+              [0]=>
+              array(2) {
+                ["title"]=>
+                string(7) "CiviCRM"
+                ["url"]=>
+                string(58) "/wp-admin/admin.php?page=CiviCRM&amp;q=civicrm&amp;reset=1"
+              }
+              [1]=>
+              array(2) {
+                ["title"]=>
+                string(11) "New Payment"
+                ["url"]=>
+                string(81) "/wp-admin/admin.php?page=CiviCRM&amp;q=civicrm/payment&amp;reset=1&amp;action=add"
+              }
+            }
+            ["component_id"]=>
+            string(1) "2"
+            ["is_public"]=>
+            string(1) "1"
+            ["is_ssl"]=>
+            string(1) "0"
+            ["weight"]=>
+            string(1) "1"
+            ["type"]=>
+            string(1) "1"
+            ["page_type"]=>
+            string(1) "0"
+            ["page_arguments"]=>
+            bool(false)
+          }
+        }
+      }
+      [7]=>
+      array(6) {
+        ["file"]=>
+        string(77) "/home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php"
+        ["line"]=>
+        int(52)
+        ["function"]=>
+        string(7) "_invoke"
+        ["class"]=>
+        string(15) "CRM_Core_Invoke"
+        ["type"]=>
+        string(2) "::"
+        ["args"]=>
+        array(1) {
+          [0]=>
+          array(4) {
+            [0]=>
+            string(7) "civicrm"
+            [1]=>
+            string(7) "payment"
+            [2]=>
+            string(3) "ipn"
+            [3]=>
+            string(1) "7"
+          }
+        }
+      }
+      [8]=>
+      array(6) {
+        ["file"]=>
+        string(61) "/home/gstc/public_html/wp-content/plugins/civicrm/civicrm.php"
+        ["line"]=>
+        int(1227)
+        ["function"]=>
+        string(6) "invoke"
+        ["class"]=>
+        string(15) "CRM_Core_Invoke"
+        ["type"]=>
+        string(2) "::"
+        ["args"]=>
+        array(1) {
+          [0]=>
+          &array(4) {
+            [0]=>
+            string(7) "civicrm"
+            [1]=>
+            string(7) "payment"
+            [2]=>
+            string(3) "ipn"
+            [3]=>
+            string(1) "7"
+          }
+        }
+      }
+      [9]=>
+      array(6) {
+        ["file"]=>
+        string(79) "/home/gstc/public_html/wp-content/plugins/civicrm/includes/civicrm.basepage.php"
+        ["line"]=>
+        int(132)
+        ["function"]=>
+        string(6) "invoke"
+        ["class"]=>
+        string(21) "CiviCRM_For_WordPress"
+        ["type"]=>
+        string(2) "->"
+        ["args"]=>
+        array(0) {
+        }
+      }
+      [10]=>
+      array(4) {
+        ["function"]=>
+        string(16) "basepage_handler"
+        ["class"]=>
+        string(30) "CiviCRM_For_WordPress_Basepage"
+        ["type"]=>
+        string(2) "->"
+        ["args"]=>
+        array(1) {
+          [0]=>
+          object(WP)#2211 (9) {
+            ["public_query_vars"]=>
+            array(62) {
+              [0]=>
+              string(1) "m"
+              [1]=>
+              string(1) "p"
+              [2]=>
+              string(5) "posts"
+              [3]=>
+              string(1) "w"
+              [4]=>
+              string(3) "cat"
+              [5]=>
+              string(12) "withcomments"
+              [6]=>
+              string(15) "withoutcomments"
+              [7]=>
+              string(1) "s"
+              [8]=>
+              string(6) "search"
+              [9]=>
+              string(5) "exact"
+              [10]=>
+              string(8) "sentence"
+              [11]=>
+              string(8) "calendar"
+              [12]=>
+              string(4) "page"
+              [13]=>
+              string(5) "paged"
+              [14]=>
+              string(4) "more"
+              [15]=>
+              string(2) "tb"
+              [16]=>
+              string(2) "pb"
+              [17]=>
+              string(6) "author"
+              [18]=>
+              string(5) "order"
+              [19]=>
+              string(7) "orderby"
+              [20]=>
+              string(4) "year"
+              [21]=>
+              string(8) "monthnum"
+              [22]=>
+              string(3) "day"
+              [23]=>
+              string(4) "hour"
+              [24]=>
+              string(6) "minute"
+              [25]=>
+              string(6) "second"
+              [26]=>
+              string(4) "name"
+              [27]=>
+              string(13) "category_name"
+              [28]=>
+              string(3) "tag"
+              [29]=>
+              string(4) "feed"
+              [30]=>
+              string(11) "author_name"
+              [31]=>
+              string(6) "static"
+              [32]=>
+              string(8) "pagename"
+              [33]=>
+              string(7) "page_id"
+              [34]=>
+              string(5) "error"
+              [35]=>
+              string(10) "attachment"
+              [36]=>
+              string(13) "attachment_id"
+              [37]=>
+              string(7) "subpost"
+              [38]=>
+              string(10) "subpost_id"
+              [39]=>
+              string(7) "preview"
+              [40]=>
+              string(6) "robots"
+              [41]=>
+              string(8) "taxonomy"
+              [42]=>
+              string(4) "term"
+              [43]=>
+              string(5) "cpage"
+              [44]=>
+              string(9) "post_type"
+              [45]=>
+              string(5) "embed"
+              [46]=>
+              string(11) "post_format"
+              [47]=>
+              string(7) "sitemap"
+              [48]=>
+              string(9) "sitemap_n"
+              [49]=>
+              string(3) "xsl"
+              [50]=>
+              string(10) "rest_route"
+              [51]=>
+              string(15) "avada_portfolio"
+              [52]=>
+              string(18) "portfolio_category"
+              [53]=>
+              string(16) "portfolio_skills"
+              [54]=>
+              string(14) "portfolio_tags"
+              [55]=>
+              string(9) "avada_faq"
+              [56]=>
+              string(12) "faq_category"
+              [57]=>
+              string(21) "themefusion_es_groups"
+              [58]=>
+              string(14) "member-profile"
+              [59]=>
+              string(20) "expired-memb-profile"
+              [60]=>
+              string(11) "slidervilla"
+              [61]=>
+              string(10) "slide-page"
+            }
+            ["private_query_vars"]=>
+            array(26) {
+              [0]=>
+              string(6) "offset"
+              [1]=>
+              string(14) "posts_per_page"
+              [2]=>
+              string(22) "posts_per_archive_page"
+              [3]=>
+              string(9) "showposts"
+              [4]=>
+              string(8) "nopaging"
+              [5]=>
+              string(9) "post_type"
+              [6]=>
+              string(11) "post_status"
+              [7]=>
+              string(12) "category__in"
+              [8]=>
+              string(16) "category__not_in"
+              [9]=>
+              string(13) "category__and"
+              [10]=>
+              string(7) "tag__in"
+              [11]=>
+              string(11) "tag__not_in"
+              [12]=>
+              string(8) "tag__and"
+              [13]=>
+              string(12) "tag_slug__in"
+              [14]=>
+              string(13) "tag_slug__and"
+              [15]=>
+              string(6) "tag_id"
+              [16]=>
+              string(14) "post_mime_type"
+              [17]=>
+              string(4) "perm"
+              [18]=>
+              string(17) "comments_per_page"
+              [19]=>
+              string(8) "post__in"
+              [20]=>
+              string(12) "post__not_in"
+              [21]=>
+              string(11) "post_parent"
+              [22]=>
+              string(15) "post_parent__in"
+              [23]=>
+              string(19) "post_parent__not_in"
+              [24]=>
+              string(5) "title"
+              [25]=>
+              string(6) "fields"
+            }
+            ["extra_query_vars"]=>
+            array(0) {
+            }
+            ["query_vars"]=>
+            array(2) {
+              ["page"]=>
+              string(7) "CiviCRM"
+              ["pagename"]=>
+              string(7) "civicrm"
+            }
+            ["query_string"]=>
+            string(29) "page=CiviCRM&pagename=civicrm"
+            ["request"]=>
+            string(7) "civicrm"
+            ["matched_rule"]=>
+            string(24) "(.?.+?)(?:/([0-9]+))?/?$"
+            ["matched_query"]=>
+            string(22) "pagename=civicrm&page="
+            ["did_permalink"]=>
+            bool(true)
+          }
+        }
+      }
+      [11]=>
+      array(4) {
+        ["file"]=>
+        string(52) "/home/gstc/public_html/wp-includes/class-wp-hook.php"
+        ["line"]=>
+        int(298)
+        ["function"]=>
+        string(20) "call_user_func_array"
+        ["args"]=>
+        array(2) {
+          [0]=>
+          &array(2) {
+            [0]=>
+            object(CiviCRM_For_WordPress_Basepage)#1856 (1) {
+              ["civi"]=>
+              object(CiviCRM_For_WordPress)#1852 (8) {
+                ["shortcodes"]=>
+                object(CiviCRM_For_WordPress_Shortcodes)#1854 (4) {
+                  ["civi"]=>
+                  *RECURSION*
+                  ["shortcodes"]=>
+                  array(0) {
+                  }
+                  ["shortcode_markup"]=>
+                  array(0) {
+                  }
+                  ["shortcode_in_post"]=>
+                  array(0) {
+                  }
+                }
+                ["modal"]=>
+                object(CiviCRM_For_WordPress_Shortcodes_Modal)#1855 (1) {
+                  ["civi"]=>
+                  *RECURSION*
+                }
+                ["basepage"]=>
+                *RECURSION*
+                ["users"]=>
+                object(CiviCRM_For_WordPress_Users)#1853 (1) {
+                  ["civi"]=>
+                  *RECURSION*
+                }
+                ["wp_get"]=>
+                array(3) {
+                  ["page"]=>
+                  string(7) "CiviCRM"
+                  ["q"]=>
+                  string(21) "civicrm/payment/ipn/7"
+                  ["noheader"]=>
+                  string(1) "1"
+                }
+                ["wp_post"]=>
+                array(0) {
+                }
+                ["wp_cookie"]=>
+                array(0) {
+                }
+                ["wp_request"]=>
+                array(3) {
+                  ["page"]=>
+                  string(7) "CiviCRM"
+                  ["q"]=>
+                  string(21) "civicrm/payment/ipn/7"
+                  ["noheader"]=>
+                  string(1) "1"
+                }
+              }
+            }
+            [1]=>
+            string(16) "basepage_handler"
+          }
+          [1]=>
+          &array(1) {
+            [0]=>
+            &object(WP)#2211 (9) {
+              ["public_query_vars"]=>
+              array(62) {
+                [0]=>
+                string(1) "m"
+                [1]=>
+                string(1) "p"
+                [2]=>
+                string(5) "posts"
+                [3]=>
+                string(1) "w"
+                [4]=>
+                string(3) "cat"
+                [5]=>
+                string(12) "withcomments"
+                [6]=>
+                string(15) "withoutcomments"
+                [7]=>
+                string(1) "s"
+                [8]=>
+                string(6) "search"
+                [9]=>
+                string(5) "exact"
+                [10]=>
+                string(8) "sentence"
+                [11]=>
+                string(8) "calendar"
+                [12]=>
+                string(4) "page"
+                [13]=>
+                string(5) "paged"
+                [14]=>
+                string(4) "more"
+                [15]=>
+                string(2) "tb"
+                [16]=>
+                string(2) "pb"
+                [17]=>
+                string(6) "author"
+                [18]=>
+                string(5) "order"
+                [19]=>
+                string(7) "orderby"
+                [20]=>
+                string(4) "year"
+                [21]=>
+                string(8) "monthnum"
+                [22]=>
+                string(3) "day"
+                [23]=>
+                string(4) "hour"
+                [24]=>
+                string(6) "minute"
+                [25]=>
+                string(6) "second"
+                [26]=>
+                string(4) "name"
+                [27]=>
+                string(13) "category_name"
+                [28]=>
+                string(3) "tag"
+                [29]=>
+                string(4) "feed"
+                [30]=>
+                string(11) "author_name"
+                [31]=>
+                string(6) "static"
+                [32]=>
+                string(8) "pagename"
+                [33]=>
+                string(7) "page_id"
+                [34]=>
+                string(5) "error"
+                [35]=>
+                string(10) "attachment"
+                [36]=>
+                string(13) "attachment_id"
+                [37]=>
+                string(7) "subpost"
+                [38]=>
+                string(10) "subpost_id"
+                [39]=>
+                string(7) "preview"
+                [40]=>
+                string(6) "robots"
+                [41]=>
+                string(8) "taxonomy"
+                [42]=>
+                string(4) "term"
+                [43]=>
+                string(5) "cpage"
+                [44]=>
+                string(9) "post_type"
+                [45]=>
+                string(5) "embed"
+                [46]=>
+                string(11) "post_format"
+                [47]=>
+                string(7) "sitemap"
+                [48]=>
+                string(9) "sitemap_n"
+                [49]=>
+                string(3) "xsl"
+                [50]=>
+                string(10) "rest_route"
+                [51]=>
+                string(15) "avada_portfolio"
+                [52]=>
+                string(18) "portfolio_category"
+                [53]=>
+                string(16) "portfolio_skills"
+                [54]=>
+                string(14) "portfolio_tags"
+                [55]=>
+                string(9) "avada_faq"
+                [56]=>
+                string(12) "faq_category"
+                [57]=>
+                string(21) "themefusion_es_groups"
+                [58]=>
+                string(14) "member-profile"
+                [59]=>
+                string(20) "expired-memb-profile"
+                [60]=>
+                string(11) "slidervilla"
+                [61]=>
+                string(10) "slide-page"
+              }
+              ["private_query_vars"]=>
+              array(26) {
+                [0]=>
+                string(6) "offset"
+                [1]=>
+                string(14) "posts_per_page"
+                [2]=>
+                string(22) "posts_per_archive_page"
+                [3]=>
+                string(9) "showposts"
+                [4]=>
+                string(8) "nopaging"
+                [5]=>
+                string(9) "post_type"
+                [6]=>
+                string(11) "post_status"
+                [7]=>
+                string(12) "category__in"
+                [8]=>
+                string(16) "category__not_in"
+                [9]=>
+                string(13) "category__and"
+                [10]=>
+                string(7) "tag__in"
+                [11]=>
+                string(11) "tag__not_in"
+                [12]=>
+                string(8) "tag__and"
+                [13]=>
+                string(12) "tag_slug__in"
+                [14]=>
+                string(13) "tag_slug__and"
+                [15]=>
+                string(6) "tag_id"
+                [16]=>
+                string(14) "post_mime_type"
+                [17]=>
+                string(4) "perm"
+                [18]=>
+                string(17) "comments_per_page"
+                [19]=>
+                string(8) "post__in"
+                [20]=>
+                string(12) "post__not_in"
+                [21]=>
+                string(11) "post_parent"
+                [22]=>
+                string(15) "post_parent__in"
+                [23]=>
+                string(19) "post_parent__not_in"
+                [24]=>
+                string(5) "title"
+                [25]=>
+                string(6) "fields"
+              }
+              ["extra_query_vars"]=>
+              array(0) {
+              }
+              ["query_vars"]=>
+              array(2) {
+                ["page"]=>
+                string(7) "CiviCRM"
+                ["pagename"]=>
+                string(7) "civicrm"
+              }
+              ["query_string"]=>
+              string(29) "page=CiviCRM&pagename=civicrm"
+              ["request"]=>
+              string(7) "civicrm"
+              ["matched_rule"]=>
+              string(24) "(.?.+?)(?:/([0-9]+))?/?$"
+              ["matched_query"]=>
+              string(22) "pagename=civicrm&page="
+              ["did_permalink"]=>
+              bool(true)
+            }
+          }
+        }
+      }
+      [12]=>
+      array(6) {
+        ["file"]=>
+        string(52) "/home/gstc/public_html/wp-includes/class-wp-hook.php"
+        ["line"]=>
+        int(323)
+        ["function"]=>
+        string(13) "apply_filters"
+        ["class"]=>
+        string(7) "WP_Hook"
+        ["type"]=>
+        string(2) "->"
+        ["args"]=>
+        array(2) {
+          [0]=>
+          &string(0) ""
+          [1]=>
+          &array(1) {
+            [0]=>
+            &object(WP)#2211 (9) {
+              ["public_query_vars"]=>
+              array(62) {
+                [0]=>
+                string(1) "m"
+                [1]=>
+                string(1) "p"
+                [2]=>
+                string(5) "posts"
+                [3]=>
+                string(1) "w"
+                [4]=>
+                string(3) "cat"
+                [5]=>
+                string(12) "withcomments"
+                [6]=>
+                string(15) "withoutcomments"
+                [7]=>
+                string(1) "s"
+                [8]=>
+                string(6) "search"
+                [9]=>
+                string(5) "exact"
+                [10]=>
+                string(8) "sentence"
+                [11]=>
+                string(8) "calendar"
+                [12]=>
+                string(4) "page"
+                [13]=>
+                string(5) "paged"
+                [14]=>
+                string(4) "more"
+                [15]=>
+                string(2) "tb"
+                [16]=>
+                string(2) "pb"
+                [17]=>
+                string(6) "author"
+                [18]=>
+                string(5) "order"
+                [19]=>
+                string(7) "orderby"
+                [20]=>
+                string(4) "year"
+                [21]=>
+                string(8) "monthnum"
+                [22]=>
+                string(3) "day"
+                [23]=>
+                string(4) "hour"
+                [24]=>
+                string(6) "minute"
+                [25]=>
+                string(6) "second"
+                [26]=>
+                string(4) "name"
+                [27]=>
+                string(13) "category_name"
+                [28]=>
+                string(3) "tag"
+                [29]=>
+                string(4) "feed"
+                [30]=>
+                string(11) "author_name"
+                [31]=>
+                string(6) "static"
+                [32]=>
+                string(8) "pagename"
+                [33]=>
+                string(7) "page_id"
+                [34]=>
+                string(5) "error"
+                [35]=>
+                string(10) "attachment"
+                [36]=>
+                string(13) "attachment_id"
+                [37]=>
+                string(7) "subpost"
+                [38]=>
+                string(10) "subpost_id"
+                [39]=>
+                string(7) "preview"
+                [40]=>
+                string(6) "robots"
+                [41]=>
+                string(8) "taxonomy"
+                [42]=>
+                string(4) "term"
+                [43]=>
+                string(5) "cpage"
+                [44]=>
+                string(9) "post_type"
+                [45]=>
+                string(5) "embed"
+                [46]=>
+                string(11) "post_format"
+                [47]=>
+                string(7) "sitemap"
+                [48]=>
+                string(9) "sitemap_n"
+                [49]=>
+                string(3) "xsl"
+                [50]=>
+                string(10) "rest_route"
+                [51]=>
+                string(15) "avada_portfolio"
+                [52]=>
+                string(18) "portfolio_category"
+                [53]=>
+                string(16) "portfolio_skills"
+                [54]=>
+                string(14) "portfolio_tags"
+                [55]=>
+                string(9) "avada_faq"
+                [56]=>
+                string(12) "faq_category"
+                [57]=>
+                string(21) "themefusion_es_groups"
+                [58]=>
+                string(14) "member-profile"
+                [59]=>
+                string(20) "expired-memb-profile"
+                [60]=>
+                string(11) "slidervilla"
+                [61]=>
+                string(10) "slide-page"
+              }
+              ["private_query_vars"]=>
+              array(26) {
+                [0]=>
+                string(6) "offset"
+                [1]=>
+                string(14) "posts_per_page"
+                [2]=>
+                string(22) "posts_per_archive_page"
+                [3]=>
+                string(9) "showposts"
+                [4]=>
+                string(8) "nopaging"
+                [5]=>
+                string(9) "post_type"
+                [6]=>
+                string(11) "post_status"
+                [7]=>
+                string(12) "category__in"
+                [8]=>
+                string(16) "category__not_in"
+                [9]=>
+                string(13) "category__and"
+                [10]=>
+                string(7) "tag__in"
+                [11]=>
+                string(11) "tag__not_in"
+                [12]=>
+                string(8) "tag__and"
+                [13]=>
+                string(12) "tag_slug__in"
+                [14]=>
+                string(13) "tag_slug__and"
+                [15]=>
+                string(6) "tag_id"
+                [16]=>
+                string(14) "post_mime_type"
+                [17]=>
+                string(4) "perm"
+                [18]=>
+                string(17) "comments_per_page"
+                [19]=>
+                string(8) "post__in"
+                [20]=>
+                string(12) "post__not_in"
+                [21]=>
+                string(11) "post_parent"
+                [22]=>
+                string(15) "post_parent__in"
+                [23]=>
+                string(19) "post_parent__not_in"
+                [24]=>
+                string(5) "title"
+                [25]=>
+                string(6) "fields"
+              }
+              ["extra_query_vars"]=>
+              array(0) {
+              }
+              ["query_vars"]=>
+              array(2) {
+                ["page"]=>
+                string(7) "CiviCRM"
+                ["pagename"]=>
+                string(7) "civicrm"
+              }
+              ["query_string"]=>
+              string(29) "page=CiviCRM&pagename=civicrm"
+              ["request"]=>
+              string(7) "civicrm"
+              ["matched_rule"]=>
+              string(24) "(.?.+?)(?:/([0-9]+))?/?$"
+              ["matched_query"]=>
+              string(22) "pagename=civicrm&page="
+              ["did_permalink"]=>
+              bool(true)
+            }
+          }
+        }
+      }
+      [13]=>
+      array(6) {
+        ["file"]=>
+        string(45) "/home/gstc/public_html/wp-includes/plugin.php"
+        ["line"]=>
+        int(515)
+        ["function"]=>
+        string(9) "do_action"
+        ["class"]=>
+        string(7) "WP_Hook"
+        ["type"]=>
+        string(2) "->"
+        ["args"]=>
+        array(1) {
+          [0]=>
+          &array(1) {
+            [0]=>
+            &object(WP)#2211 (9) {
+              ["public_query_vars"]=>
+              array(62) {
+                [0]=>
+                string(1) "m"
+                [1]=>
+                string(1) "p"
+                [2]=>
+                string(5) "posts"
+                [3]=>
+                string(1) "w"
+                [4]=>
+                string(3) "cat"
+                [5]=>
+                string(12) "withcomments"
+                [6]=>
+                string(15) "withoutcomments"
+                [7]=>
+                string(1) "s"
+                [8]=>
+                string(6) "search"
+                [9]=>
+                string(5) "exact"
+                [10]=>
+                string(8) "sentence"
+                [11]=>
+                string(8) "calendar"
+                [12]=>
+                string(4) "page"
+                [13]=>
+                string(5) "paged"
+                [14]=>
+                string(4) "more"
+                [15]=>
+                string(2) "tb"
+                [16]=>
+                string(2) "pb"
+                [17]=>
+                string(6) "author"
+                [18]=>
+                string(5) "order"
+                [19]=>
+                string(7) "orderby"
+                [20]=>
+                string(4) "year"
+                [21]=>
+                string(8) "monthnum"
+                [22]=>
+                string(3) "day"
+                [23]=>
+                string(4) "hour"
+                [24]=>
+                string(6) "minute"
+                [25]=>
+                string(6) "second"
+                [26]=>
+                string(4) "name"
+                [27]=>
+                string(13) "category_name"
+                [28]=>
+                string(3) "tag"
+                [29]=>
+                string(4) "feed"
+                [30]=>
+                string(11) "author_name"
+                [31]=>
+                string(6) "static"
+                [32]=>
+                string(8) "pagename"
+                [33]=>
+                string(7) "page_id"
+                [34]=>
+                string(5) "error"
+                [35]=>
+                string(10) "attachment"
+                [36]=>
+                string(13) "attachment_id"
+                [37]=>
+                string(7) "subpost"
+                [38]=>
+                string(10) "subpost_id"
+                [39]=>
+                string(7) "preview"
+                [40]=>
+                string(6) "robots"
+                [41]=>
+                string(8) "taxonomy"
+                [42]=>
+                string(4) "term"
+                [43]=>
+                string(5) "cpage"
+                [44]=>
+                string(9) "post_type"
+                [45]=>
+                string(5) "embed"
+                [46]=>
+                string(11) "post_format"
+                [47]=>
+                string(7) "sitemap"
+                [48]=>
+                string(9) "sitemap_n"
+                [49]=>
+                string(3) "xsl"
+                [50]=>
+                string(10) "rest_route"
+                [51]=>
+                string(15) "avada_portfolio"
+                [52]=>
+                string(18) "portfolio_category"
+                [53]=>
+                string(16) "portfolio_skills"
+                [54]=>
+                string(14) "portfolio_tags"
+                [55]=>
+                string(9) "avada_faq"
+                [56]=>
+                string(12) "faq_category"
+                [57]=>
+                string(21) "themefusion_es_groups"
+                [58]=>
+                string(14) "member-profile"
+                [59]=>
+                string(20) "expired-memb-profile"
+                [60]=>
+                string(11) "slidervilla"
+                [61]=>
+                string(10) "slide-page"
+              }
+              ["private_query_vars"]=>
+              array(26) {
+                [0]=>
+                string(6) "offset"
+                [1]=>
+                string(14) "posts_per_page"
+                [2]=>
+                string(22) "posts_per_archive_page"
+                [3]=>
+                string(9) "showposts"
+                [4]=>
+                string(8) "nopaging"
+                [5]=>
+                string(9) "post_type"
+                [6]=>
+                string(11) "post_status"
+                [7]=>
+                string(12) "category__in"
+                [8]=>
+                string(16) "category__not_in"
+                [9]=>
+                string(13) "category__and"
+                [10]=>
+                string(7) "tag__in"
+                [11]=>
+                string(11) "tag__not_in"
+                [12]=>
+                string(8) "tag__and"
+                [13]=>
+                string(12) "tag_slug__in"
+                [14]=>
+                string(13) "tag_slug__and"
+                [15]=>
+                string(6) "tag_id"
+                [16]=>
+                string(14) "post_mime_type"
+                [17]=>
+                string(4) "perm"
+                [18]=>
+                string(17) "comments_per_page"
+                [19]=>
+                string(8) "post__in"
+                [20]=>
+                string(12) "post__not_in"
+                [21]=>
+                string(11) "post_parent"
+                [22]=>
+                string(15) "post_parent__in"
+                [23]=>
+                string(19) "post_parent__not_in"
+                [24]=>
+                string(5) "title"
+                [25]=>
+                string(6) "fields"
+              }
+              ["extra_query_vars"]=>
+              array(0) {
+              }
+              ["query_vars"]=>
+              array(2) {
+                ["page"]=>
+                string(7) "CiviCRM"
+                ["pagename"]=>
+                string(7) "civicrm"
+              }
+              ["query_string"]=>
+              string(29) "page=CiviCRM&pagename=civicrm"
+              ["request"]=>
+              string(7) "civicrm"
+              ["matched_rule"]=>
+              string(24) "(.?.+?)(?:/([0-9]+))?/?$"
+              ["matched_query"]=>
+              string(22) "pagename=civicrm&page="
+              ["did_permalink"]=>
+              bool(true)
+            }
+          }
+        }
+      }
+      [14]=>
+      array(4) {
+        ["file"]=>
+        string(47) "/home/gstc/public_html/wp-includes/class-wp.php"
+        ["line"]=>
+        int(746)
+        ["function"]=>
+        string(19) "do_action_ref_array"
+        ["args"]=>
+        array(2) {
+          [0]=>
+          &string(2) "wp"
+          [1]=>
+          &array(1) {
+            [0]=>
+            &object(WP)#2211 (9) {
+              ["public_query_vars"]=>
+              array(62) {
+                [0]=>
+                string(1) "m"
+                [1]=>
+                string(1) "p"
+                [2]=>
+                string(5) "posts"
+                [3]=>
+                string(1) "w"
+                [4]=>
+                string(3) "cat"
+                [5]=>
+                string(12) "withcomments"
+                [6]=>
+                string(15) "withoutcomments"
+                [7]=>
+                string(1) "s"
+                [8]=>
+                string(6) "search"
+                [9]=>
+                string(5) "exact"
+                [10]=>
+                string(8) "sentence"
+                [11]=>
+                string(8) "calendar"
+                [12]=>
+                string(4) "page"
+                [13]=>
+                string(5) "paged"
+                [14]=>
+                string(4) "more"
+                [15]=>
+                string(2) "tb"
+                [16]=>
+                string(2) "pb"
+                [17]=>
+                string(6) "author"
+                [18]=>
+                string(5) "order"
+                [19]=>
+                string(7) "orderby"
+                [20]=>
+                string(4) "year"
+                [21]=>
+                string(8) "monthnum"
+                [22]=>
+                string(3) "day"
+                [23]=>
+                string(4) "hour"
+                [24]=>
+                string(6) "minute"
+                [25]=>
+                string(6) "second"
+                [26]=>
+                string(4) "name"
+                [27]=>
+                string(13) "category_name"
+                [28]=>
+                string(3) "tag"
+                [29]=>
+                string(4) "feed"
+                [30]=>
+                string(11) "author_name"
+                [31]=>
+                string(6) "static"
+                [32]=>
+                string(8) "pagename"
+                [33]=>
+                string(7) "page_id"
+                [34]=>
+                string(5) "error"
+                [35]=>
+                string(10) "attachment"
+                [36]=>
+                string(13) "attachment_id"
+                [37]=>
+                string(7) "subpost"
+                [38]=>
+                string(10) "subpost_id"
+                [39]=>
+                string(7) "preview"
+                [40]=>
+                string(6) "robots"
+                [41]=>
+                string(8) "taxonomy"
+                [42]=>
+                string(4) "term"
+                [43]=>
+                string(5) "cpage"
+                [44]=>
+                string(9) "post_type"
+                [45]=>
+                string(5) "embed"
+                [46]=>
+                string(11) "post_format"
+                [47]=>
+                string(7) "sitemap"
+                [48]=>
+                string(9) "sitemap_n"
+                [49]=>
+                string(3) "xsl"
+                [50]=>
+                string(10) "rest_route"
+                [51]=>
+                string(15) "avada_portfolio"
+                [52]=>
+                string(18) "portfolio_category"
+                [53]=>
+                string(16) "portfolio_skills"
+                [54]=>
+                string(14) "portfolio_tags"
+                [55]=>
+                string(9) "avada_faq"
+                [56]=>
+                string(12) "faq_category"
+                [57]=>
+                string(21) "themefusion_es_groups"
+                [58]=>
+                string(14) "member-profile"
+                [59]=>
+                string(20) "expired-memb-profile"
+                [60]=>
+                string(11) "slidervilla"
+                [61]=>
+                string(10) "slide-page"
+              }
+              ["private_query_vars"]=>
+              array(26) {
+                [0]=>
+                string(6) "offset"
+                [1]=>
+                string(14) "posts_per_page"
+                [2]=>
+                string(22) "posts_per_archive_page"
+                [3]=>
+                string(9) "showposts"
+                [4]=>
+                string(8) "nopaging"
+                [5]=>
+                string(9) "post_type"
+                [6]=>
+                string(11) "post_status"
+                [7]=>
+                string(12) "category__in"
+                [8]=>
+                string(16) "category__not_in"
+                [9]=>
+                string(13) "category__and"
+                [10]=>
+                string(7) "tag__in"
+                [11]=>
+                string(11) "tag__not_in"
+                [12]=>
+                string(8) "tag__and"
+                [13]=>
+                string(12) "tag_slug__in"
+                [14]=>
+                string(13) "tag_slug__and"
+                [15]=>
+                string(6) "tag_id"
+                [16]=>
+                string(14) "post_mime_type"
+                [17]=>
+                string(4) "perm"
+                [18]=>
+                string(17) "comments_per_page"
+                [19]=>
+                string(8) "post__in"
+                [20]=>
+                string(12) "post__not_in"
+                [21]=>
+                string(11) "post_parent"
+                [22]=>
+                string(15) "post_parent__in"
+                [23]=>
+                string(19) "post_parent__not_in"
+                [24]=>
+                string(5) "title"
+                [25]=>
+                string(6) "fields"
+              }
+              ["extra_query_vars"]=>
+              array(0) {
+              }
+              ["query_vars"]=>
+              array(2) {
+                ["page"]=>
+                string(7) "CiviCRM"
+                ["pagename"]=>
+                string(7) "civicrm"
+              }
+              ["query_string"]=>
+              string(29) "page=CiviCRM&pagename=civicrm"
+              ["request"]=>
+              string(7) "civicrm"
+              ["matched_rule"]=>
+              string(24) "(.?.+?)(?:/([0-9]+))?/?$"
+              ["matched_query"]=>
+              string(22) "pagename=civicrm&page="
+              ["did_permalink"]=>
+              bool(true)
+            }
+          }
+        }
+      }
+      [15]=>
+      array(6) {
+        ["file"]=>
+        string(48) "/home/gstc/public_html/wp-includes/functions.php"
+        ["line"]=>
+        int(955)
+        ["function"]=>
+        string(4) "main"
+        ["class"]=>
+        string(2) "WP"
+        ["type"]=>
+        string(2) "->"
+        ["args"]=>
+        array(1) {
+          [0]=>
+          &string(0) ""
+        }
+      }
+      [16]=>
+      array(4) {
+        ["file"]=>
+        string(41) "/home/gstc/public_html/wp-blog-header.php"
+        ["line"]=>
+        int(16)
+        ["function"]=>
+        string(2) "wp"
+        ["args"]=>
+        array(0) {
+        }
+      }
+      [17]=>
+      array(4) {
+        ["file"]=>
+        string(32) "/home/gstc/public_html/index.php"
+        ["line"]=>
+        int(17)
+        ["args"]=>
+        array(1) {
+          [0]=>
+          string(41) "/home/gstc/public_html/wp-blog-header.php"
+        }
+        ["function"]=>
+        string(7) "require"
+      }
+    }
+    ["previous":"Exception":private]=>
+    NULL
+  }
+}
+
+
+Jun 20 17:24:32  [info] $backTrace = #0 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Error.php(451): CRM_Core_Error::backtrace("backTrace", TRUE)
+#1 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(55): CRM_Core_Error::handleUnhandledException(Object(CRM_Core_Exception))
+#2 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm.php(1227): CRM_Core_Invoke::invoke((Array:4))
+#3 /home/gstc/public_html/wp-content/plugins/civicrm/includes/civicrm.basepage.php(132): CiviCRM_For_WordPress->invoke()
+#4 [internal function](): CiviCRM_For_WordPress_Basepage->basepage_handler(Object(WP))
+#5 /home/gstc/public_html/wp-includes/class-wp-hook.php(298): call_user_func_array((Array:2), (Array:1))
+#6 /home/gstc/public_html/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters("", (Array:1))
+#7 /home/gstc/public_html/wp-includes/plugin.php(515): WP_Hook->do_action((Array:1))
+#8 /home/gstc/public_html/wp-includes/class-wp.php(746): do_action_ref_array("wp", (Array:1))
+#9 /home/gstc/public_html/wp-includes/functions.php(955): WP->main("")
+#10 /home/gstc/public_html/wp-blog-header.php(16): wp()
+#11 /home/gstc/public_html/index.php(17): require("/home/gstc/public_html/wp-blog-header.php")
+#12 {main}
+
+
+Jun 20 17:24:32  [info] Could not find an entry for module
+
+Jun 21 07:00:11  [info] $Fatal Error Details = Array
+(
+    [message] => We can't load the requested web page. This page requires cookies to be enabled in your browser settings. Please check this setting and enable cookies (if they are not enabled). Then try again. If this error persists, contact the site administrator for assistance.&lt;br /&gt;&lt;br /&gt;Site Administrators: This error may indicate that users are accessing this page using a domain or URL other than the configured Base URL. EXAMPLE: Base URL is http://example.org, but some users are accessing the page via http://www.example.org or a domain alias like http://myotherexample.org.&lt;br /&gt;&lt;br /&gt;Error type: Could not find a valid session key.
+    [code] => 
+)
+
+
+Jun 21 07:00:11  [info] $backTrace = #0 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Error.php(373): CRM_Core_Error::backtrace("backTrace", TRUE)
+#1 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Controller.php(833): CRM_Core_Error::fatal("We can't load the requested web page. This page requires cookies to be enable...")
+#2 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Controller.php(853): CRM_Core_Controller->invalidKeyCommon()
+#3 /home/gstc/public_html/wp-content/uploads/civicrm/ext/com.civibridge.gstc/CRM/Contribute/Form/ContributionBase.php(204): CRM_Core_Controller->invalidKeyRedirect()
+#4 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Contribute/Form/Contribution/Main.php(63): CRM_Contribute_Form_ContributionBase->preProcess()
+#5 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Form.php(531): CRM_Contribute_Form_Contribution_Main->preProcess()
+#6 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/QuickForm/Action/Display.php(92): CRM_Core_Form->buildForm()
+#7 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/packages/HTML/QuickForm/Controller.php(203): CRM_Core_QuickForm_Action_Display->perform(Object(CRM_Contribute_Form_Contribution_Main), "display")
+#8 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/packages/HTML/QuickForm/Page.php(103): HTML_QuickForm_Controller->handle(Object(CRM_Contribute_Form_Contribution_Main), "display")
+#9 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Controller.php(351): HTML_QuickForm_Page->handle("display")
+#10 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(310): CRM_Core_Controller->run((Array:3), NULL)
+#11 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(84): CRM_Core_Invoke::runItem((Array:15))
+#12 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(52): CRM_Core_Invoke::_invoke((Array:3))
+#13 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm.php(1227): CRM_Core_Invoke::invoke((Array:3))
+#14 /home/gstc/public_html/wp-content/plugins/civicrm/includes/civicrm.basepage.php(132): CiviCRM_For_WordPress->invoke()
+#15 [internal function](): CiviCRM_For_WordPress_Basepage->basepage_handler(Object(WP))
+#16 /home/gstc/public_html/wp-includes/class-wp-hook.php(298): call_user_func_array((Array:2), (Array:1))
+#17 /home/gstc/public_html/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters("", (Array:1))
+#18 /home/gstc/public_html/wp-includes/plugin.php(515): WP_Hook->do_action((Array:1))
+#19 /home/gstc/public_html/wp-includes/class-wp.php(746): do_action_ref_array("wp", (Array:1))
+#20 /home/gstc/public_html/wp-includes/functions.php(955): WP->main("")
+#21 /home/gstc/public_html/wp-blog-header.php(16): wp()
+#22 /home/gstc/public_html/index.php(17): require("/home/gstc/public_html/wp-blog-header.php")
+#23 {main}
+
+
+Jun 21 07:00:36  [info] $Fatal Error Details = Array
+(
+    [message] => We can't load the requested web page. This page requires cookies to be enabled in your browser settings. Please check this setting and enable cookies (if they are not enabled). Then try again. If this error persists, contact the site administrator for assistance.&lt;br /&gt;&lt;br /&gt;Site Administrators: This error may indicate that users are accessing this page using a domain or URL other than the configured Base URL. EXAMPLE: Base URL is http://example.org, but some users are accessing the page via http://www.example.org or a domain alias like http://myotherexample.org.&lt;br /&gt;&lt;br /&gt;Error type: Could not find a valid session key.
+    [code] => 
+)
+
+
+Jun 21 07:00:36  [info] $backTrace = #0 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Error.php(373): CRM_Core_Error::backtrace("backTrace", TRUE)
+#1 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Controller.php(833): CRM_Core_Error::fatal("We can't load the requested web page. This page requires cookies to be enable...")
+#2 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Controller.php(853): CRM_Core_Controller->invalidKeyCommon()
+#3 /home/gstc/public_html/wp-content/uploads/civicrm/ext/com.civibridge.gstc/CRM/Contribute/Form/ContributionBase.php(204): CRM_Core_Controller->invalidKeyRedirect()
+#4 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Contribute/Form/Contribution/Main.php(63): CRM_Contribute_Form_ContributionBase->preProcess()
+#5 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Form.php(531): CRM_Contribute_Form_Contribution_Main->preProcess()
+#6 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/QuickForm/Action/Display.php(92): CRM_Core_Form->buildForm()
+#7 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/packages/HTML/QuickForm/Controller.php(203): CRM_Core_QuickForm_Action_Display->perform(Object(CRM_Contribute_Form_Contribution_Main), "display")
+#8 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/packages/HTML/QuickForm/Page.php(103): HTML_QuickForm_Controller->handle(Object(CRM_Contribute_Form_Contribution_Main), "display")
+#9 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Controller.php(351): HTML_QuickForm_Page->handle("display")
+#10 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(310): CRM_Core_Controller->run((Array:3), NULL)
+#11 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(84): CRM_Core_Invoke::runItem((Array:15))
+#12 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(52): CRM_Core_Invoke::_invoke((Array:3))
+#13 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm.php(1227): CRM_Core_Invoke::invoke((Array:3))
+#14 /home/gstc/public_html/wp-content/plugins/civicrm/includes/civicrm.basepage.php(132): CiviCRM_For_WordPress->invoke()
+#15 [internal function](): CiviCRM_For_WordPress_Basepage->basepage_handler(Object(WP))
+#16 /home/gstc/public_html/wp-includes/class-wp-hook.php(298): call_user_func_array((Array:2), (Array:1))
+#17 /home/gstc/public_html/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters("", (Array:1))
+#18 /home/gstc/public_html/wp-includes/plugin.php(515): WP_Hook->do_action((Array:1))
+#19 /home/gstc/public_html/wp-includes/class-wp.php(746): do_action_ref_array("wp", (Array:1))
+#20 /home/gstc/public_html/wp-includes/functions.php(955): WP->main("")
+#21 /home/gstc/public_html/wp-blog-header.php(16): wp()
+#22 /home/gstc/public_html/index.php(17): require("/home/gstc/public_html/wp-blog-header.php")
+#23 {main}
+
+
+Jun 21 20:30:58  [info] $Fatal Error Details = Array
+(
+    [message] => Could not find valid value for id
+    [code] => 
+)
+
+
+Jun 21 20:30:58  [info] $backTrace = #0 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Error.php(373): CRM_Core_Error::backtrace("backTrace", TRUE)
+#1 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Utils/Request.php(120): CRM_Core_Error::fatal("Could not find valid value for id")
+#2 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Event/Page/EventInfo.php(50): CRM_Utils_Request::retrieve("id", "Positive", Object(CRM_Event_Page_EventInfo), TRUE)
+#3 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(310): CRM_Event_Page_EventInfo->run((Array:3), NULL)
+#4 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(84): CRM_Core_Invoke::runItem((Array:15))
+#5 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(52): CRM_Core_Invoke::_invoke((Array:3))
+#6 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm.php(1227): CRM_Core_Invoke::invoke((Array:3))
+#7 [internal function](): CiviCRM_For_WordPress->invoke(Object(WP))
+#8 /home/gstc/public_html/wp-includes/class-wp-hook.php(298): call_user_func_array((Array:2), (Array:1))
+#9 /home/gstc/public_html/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters("", (Array:1))
+#10 /home/gstc/public_html/wp-includes/plugin.php(515): WP_Hook->do_action((Array:1))
+#11 /home/gstc/public_html/wp-includes/class-wp.php(746): do_action_ref_array("wp", (Array:1))
+#12 /home/gstc/public_html/wp-includes/functions.php(955): WP->main("")
+#13 /home/gstc/public_html/wp-blog-header.php(16): wp()
+#14 /home/gstc/public_html/index.php(17): require("/home/gstc/public_html/wp-blog-header.php")
+#15 {main}
+
+
+Jun 22 06:59:46  [info] $Fatal Error Details = Array
+(
+    [message] => processor_id (value: ) is not of the type Integer
+    [code] => 
+)
+
+
+Jun 22 06:59:46  [info] $backTrace = #0 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Error.php(373): CRM_Core_Error::backtrace("backTrace", TRUE)
+#1 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Utils/Type.php(428): CRM_Core_Error::fatal("processor_id (value: ) is not of the type Integer")
+#2 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Utils/Request.php(110): CRM_Utils_Type::validate("", "Integer", TRUE, "processor_id")
+#3 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Financial/Form/Payment.php(55): CRM_Utils_Request::retrieve("processor_id", "Integer", NULL, TRUE)
+#4 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Form.php(531): CRM_Financial_Form_Payment->preProcess()
+#5 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/QuickForm/Action/Display.php(92): CRM_Core_Form->buildForm()
+#6 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/packages/HTML/QuickForm/Controller.php(203): CRM_Core_QuickForm_Action_Display->perform(Object(CRM_Financial_Form_Payment), "display")
+#7 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/packages/HTML/QuickForm/Page.php(103): HTML_QuickForm_Controller->handle(Object(CRM_Financial_Form_Payment), "display")
+#8 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Controller.php(351): HTML_QuickForm_Page->handle("display")
+#9 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Utils/Wrapper.php(113): CRM_Core_Controller->run()
+#10 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(284): CRM_Utils_Wrapper->run("CRM_Financial_Form_Payment", NULL, NULL)
+#11 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(84): CRM_Core_Invoke::runItem((Array:14))
+#12 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(52): CRM_Core_Invoke::_invoke((Array:3))
+#13 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm.php(1227): CRM_Core_Invoke::invoke((Array:3))
+#14 /home/gstc/public_html/wp-content/plugins/civicrm/includes/civicrm.basepage.php(132): CiviCRM_For_WordPress->invoke()
+#15 [internal function](): CiviCRM_For_WordPress_Basepage->basepage_handler(Object(WP))
+#16 /home/gstc/public_html/wp-includes/class-wp-hook.php(298): call_user_func_array((Array:2), (Array:1))
+#17 /home/gstc/public_html/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters("", (Array:1))
+#18 /home/gstc/public_html/wp-includes/plugin.php(515): WP_Hook->do_action((Array:1))
+#19 /home/gstc/public_html/wp-includes/class-wp.php(746): do_action_ref_array("wp", (Array:1))
+#20 /home/gstc/public_html/wp-includes/functions.php(955): WP->main("")
+#21 /home/gstc/public_html/wp-blog-header.php(16): wp()
+#22 /home/gstc/public_html/index.php(17): require("/home/gstc/public_html/wp-blog-header.php")
+#23 {main}
+
+
+Jun 22 11:12:15  [info] $Fatal Error Details = Array
+(
+    [message] => Could not find valid value for id
+    [code] => 
+)
+
+
+Jun 22 11:12:15  [info] $backTrace = #0 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Error.php(373): CRM_Core_Error::backtrace("backTrace", TRUE)
+#1 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Utils/Request.php(120): CRM_Core_Error::fatal("Could not find valid value for id")
+#2 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Event/Page/EventInfo.php(50): CRM_Utils_Request::retrieve("id", "Positive", Object(CRM_Event_Page_EventInfo), TRUE)
+#3 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(310): CRM_Event_Page_EventInfo->run((Array:3), NULL)
+#4 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(84): CRM_Core_Invoke::runItem((Array:15))
+#5 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(52): CRM_Core_Invoke::_invoke((Array:3))
+#6 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm.php(1227): CRM_Core_Invoke::invoke((Array:3))
+#7 [internal function](): CiviCRM_For_WordPress->invoke(Object(WP))
+#8 /home/gstc/public_html/wp-includes/class-wp-hook.php(298): call_user_func_array((Array:2), (Array:1))
+#9 /home/gstc/public_html/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters("", (Array:1))
+#10 /home/gstc/public_html/wp-includes/plugin.php(515): WP_Hook->do_action((Array:1))
+#11 /home/gstc/public_html/wp-includes/class-wp.php(746): do_action_ref_array("wp", (Array:1))
+#12 /home/gstc/public_html/wp-includes/functions.php(955): WP->main("")
+#13 /home/gstc/public_html/wp-blog-header.php(16): wp()
+#14 /home/gstc/public_html/index.php(17): require("/home/gstc/public_html/wp-blog-header.php")
+#15 {main}
+
+
+Jun 22 11:12:20  [info] $Fatal Error Details = Array
+(
+    [message] => Could not find valid value for id
+    [code] => 
+)
+
+
+Jun 22 11:12:20  [info] $backTrace = #0 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Error.php(373): CRM_Core_Error::backtrace("backTrace", TRUE)
+#1 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Utils/Request.php(120): CRM_Core_Error::fatal("Could not find valid value for id")
+#2 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Event/Page/EventInfo.php(50): CRM_Utils_Request::retrieve("id", "Positive", Object(CRM_Event_Page_EventInfo), TRUE)
+#3 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(310): CRM_Event_Page_EventInfo->run((Array:3), NULL)
+#4 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(84): CRM_Core_Invoke::runItem((Array:15))
+#5 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(52): CRM_Core_Invoke::_invoke((Array:3))
+#6 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm.php(1227): CRM_Core_Invoke::invoke((Array:3))
+#7 [internal function](): CiviCRM_For_WordPress->invoke(Object(WP))
+#8 /home/gstc/public_html/wp-includes/class-wp-hook.php(298): call_user_func_array((Array:2), (Array:1))
+#9 /home/gstc/public_html/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters("", (Array:1))
+#10 /home/gstc/public_html/wp-includes/plugin.php(515): WP_Hook->do_action((Array:1))
+#11 /home/gstc/public_html/wp-includes/class-wp.php(746): do_action_ref_array("wp", (Array:1))
+#12 /home/gstc/public_html/wp-includes/functions.php(955): WP->main("")
+#13 /home/gstc/public_html/wp-blog-header.php(16): wp()
+#14 /home/gstc/public_html/index.php(17): require("/home/gstc/public_html/wp-blog-header.php")
+#15 {main}
+
+
+Jun 22 04:42:30  [info] $backTrace = #0 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Error.php(263): CRM_Core_Error::backtrace("backTrace", TRUE)
+#1 [internal function](): CRM_Core_Error::simpleHandler(Object(DB_Error))
+#2 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/packages/PEAR.php(921): call_user_func((Array:2), Object(DB_Error))
+#3 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/packages/DB.php(985): PEAR_Error->__construct("DB Error: connect failed", -24, 16, (Array:2), " [nativecode=User gstc_wp119 already has more than 'max_user_connections' act...")
+#4 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/packages/PEAR.php(575): DB_Error->__construct(-24, 16, (Array:2), " [nativecode=User gstc_wp119 already has more than 'max_user_connections' act...")
+#5 [internal function](): PEAR->_raiseError(Object(DB_mysqli), NULL, -24, NULL, NULL, " [nativecode=User gstc_wp119 already has more than 'max_user_connections' act...", "DB_Error", TRUE)
+#6 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/packages/PEAR.php(224): call_user_func_array((Array:2), (Array:8))
+#7 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/packages/DB/common.php(1905): PEAR->__call("raiseError", (Array:7))
+#8 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/packages/DB/common.php(1905): PEAR->raiseError(NULL, -24, NULL, NULL, " [nativecode=User gstc_wp119 already has more than 'max_user_connections' act...", "DB_Error", TRUE)
+#9 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/packages/DB/mysqli.php(339): DB_common->raiseError(-24, NULL, NULL, NULL, "User gstc_wp119 already has more than 'max_user_connections' active connections")
+#10 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/packages/DB.php(564): DB_mysqli->connect((Array:10), FALSE)
+#11 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/packages/DB/DataObject.php(2308): DB::connect((string))
+#12 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/DAO.php(388): DB_DataObject->_connect()
+#13 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/DAO.php(95): CRM_Core_DAO->initialize()
+#14 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/DAO.php(1287): CRM_Core_DAO->__construct()
+#15 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/DAO.php(124): CRM_Core_DAO::executeQuery("SET NAMES utf8")
+#16 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/Civi/Core/Container.php(362): CRM_Core_DAO::init("mysql://gstc_wp119:oI0@.S9pG9@localhost/gstc_wp_civicrm?new_link=true")
+#17 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Config.php(111): Civi\Core\Container::boot(TRUE)
+#18 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm.php(672): CRM_Core_Config::singleton()
+#19 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm.php(1121): CiviCRM_For_WordPress->initialize()
+#20 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm.php(969): CiviCRM_For_WordPress->add_core_resources(FALSE)
+#21 [internal function](): CiviCRM_For_WordPress->admin_page_load("")
+#22 /home/gstc/public_html/wp-includes/class-wp-hook.php(298): call_user_func_array((Array:2), (Array:1))
+#23 /home/gstc/public_html/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters("", (Array:1))
+#24 /home/gstc/public_html/wp-includes/plugin.php(453): WP_Hook->do_action((Array:1))
+#25 /home/gstc/public_html/wp-admin/admin.php(214): do_action("load-toplevel_page_CiviCRM")
+#26 {main}
+
+
+Jun 22 04:42:30  [info] $backTrace = #0 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Error.php(263): CRM_Core_Error::backtrace("backTrace", TRUE)
+#1 [internal function](): CRM_Core_Error::simpleHandler(Object(DB_Error))
+#2 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/packages/PEAR.php(921): call_user_func((Array:2), Object(DB_Error))
+#3 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/packages/DB.php(985): PEAR_Error->__construct("DB Error: connect failed", -24, 16, (Array:2), " [nativecode=User gstc_wp119 already has more than 'max_user_connections' act...")
+#4 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/packages/PEAR.php(575): DB_Error->__construct(-24, 16, (Array:2), " [nativecode=User gstc_wp119 already has more than 'max_user_connections' act...")
+#5 [internal function](): PEAR->_raiseError(Object(DB_mysqli), NULL, -24, NULL, NULL, " [nativecode=User gstc_wp119 already has more than 'max_user_connections' act...", "DB_Error", TRUE)
+#6 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/packages/PEAR.php(224): call_user_func_array((Array:2), (Array:8))
+#7 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/packages/DB/common.php(1905): PEAR->__call("raiseError", (Array:7))
+#8 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/packages/DB/common.php(1905): PEAR->raiseError(NULL, -24, NULL, NULL, " [nativecode=User gstc_wp119 already has more than 'max_user_connections' act...", "DB_Error", TRUE)
+#9 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/packages/DB/mysqli.php(339): DB_common->raiseError(-24, NULL, NULL, NULL, "User gstc_wp119 already has more than 'max_user_connections' active connections")
+#10 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/packages/DB.php(564): DB_mysqli->connect((Array:10), FALSE)
+#11 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/packages/DB/DataObject.php(2308): DB::connect((string))
+#12 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/DAO.php(388): DB_DataObject->_connect()
+#13 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/DAO.php(95): CRM_Core_DAO->initialize()
+#14 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/DAO.php(1287): CRM_Core_DAO->__construct()
+#15 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/Civi/Core/SettingsBag.php(151): CRM_Core_DAO::executeQuery("SELECT id, name, value, domain_id, contact_id, is_domain, component_id, creat...")
+#16 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/Civi/Core/SettingsManager.php(163): Civi\Core\SettingsBag->loadValues()
+#17 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/Civi.php(115): Civi\Core\SettingsManager->getBagByDomain(NULL)
+#18 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Config/MagicMerge.php(356): Civi::settings()
+#19 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Config/MagicMerge.php(220): CRM_Core_Config_MagicMerge->getSettings()
+#20 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Error.php(603): CRM_Core_Config_MagicMerge->__get("userFrameworkLogging")
+#21 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Error.php(571): CRM_Core_Error::debug_log_message("$backTrace = #0 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM...", FALSE, "")
+#22 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Error.php(714): CRM_Core_Error::debug_var("backTrace", "#0 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Error.p...")
+#23 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Error.php(263): CRM_Core_Error::backtrace("backTrace", TRUE)
+#24 [internal function](): CRM_Core_Error::simpleHandler(Object(DB_Error))
+#25 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/packages/PEAR.php(921): call_user_func((Array:2), Object(DB_Error))
+#26 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/packages/DB.php(985): PEAR_Error->__construct("DB Error: connect failed", -24, 16, (Array:2), " [nativecode=User gstc_wp119 already has more than 'max_user_connections' act...")
+#27 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/packages/PEAR.php(575): DB_Error->__construct(-24, 16, (Array:2), " [nativecode=User gstc_wp119 already has more than 'max_user_connections' act...")
+#28 [internal function](): PEAR->_raiseError(Object(DB_mysqli), NULL, -24, NULL, NULL, " [nativecode=User gstc_wp119 already has more than 'max_user_connections' act...", "DB_Error", TRUE)
+#29 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/packages/PEAR.php(224): call_user_func_array((Array:2), (Array:8))
+#30 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/packages/DB/common.php(1905): PEAR->__call("raiseError", (Array:7))
+#31 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/packages/DB/common.php(1905): PEAR->raiseError(NULL, -24, NULL, NULL, " [nativecode=User gstc_wp119 already has more than 'max_user_connections' act...", "DB_Error", TRUE)
+#32 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/packages/DB/mysqli.php(339): DB_common->raiseError(-24, NULL, NULL, NULL, "User gstc_wp119 already has more than 'max_user_connections' active connections")
+#33 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/packages/DB.php(564): DB_mysqli->connect((Array:10), FALSE)
+#34 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/packages/DB/DataObject.php(2308): DB::connect((string))
+#35 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/DAO.php(388): DB_DataObject->_connect()
+#36 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/DAO.php(95): CRM_Core_DAO->initialize()
+#37 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/DAO.php(1287): CRM_Core_DAO->__construct()
+#38 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/DAO.php(124): CRM_Core_DAO::executeQuery("SET NAMES utf8")
+#39 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/Civi/Core/Container.php(362): CRM_Core_DAO::init("mysql://gstc_wp119:oI0@.S9pG9@localhost/gstc_wp_civicrm?new_link=true")
+#40 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Config.php(111): Civi\Core\Container::boot(TRUE)
+#41 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm.php(672): CRM_Core_Config::singleton()
+#42 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm.php(1121): CiviCRM_For_WordPress->initialize()
+#43 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm.php(969): CiviCRM_For_WordPress->add_core_resources(FALSE)
+#44 [internal function](): CiviCRM_For_WordPress->admin_page_load("")
+#45 /home/gstc/public_html/wp-includes/class-wp-hook.php(298): call_user_func_array((Array:2), (Array:1))
+#46 /home/gstc/public_html/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters("", (Array:1))
+#47 /home/gstc/public_html/wp-includes/plugin.php(453): WP_Hook->do_action((Array:1))
+#48 /home/gstc/public_html/wp-admin/admin.php(214): do_action("load-toplevel_page_CiviCRM")
+#49 {main}
+
+
+Jun 22 04:50:45  [info] $backTrace = #0 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Error.php(263): CRM_Core_Error::backtrace("backTrace", TRUE)
+#1 [internal function](): CRM_Core_Error::simpleHandler(Object(DB_Error))
+#2 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/packages/PEAR.php(921): call_user_func((Array:2), Object(DB_Error))
+#3 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/packages/DB.php(985): PEAR_Error->__construct("DB Error: connect failed", -24, 16, (Array:2), " [nativecode=User gstc_wp119 already has more than 'max_user_connections' act...")
+#4 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/packages/PEAR.php(575): DB_Error->__construct(-24, 16, (Array:2), " [nativecode=User gstc_wp119 already has more than 'max_user_connections' act...")
+#5 [internal function](): PEAR->_raiseError(Object(DB_mysqli), NULL, -24, NULL, NULL, " [nativecode=User gstc_wp119 already has more than 'max_user_connections' act...", "DB_Error", TRUE)
+#6 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/packages/PEAR.php(224): call_user_func_array((Array:2), (Array:8))
+#7 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/packages/DB/common.php(1905): PEAR->__call("raiseError", (Array:7))
+#8 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/packages/DB/common.php(1905): PEAR->raiseError(NULL, -24, NULL, NULL, " [nativecode=User gstc_wp119 already has more than 'max_user_connections' act...", "DB_Error", TRUE)
+#9 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/packages/DB/mysqli.php(339): DB_common->raiseError(-24, NULL, NULL, NULL, "User gstc_wp119 already has more than 'max_user_connections' active connections")
+#10 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/packages/DB.php(564): DB_mysqli->connect((Array:10), FALSE)
+#11 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/packages/DB/DataObject.php(2308): DB::connect((string))
+#12 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/DAO.php(388): DB_DataObject->_connect()
+#13 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/DAO.php(95): CRM_Core_DAO->initialize()
+#14 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/DAO.php(1287): CRM_Core_DAO->__construct()
+#15 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/DAO.php(124): CRM_Core_DAO::executeQuery("SET NAMES utf8")
+#16 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/Civi/Core/Container.php(362): CRM_Core_DAO::init("mysql://gstc_wp119:oI0@.S9pG9@localhost/gstc_wp_civicrm?new_link=true")
+#17 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Config.php(111): Civi\Core\Container::boot(TRUE)
+#18 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm.php(672): CRM_Core_Config::singleton()
+#19 /home/gstc/public_html/wp-content/plugins/civicrm/includes/civicrm.shortcodes.modal.php(122): CiviCRM_For_WordPress->initialize()
+#20 [internal function](): CiviCRM_For_WordPress_Shortcodes_Modal->add_core_resources("")
+#21 /home/gstc/public_html/wp-includes/class-wp-hook.php(298): call_user_func_array((Array:2), (Array:1))
+#22 /home/gstc/public_html/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters("", (Array:1))
+#23 /home/gstc/public_html/wp-includes/plugin.php(453): WP_Hook->do_action((Array:1))
+#24 /home/gstc/public_html/wp-admin/admin.php(332): do_action("load-post.php")
+#25 /home/gstc/public_html/wp-admin/post.php(12): require_once("/home/gstc/public_html/wp-admin/admin.php")
+#26 {main}
+
+
+Jun 22 04:50:45  [info] $backTrace = #0 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Error.php(263): CRM_Core_Error::backtrace("backTrace", TRUE)
+#1 [internal function](): CRM_Core_Error::simpleHandler(Object(DB_Error))
+#2 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/packages/PEAR.php(921): call_user_func((Array:2), Object(DB_Error))
+#3 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/packages/DB.php(985): PEAR_Error->__construct("DB Error: connect failed", -24, 16, (Array:2), " [nativecode=User gstc_wp119 already has more than 'max_user_connections' act...")
+#4 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/packages/PEAR.php(575): DB_Error->__construct(-24, 16, (Array:2), " [nativecode=User gstc_wp119 already has more than 'max_user_connections' act...")
+#5 [internal function](): PEAR->_raiseError(Object(DB_mysqli), NULL, -24, NULL, NULL, " [nativecode=User gstc_wp119 already has more than 'max_user_connections' act...", "DB_Error", TRUE)
+#6 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/packages/PEAR.php(224): call_user_func_array((Array:2), (Array:8))
+#7 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/packages/DB/common.php(1905): PEAR->__call("raiseError", (Array:7))
+#8 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/packages/DB/common.php(1905): PEAR->raiseError(NULL, -24, NULL, NULL, " [nativecode=User gstc_wp119 already has more than 'max_user_connections' act...", "DB_Error", TRUE)
+#9 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/packages/DB/mysqli.php(339): DB_common->raiseError(-24, NULL, NULL, NULL, "User gstc_wp119 already has more than 'max_user_connections' active connections")
+#10 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/packages/DB.php(564): DB_mysqli->connect((Array:10), FALSE)
+#11 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/packages/DB/DataObject.php(2308): DB::connect((string))
+#12 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/DAO.php(388): DB_DataObject->_connect()
+#13 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/DAO.php(95): CRM_Core_DAO->initialize()
+#14 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/DAO.php(1287): CRM_Core_DAO->__construct()
+#15 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/Civi/Core/SettingsBag.php(151): CRM_Core_DAO::executeQuery("SELECT id, name, value, domain_id, contact_id, is_domain, component_id, creat...")
+#16 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/Civi/Core/SettingsManager.php(163): Civi\Core\SettingsBag->loadValues()
+#17 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/Civi.php(115): Civi\Core\SettingsManager->getBagByDomain(NULL)
+#18 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Config/MagicMerge.php(356): Civi::settings()
+#19 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Config/MagicMerge.php(220): CRM_Core_Config_MagicMerge->getSettings()
+#20 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Error.php(603): CRM_Core_Config_MagicMerge->__get("userFrameworkLogging")
+#21 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Error.php(571): CRM_Core_Error::debug_log_message("$backTrace = #0 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM...", FALSE, "")
+#22 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Error.php(714): CRM_Core_Error::debug_var("backTrace", "#0 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Error.p...")
+#23 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Error.php(263): CRM_Core_Error::backtrace("backTrace", TRUE)
+#24 [internal function](): CRM_Core_Error::simpleHandler(Object(DB_Error))
+#25 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/packages/PEAR.php(921): call_user_func((Array:2), Object(DB_Error))
+#26 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/packages/DB.php(985): PEAR_Error->__construct("DB Error: connect failed", -24, 16, (Array:2), " [nativecode=User gstc_wp119 already has more than 'max_user_connections' act...")
+#27 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/packages/PEAR.php(575): DB_Error->__construct(-24, 16, (Array:2), " [nativecode=User gstc_wp119 already has more than 'max_user_connections' act...")
+#28 [internal function](): PEAR->_raiseError(Object(DB_mysqli), NULL, -24, NULL, NULL, " [nativecode=User gstc_wp119 already has more than 'max_user_connections' act...", "DB_Error", TRUE)
+#29 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/packages/PEAR.php(224): call_user_func_array((Array:2), (Array:8))
+#30 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/packages/DB/common.php(1905): PEAR->__call("raiseError", (Array:7))
+#31 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/packages/DB/common.php(1905): PEAR->raiseError(NULL, -24, NULL, NULL, " [nativecode=User gstc_wp119 already has more than 'max_user_connections' act...", "DB_Error", TRUE)
+#32 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/packages/DB/mysqli.php(339): DB_common->raiseError(-24, NULL, NULL, NULL, "User gstc_wp119 already has more than 'max_user_connections' active connections")
+#33 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/packages/DB.php(564): DB_mysqli->connect((Array:10), FALSE)
+#34 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/packages/DB/DataObject.php(2308): DB::connect((string))
+#35 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/DAO.php(388): DB_DataObject->_connect()
+#36 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/DAO.php(95): CRM_Core_DAO->initialize()
+#37 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/DAO.php(1287): CRM_Core_DAO->__construct()
+#38 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/DAO.php(124): CRM_Core_DAO::executeQuery("SET NAMES utf8")
+#39 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/Civi/Core/Container.php(362): CRM_Core_DAO::init("mysql://gstc_wp119:oI0@.S9pG9@localhost/gstc_wp_civicrm?new_link=true")
+#40 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Config.php(111): Civi\Core\Container::boot(TRUE)
+#41 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm.php(672): CRM_Core_Config::singleton()
+#42 /home/gstc/public_html/wp-content/plugins/civicrm/includes/civicrm.shortcodes.modal.php(122): CiviCRM_For_WordPress->initialize()
+#43 [internal function](): CiviCRM_For_WordPress_Shortcodes_Modal->add_core_resources("")
+#44 /home/gstc/public_html/wp-includes/class-wp-hook.php(298): call_user_func_array((Array:2), (Array:1))
+#45 /home/gstc/public_html/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters("", (Array:1))
+#46 /home/gstc/public_html/wp-includes/plugin.php(453): WP_Hook->do_action((Array:1))
+#47 /home/gstc/public_html/wp-admin/admin.php(332): do_action("load-post.php")
+#48 /home/gstc/public_html/wp-admin/post.php(12): require_once("/home/gstc/public_html/wp-admin/admin.php")
+#49 {main}
+
+
+Jun 22 21:16:17  [info] $Fatal Error Details = Array
+(
+    [message] => We can't load the requested web page. This page requires cookies to be enabled in your browser settings. Please check this setting and enable cookies (if they are not enabled). Then try again. If this error persists, contact the site administrator for assistance.&lt;br /&gt;&lt;br /&gt;Site Administrators: This error may indicate that users are accessing this page using a domain or URL other than the configured Base URL. EXAMPLE: Base URL is http://example.org, but some users are accessing the page via http://www.example.org or a domain alias like http://myotherexample.org.&lt;br /&gt;&lt;br /&gt;Error type: Could not find a valid session key.
+    [code] => 
+)
+
+
+Jun 22 21:16:17  [info] $backTrace = #0 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Error.php(373): CRM_Core_Error::backtrace("backTrace", TRUE)
+#1 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Controller.php(833): CRM_Core_Error::fatal("We can't load the requested web page. This page requires cookies to be enable...")
+#2 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Controller.php(853): CRM_Core_Controller->invalidKeyCommon()
+#3 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Event/Controller/Registration.php(66): CRM_Core_Controller->invalidKeyRedirect()
+#4 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Controller.php(312): CRM_Event_Controller_Registration->invalidKey()
+#5 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Controller.php(204): CRM_Core_Controller->key("CRM_Event_Controller_Registration", TRUE, FALSE)
+#6 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Event/Controller/Registration.php(45): CRM_Core_Controller->__construct("Event Registration", "null")
+#7 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(305): CRM_Event_Controller_Registration->__construct("Event Registration", TRUE, "null", NULL, "false")
+#8 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(84): CRM_Core_Invoke::runItem((Array:15))
+#9 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(52): CRM_Core_Invoke::_invoke((Array:3))
+#10 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm.php(1227): CRM_Core_Invoke::invoke((Array:3))
+#11 /home/gstc/public_html/wp-content/plugins/civicrm/includes/civicrm.basepage.php(132): CiviCRM_For_WordPress->invoke()
+#12 [internal function](): CiviCRM_For_WordPress_Basepage->basepage_handler(Object(WP))
+#13 /home/gstc/public_html/wp-includes/class-wp-hook.php(298): call_user_func_array((Array:2), (Array:1))
+#14 /home/gstc/public_html/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters("", (Array:1))
+#15 /home/gstc/public_html/wp-includes/plugin.php(515): WP_Hook->do_action((Array:1))
+#16 /home/gstc/public_html/wp-includes/class-wp.php(746): do_action_ref_array("wp", (Array:1))
+#17 /home/gstc/public_html/wp-includes/functions.php(955): WP->main("")
+#18 /home/gstc/public_html/wp-blog-header.php(16): wp()
+#19 /home/gstc/public_html/index.php(17): require("/home/gstc/public_html/wp-blog-header.php")
+#20 {main}
+
+
+Jun 23 05:17:32  [info] $IDS Detector Details = Array
+(
+    [0] => Array
+        (
+            [name] => custom
+            [value] => {"module":"event","contactID":"2798","contributionID":1833,"eventID":"27","participantID":413}
+            [page] => /gstc2017aysen/inscripcion-chileno/?page=CiviCRM&q=civicrm/payment/ipn/9&
+            [userid] => 
+            [session] => mrq7urk9ouuvc9fe70dd7l4b94
+            [ip] => 173.248.191.153
+            [reaction] => 0
+            [impact] => 32
+        )
+
+)
+
+
+Jun 23 05:17:33  [info] Contribution record updated successfully
+
+Jun 23 05:17:38  [info] Receipt sent
+
+Jun 23 05:17:38  [info] Success: Database updated
+
+Jun 23 05:19:31  [info] $IDS Detector Details = Array
+(
+    [0] => Array
+        (
+            [name] => custom
+            [value] => {"module":"event","contactID":"2798","contributionID":1833,"eventID":"27","participantID":413}
+            [page] => /gstc2017aysen/inscripcion-chileno/?page=CiviCRM&q=civicrm/event/register&_qf_ThankYou_display=1&qfKey=f5cfa0b4f05d81cf4e1e056b7381f30b_7789
+            [userid] => 
+            [session] => h3h9g9ko5144sp7v3mn8h0v2i0
+            [ip] => 173.248.191.153
+            [reaction] => 0
+            [impact] => 32
+        )
+
+)
+
+
+Jun 23 19:21:36  [info] $Fatal Error Details = Array
+(
+    [message] => processor_id (value: ) is not of the type Integer
+    [code] => 
+)
+
+
+Jun 23 19:21:36  [info] $backTrace = #0 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Error.php(373): CRM_Core_Error::backtrace("backTrace", TRUE)
+#1 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Utils/Type.php(428): CRM_Core_Error::fatal("processor_id (value: ) is not of the type Integer")
+#2 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Utils/Request.php(110): CRM_Utils_Type::validate("", "Integer", TRUE, "processor_id")
+#3 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Financial/Form/Payment.php(55): CRM_Utils_Request::retrieve("processor_id", "Integer", NULL, TRUE)
+#4 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Form.php(531): CRM_Financial_Form_Payment->preProcess()
+#5 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/QuickForm/Action/Display.php(92): CRM_Core_Form->buildForm()
+#6 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/packages/HTML/QuickForm/Controller.php(203): CRM_Core_QuickForm_Action_Display->perform(Object(CRM_Financial_Form_Payment), "display")
+#7 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/packages/HTML/QuickForm/Page.php(103): HTML_QuickForm_Controller->handle(Object(CRM_Financial_Form_Payment), "display")
+#8 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Controller.php(351): HTML_QuickForm_Page->handle("display")
+#9 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Utils/Wrapper.php(113): CRM_Core_Controller->run()
+#10 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(284): CRM_Utils_Wrapper->run("CRM_Financial_Form_Payment", NULL, NULL)
+#11 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(84): CRM_Core_Invoke::runItem((Array:14))
+#12 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(52): CRM_Core_Invoke::_invoke((Array:3))
+#13 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm.php(1227): CRM_Core_Invoke::invoke((Array:3))
+#14 /home/gstc/public_html/wp-content/plugins/civicrm/includes/civicrm.basepage.php(132): CiviCRM_For_WordPress->invoke()
+#15 [internal function](): CiviCRM_For_WordPress_Basepage->basepage_handler(Object(WP))
+#16 /home/gstc/public_html/wp-includes/class-wp-hook.php(298): call_user_func_array((Array:2), (Array:1))
+#17 /home/gstc/public_html/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters("", (Array:1))
+#18 /home/gstc/public_html/wp-includes/plugin.php(515): WP_Hook->do_action((Array:1))
+#19 /home/gstc/public_html/wp-includes/class-wp.php(746): do_action_ref_array("wp", (Array:1))
+#20 /home/gstc/public_html/wp-includes/functions.php(955): WP->main("")
+#21 /home/gstc/public_html/wp-blog-header.php(16): wp()
+#22 /home/gstc/public_html/index.php(17): require("/home/gstc/public_html/wp-blog-header.php")
+#23 {main}
+
+
+Jun 24 02:27:42  [info] $Fatal Error Details = Array
+(
+    [message] => processor_id (value: ) is not of the type Integer
+    [code] => 
+)
+
+
+Jun 24 02:27:42  [info] $backTrace = #0 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Error.php(373): CRM_Core_Error::backtrace("backTrace", TRUE)
+#1 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Utils/Type.php(428): CRM_Core_Error::fatal("processor_id (value: ) is not of the type Integer")
+#2 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Utils/Request.php(110): CRM_Utils_Type::validate("", "Integer", TRUE, "processor_id")
+#3 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Financial/Form/Payment.php(55): CRM_Utils_Request::retrieve("processor_id", "Integer", NULL, TRUE)
+#4 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Form.php(531): CRM_Financial_Form_Payment->preProcess()
+#5 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/QuickForm/Action/Display.php(92): CRM_Core_Form->buildForm()
+#6 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/packages/HTML/QuickForm/Controller.php(203): CRM_Core_QuickForm_Action_Display->perform(Object(CRM_Financial_Form_Payment), "display")
+#7 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/packages/HTML/QuickForm/Page.php(103): HTML_QuickForm_Controller->handle(Object(CRM_Financial_Form_Payment), "display")
+#8 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Controller.php(351): HTML_QuickForm_Page->handle("display")
+#9 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Utils/Wrapper.php(113): CRM_Core_Controller->run()
+#10 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(284): CRM_Utils_Wrapper->run("CRM_Financial_Form_Payment", NULL, NULL)
+#11 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(84): CRM_Core_Invoke::runItem((Array:14))
+#12 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(52): CRM_Core_Invoke::_invoke((Array:3))
+#13 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm.php(1227): CRM_Core_Invoke::invoke((Array:3))
+#14 /home/gstc/public_html/wp-content/plugins/civicrm/includes/civicrm.basepage.php(132): CiviCRM_For_WordPress->invoke()
+#15 [internal function](): CiviCRM_For_WordPress_Basepage->basepage_handler(Object(WP))
+#16 /home/gstc/public_html/wp-includes/class-wp-hook.php(298): call_user_func_array((Array:2), (Array:1))
+#17 /home/gstc/public_html/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters("", (Array:1))
+#18 /home/gstc/public_html/wp-includes/plugin.php(515): WP_Hook->do_action((Array:1))
+#19 /home/gstc/public_html/wp-includes/class-wp.php(746): do_action_ref_array("wp", (Array:1))
+#20 /home/gstc/public_html/wp-includes/functions.php(955): WP->main("")
+#21 /home/gstc/public_html/wp-blog-header.php(16): wp()
+#22 /home/gstc/public_html/index.php(17): require("/home/gstc/public_html/wp-blog-header.php")
+#23 {main}
+
+
+Jun 24 03:22:54  [info] $Fatal Error Details = Array
+(
+    [message] => Could not find valid value for id
+    [code] => 
+)
+
+
+Jun 24 03:22:54  [info] $backTrace = #0 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Error.php(373): CRM_Core_Error::backtrace("backTrace", TRUE)
+#1 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Utils/Request.php(120): CRM_Core_Error::fatal("Could not find valid value for id")
+#2 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Event/Page/EventInfo.php(50): CRM_Utils_Request::retrieve("id", "Positive", Object(CRM_Event_Page_EventInfo), TRUE)
+#3 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(310): CRM_Event_Page_EventInfo->run((Array:3), NULL)
+#4 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(84): CRM_Core_Invoke::runItem((Array:15))
+#5 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(52): CRM_Core_Invoke::_invoke((Array:3))
+#6 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm.php(1227): CRM_Core_Invoke::invoke((Array:3))
+#7 [internal function](): CiviCRM_For_WordPress->invoke(Object(WP))
+#8 /home/gstc/public_html/wp-includes/class-wp-hook.php(298): call_user_func_array((Array:2), (Array:1))
+#9 /home/gstc/public_html/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters("", (Array:1))
+#10 /home/gstc/public_html/wp-includes/plugin.php(515): WP_Hook->do_action((Array:1))
+#11 /home/gstc/public_html/wp-includes/class-wp.php(746): do_action_ref_array("wp", (Array:1))
+#12 /home/gstc/public_html/wp-includes/functions.php(955): WP->main("")
+#13 /home/gstc/public_html/wp-blog-header.php(16): wp()
+#14 /home/gstc/public_html/index.php(17): require("/home/gstc/public_html/wp-blog-header.php")
+#15 {main}
+
+
+Jun 24 09:59:05  [info] $Fatal Error Details = Array
+(
+    [message] => We can't load the requested web page. This page requires cookies to be enabled in your browser settings. Please check this setting and enable cookies (if they are not enabled). Then try again. If this error persists, contact the site administrator for assistance.&lt;br /&gt;&lt;br /&gt;Site Administrators: This error may indicate that users are accessing this page using a domain or URL other than the configured Base URL. EXAMPLE: Base URL is http://example.org, but some users are accessing the page via http://www.example.org or a domain alias like http://myotherexample.org.&lt;br /&gt;&lt;br /&gt;Error type: Could not find a valid session key.
+    [code] => 
+)
+
+
+Jun 24 09:59:05  [info] $backTrace = #0 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Error.php(373): CRM_Core_Error::backtrace("backTrace", TRUE)
+#1 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Controller.php(833): CRM_Core_Error::fatal("We can't load the requested web page. This page requires cookies to be enable...")
+#2 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Controller.php(853): CRM_Core_Controller->invalidKeyCommon()
+#3 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Event/Controller/Registration.php(66): CRM_Core_Controller->invalidKeyRedirect()
+#4 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Controller.php(312): CRM_Event_Controller_Registration->invalidKey()
+#5 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Controller.php(204): CRM_Core_Controller->key("CRM_Event_Controller_Registration", TRUE, FALSE)
+#6 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Event/Controller/Registration.php(45): CRM_Core_Controller->__construct("Event Registration", "null")
+#7 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(305): CRM_Event_Controller_Registration->__construct("Event Registration", TRUE, "null", NULL, "false")
+#8 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(84): CRM_Core_Invoke::runItem((Array:15))
+#9 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(52): CRM_Core_Invoke::_invoke((Array:3))
+#10 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm.php(1227): CRM_Core_Invoke::invoke((Array:3))
+#11 /home/gstc/public_html/wp-content/plugins/civicrm/includes/civicrm.basepage.php(132): CiviCRM_For_WordPress->invoke()
+#12 [internal function](): CiviCRM_For_WordPress_Basepage->basepage_handler(Object(WP))
+#13 /home/gstc/public_html/wp-includes/class-wp-hook.php(298): call_user_func_array((Array:2), (Array:1))
+#14 /home/gstc/public_html/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters("", (Array:1))
+#15 /home/gstc/public_html/wp-includes/plugin.php(515): WP_Hook->do_action((Array:1))
+#16 /home/gstc/public_html/wp-includes/class-wp.php(746): do_action_ref_array("wp", (Array:1))
+#17 /home/gstc/public_html/wp-includes/functions.php(955): WP->main("")
+#18 /home/gstc/public_html/wp-blog-header.php(16): wp()
+#19 /home/gstc/public_html/index.php(17): require("/home/gstc/public_html/wp-blog-header.php")
+#20 {main}
+
+
+Jun 24 13:48:18  [info] $Fatal Error Details = Array
+(
+    [message] => One of parameters  (value: ) is not of the type Integer
+    [code] => 
+)
+
+
+Jun 24 13:48:18  [info] $backTrace = #0 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Error.php(373): CRM_Core_Error::backtrace("backTrace", TRUE)
+#1 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Utils/Type.php(428): CRM_Core_Error::fatal("One of parameters  (value: ) is not of the type Integer")
+#2 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/DAO.php(1367): CRM_Utils_Type::validate(NULL, "Integer")
+#3 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/DAO.php(1284): CRM_Core_DAO::composeQuery("\nSELECT module,is_reserved\n  FROM civicrm_uf_group\n  LEFT JOIN civicrm_uf_...", (Array:1), TRUE)
+#4 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Profile/Form/Edit.php(133): CRM_Core_DAO::executeQuery("\nSELECT module,is_reserved\n  FROM civicrm_uf_group\n  LEFT JOIN civicrm_uf_...", (Array:1))
+#5 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Form.php(531): CRM_Profile_Form_Edit->preProcess()
+#6 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/QuickForm/Action/Display.php(92): CRM_Core_Form->buildForm()
+#7 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/packages/HTML/QuickForm/Controller.php(203): CRM_Core_QuickForm_Action_Display->perform(Object(CRM_Profile_Form_Edit), "display")
+#8 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/packages/HTML/QuickForm/Page.php(103): HTML_QuickForm_Controller->handle(Object(CRM_Profile_Form_Edit), "display")
+#9 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Controller.php(351): HTML_QuickForm_Page->handle("display")
+#10 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Utils/Wrapper.php(113): CRM_Core_Controller->run()
+#11 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Profile/Page/Router.php(118): CRM_Utils_Wrapper->run("CRM_Profile_Form_Edit", "Create Profile", (Array:2))
+#12 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(310): CRM_Profile_Page_Router->run((Array:3), NULL)
+#13 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(84): CRM_Core_Invoke::runItem((Array:14))
+#14 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(52): CRM_Core_Invoke::_invoke((Array:3))
+#15 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm.php(1227): CRM_Core_Invoke::invoke((Array:3))
+#16 /home/gstc/public_html/wp-content/plugins/civicrm/includes/civicrm.shortcodes.php(290): CiviCRM_For_WordPress->invoke()
+#17 [internal function](): CiviCRM_For_WordPress_Shortcodes->render_single((Array:4), "", "civicrm")
+#18 /home/gstc/public_html/wp-includes/shortcodes.php(345): call_user_func((Array:2), (Array:4), "", "civicrm")
+#19 [internal function](): do_shortcode_tag((Array:7))
+#20 /home/gstc/public_html/wp-includes/shortcodes.php(223): preg_replace_callback("/\[(\[?)(civicrm)(?![\w-])([^\]\/]*(?:\/(?!\])[^\]\/]*)*?)(?:(\/)\]|\](?:([^\...", "do_shortcode_tag", "[civicrm component=\"profile\" gid=\"\" mode=\"create\" hijack=\"0\"]")
+#21 /home/gstc/public_html/wp-content/plugins/civicrm/includes/civicrm.shortcodes.php(198): do_shortcode("[civicrm component=\"profile\" gid=\"\" mode=\"create\" hijack=\"0\"]")
+#22 [internal function](): CiviCRM_For_WordPress_Shortcodes->prerender(Object(WP))
+#23 /home/gstc/public_html/wp-includes/class-wp-hook.php(298): call_user_func_array((Array:2), (Array:1))
+#24 /home/gstc/public_html/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters("", (Array:1))
+#25 /home/gstc/public_html/wp-includes/plugin.php(515): WP_Hook->do_action((Array:1))
+#26 /home/gstc/public_html/wp-includes/class-wp.php(746): do_action_ref_array("wp", (Array:1))
+#27 /home/gstc/public_html/wp-includes/functions.php(955): WP->main("")
+#28 /home/gstc/public_html/wp-blog-header.php(16): wp()
+#29 /home/gstc/public_html/index.php(17): require("/home/gstc/public_html/wp-blog-header.php")
+#30 {main}
+
+
+Jun 24 13:48:56  [info] $Fatal Error Details = Array
+(
+    [message] => One of parameters  (value: ) is not of the type Integer
+    [code] => 
+)
+
+
+Jun 24 13:48:56  [info] $backTrace = #0 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Error.php(373): CRM_Core_Error::backtrace("backTrace", TRUE)
+#1 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Utils/Type.php(428): CRM_Core_Error::fatal("One of parameters  (value: ) is not of the type Integer")
+#2 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/DAO.php(1367): CRM_Utils_Type::validate(NULL, "Integer")
+#3 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/DAO.php(1284): CRM_Core_DAO::composeQuery("\nSELECT module,is_reserved\n  FROM civicrm_uf_group\n  LEFT JOIN civicrm_uf_...", (Array:1), TRUE)
+#4 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Profile/Form/Edit.php(133): CRM_Core_DAO::executeQuery("\nSELECT module,is_reserved\n  FROM civicrm_uf_group\n  LEFT JOIN civicrm_uf_...", (Array:1))
+#5 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Form.php(531): CRM_Profile_Form_Edit->preProcess()
+#6 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/QuickForm/Action/Display.php(92): CRM_Core_Form->buildForm()
+#7 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/packages/HTML/QuickForm/Controller.php(203): CRM_Core_QuickForm_Action_Display->perform(Object(CRM_Profile_Form_Edit), "display")
+#8 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/packages/HTML/QuickForm/Page.php(103): HTML_QuickForm_Controller->handle(Object(CRM_Profile_Form_Edit), "display")
+#9 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Controller.php(351): HTML_QuickForm_Page->handle("display")
+#10 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Utils/Wrapper.php(113): CRM_Core_Controller->run()
+#11 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Profile/Page/Router.php(118): CRM_Utils_Wrapper->run("CRM_Profile_Form_Edit", "Create Profile", (Array:2))
+#12 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(310): CRM_Profile_Page_Router->run((Array:3), NULL)
+#13 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(84): CRM_Core_Invoke::runItem((Array:14))
+#14 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(52): CRM_Core_Invoke::_invoke((Array:3))
+#15 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm.php(1227): CRM_Core_Invoke::invoke((Array:3))
+#16 /home/gstc/public_html/wp-content/plugins/civicrm/includes/civicrm.shortcodes.php(290): CiviCRM_For_WordPress->invoke()
+#17 [internal function](): CiviCRM_For_WordPress_Shortcodes->render_single((Array:4), "", "civicrm")
+#18 /home/gstc/public_html/wp-includes/shortcodes.php(345): call_user_func((Array:2), (Array:4), "", "civicrm")
+#19 [internal function](): do_shortcode_tag((Array:7))
+#20 /home/gstc/public_html/wp-includes/shortcodes.php(223): preg_replace_callback("/\[(\[?)(civicrm)(?![\w-])([^\]\/]*(?:\/(?!\])[^\]\/]*)*?)(?:(\/)\]|\](?:([^\...", "do_shortcode_tag", "[civicrm component=\"profile\" gid=\"\" mode=\"create\" hijack=\"0\"]")
+#21 /home/gstc/public_html/wp-content/plugins/civicrm/includes/civicrm.shortcodes.php(198): do_shortcode("[civicrm component=\"profile\" gid=\"\" mode=\"create\" hijack=\"0\"]")
+#22 [internal function](): CiviCRM_For_WordPress_Shortcodes->prerender(Object(WP))
+#23 /home/gstc/public_html/wp-includes/class-wp-hook.php(298): call_user_func_array((Array:2), (Array:1))
+#24 /home/gstc/public_html/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters("", (Array:1))
+#25 /home/gstc/public_html/wp-includes/plugin.php(515): WP_Hook->do_action((Array:1))
+#26 /home/gstc/public_html/wp-includes/class-wp.php(746): do_action_ref_array("wp", (Array:1))
+#27 /home/gstc/public_html/wp-includes/functions.php(955): WP->main("")
+#28 /home/gstc/public_html/wp-blog-header.php(16): wp()
+#29 /home/gstc/public_html/index.php(17): require("/home/gstc/public_html/wp-blog-header.php")
+#30 {main}
+
+
+Jun 24 13:49:35  [info] $Fatal Error Details = Array
+(
+    [message] => One of parameters  (value: ) is not of the type Integer
+    [code] => 
+)
+
+
+Jun 24 13:49:35  [info] $backTrace = #0 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Error.php(373): CRM_Core_Error::backtrace("backTrace", TRUE)
+#1 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Utils/Type.php(428): CRM_Core_Error::fatal("One of parameters  (value: ) is not of the type Integer")
+#2 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/DAO.php(1367): CRM_Utils_Type::validate(NULL, "Integer")
+#3 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/DAO.php(1284): CRM_Core_DAO::composeQuery("\nSELECT module,is_reserved\n  FROM civicrm_uf_group\n  LEFT JOIN civicrm_uf_...", (Array:1), TRUE)
+#4 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Profile/Form/Edit.php(133): CRM_Core_DAO::executeQuery("\nSELECT module,is_reserved\n  FROM civicrm_uf_group\n  LEFT JOIN civicrm_uf_...", (Array:1))
+#5 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Form.php(531): CRM_Profile_Form_Edit->preProcess()
+#6 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/QuickForm/Action/Display.php(92): CRM_Core_Form->buildForm()
+#7 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/packages/HTML/QuickForm/Controller.php(203): CRM_Core_QuickForm_Action_Display->perform(Object(CRM_Profile_Form_Edit), "display")
+#8 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/packages/HTML/QuickForm/Page.php(103): HTML_QuickForm_Controller->handle(Object(CRM_Profile_Form_Edit), "display")
+#9 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Controller.php(351): HTML_QuickForm_Page->handle("display")
+#10 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Utils/Wrapper.php(113): CRM_Core_Controller->run()
+#11 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Profile/Page/Router.php(118): CRM_Utils_Wrapper->run("CRM_Profile_Form_Edit", "Create Profile", (Array:2))
+#12 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(310): CRM_Profile_Page_Router->run((Array:3), NULL)
+#13 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(84): CRM_Core_Invoke::runItem((Array:14))
+#14 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(52): CRM_Core_Invoke::_invoke((Array:3))
+#15 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm.php(1227): CRM_Core_Invoke::invoke((Array:3))
+#16 /home/gstc/public_html/wp-content/plugins/civicrm/includes/civicrm.shortcodes.php(290): CiviCRM_For_WordPress->invoke()
+#17 [internal function](): CiviCRM_For_WordPress_Shortcodes->render_single((Array:4), "", "civicrm")
+#18 /home/gstc/public_html/wp-includes/shortcodes.php(345): call_user_func((Array:2), (Array:4), "", "civicrm")
+#19 [internal function](): do_shortcode_tag((Array:7))
+#20 /home/gstc/public_html/wp-includes/shortcodes.php(223): preg_replace_callback("/\[(\[?)(civicrm)(?![\w-])([^\]\/]*(?:\/(?!\])[^\]\/]*)*?)(?:(\/)\]|\](?:([^\...", "do_shortcode_tag", "[civicrm component=\"profile\" gid=\"\" mode=\"create\" hijack=\"0\"]")
+#21 /home/gstc/public_html/wp-content/plugins/civicrm/includes/civicrm.shortcodes.php(198): do_shortcode("[civicrm component=\"profile\" gid=\"\" mode=\"create\" hijack=\"0\"]")
+#22 [internal function](): CiviCRM_For_WordPress_Shortcodes->prerender(Object(WP))
+#23 /home/gstc/public_html/wp-includes/class-wp-hook.php(298): call_user_func_array((Array:2), (Array:1))
+#24 /home/gstc/public_html/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters("", (Array:1))
+#25 /home/gstc/public_html/wp-includes/plugin.php(515): WP_Hook->do_action((Array:1))
+#26 /home/gstc/public_html/wp-includes/class-wp.php(746): do_action_ref_array("wp", (Array:1))
+#27 /home/gstc/public_html/wp-includes/functions.php(955): WP->main("")
+#28 /home/gstc/public_html/wp-blog-header.php(16): wp()
+#29 /home/gstc/public_html/index.php(17): require("/home/gstc/public_html/wp-blog-header.php")
+#30 {main}
+
+
+Jun 24 13:49:45  [info] $Fatal Error Details = Array
+(
+    [message] => One of parameters  (value: ) is not of the type Integer
+    [code] => 
+)
+
+
+Jun 24 13:49:45  [info] $backTrace = #0 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Error.php(373): CRM_Core_Error::backtrace("backTrace", TRUE)
+#1 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Utils/Type.php(428): CRM_Core_Error::fatal("One of parameters  (value: ) is not of the type Integer")
+#2 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/DAO.php(1367): CRM_Utils_Type::validate(NULL, "Integer")
+#3 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/DAO.php(1284): CRM_Core_DAO::composeQuery("\nSELECT module,is_reserved\n  FROM civicrm_uf_group\n  LEFT JOIN civicrm_uf_...", (Array:1), TRUE)
+#4 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Profile/Form/Edit.php(133): CRM_Core_DAO::executeQuery("\nSELECT module,is_reserved\n  FROM civicrm_uf_group\n  LEFT JOIN civicrm_uf_...", (Array:1))
+#5 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Form.php(531): CRM_Profile_Form_Edit->preProcess()
+#6 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/QuickForm/Action/Display.php(92): CRM_Core_Form->buildForm()
+#7 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/packages/HTML/QuickForm/Controller.php(203): CRM_Core_QuickForm_Action_Display->perform(Object(CRM_Profile_Form_Edit), "display")
+#8 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/packages/HTML/QuickForm/Page.php(103): HTML_QuickForm_Controller->handle(Object(CRM_Profile_Form_Edit), "display")
+#9 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Controller.php(351): HTML_QuickForm_Page->handle("display")
+#10 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Utils/Wrapper.php(113): CRM_Core_Controller->run()
+#11 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Profile/Page/Router.php(118): CRM_Utils_Wrapper->run("CRM_Profile_Form_Edit", "Create Profile", (Array:2))
+#12 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(310): CRM_Profile_Page_Router->run((Array:3), NULL)
+#13 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(84): CRM_Core_Invoke::runItem((Array:14))
+#14 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(52): CRM_Core_Invoke::_invoke((Array:3))
+#15 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm.php(1227): CRM_Core_Invoke::invoke((Array:3))
+#16 /home/gstc/public_html/wp-content/plugins/civicrm/includes/civicrm.shortcodes.php(290): CiviCRM_For_WordPress->invoke()
+#17 [internal function](): CiviCRM_For_WordPress_Shortcodes->render_single((Array:4), "", "civicrm")
+#18 /home/gstc/public_html/wp-includes/shortcodes.php(345): call_user_func((Array:2), (Array:4), "", "civicrm")
+#19 [internal function](): do_shortcode_tag((Array:7))
+#20 /home/gstc/public_html/wp-includes/shortcodes.php(223): preg_replace_callback("/\[(\[?)(civicrm)(?![\w-])([^\]\/]*(?:\/(?!\])[^\]\/]*)*?)(?:(\/)\]|\](?:([^\...", "do_shortcode_tag", "[civicrm component=\"profile\" gid=\"\" mode=\"create\" hijack=\"0\"]")
+#21 /home/gstc/public_html/wp-content/plugins/civicrm/includes/civicrm.shortcodes.php(198): do_shortcode("[civicrm component=\"profile\" gid=\"\" mode=\"create\" hijack=\"0\"]")
+#22 [internal function](): CiviCRM_For_WordPress_Shortcodes->prerender(Object(WP))
+#23 /home/gstc/public_html/wp-includes/class-wp-hook.php(298): call_user_func_array((Array:2), (Array:1))
+#24 /home/gstc/public_html/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters("", (Array:1))
+#25 /home/gstc/public_html/wp-includes/plugin.php(515): WP_Hook->do_action((Array:1))
+#26 /home/gstc/public_html/wp-includes/class-wp.php(746): do_action_ref_array("wp", (Array:1))
+#27 /home/gstc/public_html/wp-includes/functions.php(955): WP->main("")
+#28 /home/gstc/public_html/wp-blog-header.php(16): wp()
+#29 /home/gstc/public_html/index.php(17): require("/home/gstc/public_html/wp-blog-header.php")
+#30 {main}
+
+
+Jun 24 13:50:55  [info] $Fatal Error Details = Array
+(
+    [message] => One of parameters  (value: ) is not of the type Integer
+    [code] => 
+)
+
+
+Jun 24 13:50:55  [info] $backTrace = #0 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Error.php(373): CRM_Core_Error::backtrace("backTrace", TRUE)
+#1 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Utils/Type.php(428): CRM_Core_Error::fatal("One of parameters  (value: ) is not of the type Integer")
+#2 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/DAO.php(1367): CRM_Utils_Type::validate(NULL, "Integer")
+#3 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/DAO.php(1284): CRM_Core_DAO::composeQuery("\nSELECT module,is_reserved\n  FROM civicrm_uf_group\n  LEFT JOIN civicrm_uf_...", (Array:1), TRUE)
+#4 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Profile/Form/Edit.php(133): CRM_Core_DAO::executeQuery("\nSELECT module,is_reserved\n  FROM civicrm_uf_group\n  LEFT JOIN civicrm_uf_...", (Array:1))
+#5 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Form.php(531): CRM_Profile_Form_Edit->preProcess()
+#6 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/QuickForm/Action/Display.php(92): CRM_Core_Form->buildForm()
+#7 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/packages/HTML/QuickForm/Controller.php(203): CRM_Core_QuickForm_Action_Display->perform(Object(CRM_Profile_Form_Edit), "display")
+#8 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/packages/HTML/QuickForm/Page.php(103): HTML_QuickForm_Controller->handle(Object(CRM_Profile_Form_Edit), "display")
+#9 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Controller.php(351): HTML_QuickForm_Page->handle("display")
+#10 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Utils/Wrapper.php(113): CRM_Core_Controller->run()
+#11 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Profile/Page/Router.php(118): CRM_Utils_Wrapper->run("CRM_Profile_Form_Edit", "Create Profile", (Array:2))
+#12 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(310): CRM_Profile_Page_Router->run((Array:3), NULL)
+#13 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(84): CRM_Core_Invoke::runItem((Array:14))
+#14 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(52): CRM_Core_Invoke::_invoke((Array:3))
+#15 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm.php(1227): CRM_Core_Invoke::invoke((Array:3))
+#16 /home/gstc/public_html/wp-content/plugins/civicrm/includes/civicrm.shortcodes.php(290): CiviCRM_For_WordPress->invoke()
+#17 [internal function](): CiviCRM_For_WordPress_Shortcodes->render_single((Array:4), "", "civicrm")
+#18 /home/gstc/public_html/wp-includes/shortcodes.php(345): call_user_func((Array:2), (Array:4), "", "civicrm")
+#19 [internal function](): do_shortcode_tag((Array:7))
+#20 /home/gstc/public_html/wp-includes/shortcodes.php(223): preg_replace_callback("/\[(\[?)(civicrm)(?![\w-])([^\]\/]*(?:\/(?!\])[^\]\/]*)*?)(?:(\/)\]|\](?:([^\...", "do_shortcode_tag", "[civicrm component=\"profile\" gid=\"\" mode=\"create\" hijack=\"0\"]")
+#21 /home/gstc/public_html/wp-content/plugins/civicrm/includes/civicrm.shortcodes.php(198): do_shortcode("[civicrm component=\"profile\" gid=\"\" mode=\"create\" hijack=\"0\"]")
+#22 [internal function](): CiviCRM_For_WordPress_Shortcodes->prerender(Object(WP))
+#23 /home/gstc/public_html/wp-includes/class-wp-hook.php(298): call_user_func_array((Array:2), (Array:1))
+#24 /home/gstc/public_html/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters("", (Array:1))
+#25 /home/gstc/public_html/wp-includes/plugin.php(515): WP_Hook->do_action((Array:1))
+#26 /home/gstc/public_html/wp-includes/class-wp.php(746): do_action_ref_array("wp", (Array:1))
+#27 /home/gstc/public_html/wp-includes/functions.php(955): WP->main("")
+#28 /home/gstc/public_html/wp-blog-header.php(16): wp()
+#29 /home/gstc/public_html/index.php(17): require("/home/gstc/public_html/wp-blog-header.php")
+#30 {main}
+
+
+Jun 24 13:51:55  [info] $Fatal Error Details = Array
+(
+    [message] => One of parameters  (value: ) is not of the type Integer
+    [code] => 
+)
+
+
+Jun 24 13:51:55  [info] $backTrace = #0 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Error.php(373): CRM_Core_Error::backtrace("backTrace", TRUE)
+#1 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Utils/Type.php(428): CRM_Core_Error::fatal("One of parameters  (value: ) is not of the type Integer")
+#2 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/DAO.php(1367): CRM_Utils_Type::validate(NULL, "Integer")
+#3 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/DAO.php(1284): CRM_Core_DAO::composeQuery("\nSELECT module,is_reserved\n  FROM civicrm_uf_group\n  LEFT JOIN civicrm_uf_...", (Array:1), TRUE)
+#4 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Profile/Form/Edit.php(133): CRM_Core_DAO::executeQuery("\nSELECT module,is_reserved\n  FROM civicrm_uf_group\n  LEFT JOIN civicrm_uf_...", (Array:1))
+#5 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Form.php(531): CRM_Profile_Form_Edit->preProcess()
+#6 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/QuickForm/Action/Display.php(92): CRM_Core_Form->buildForm()
+#7 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/packages/HTML/QuickForm/Controller.php(203): CRM_Core_QuickForm_Action_Display->perform(Object(CRM_Profile_Form_Edit), "display")
+#8 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/packages/HTML/QuickForm/Page.php(103): HTML_QuickForm_Controller->handle(Object(CRM_Profile_Form_Edit), "display")
+#9 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Controller.php(351): HTML_QuickForm_Page->handle("display")
+#10 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Utils/Wrapper.php(113): CRM_Core_Controller->run()
+#11 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Profile/Page/Router.php(118): CRM_Utils_Wrapper->run("CRM_Profile_Form_Edit", "Create Profile", (Array:2))
+#12 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(310): CRM_Profile_Page_Router->run((Array:3), NULL)
+#13 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(84): CRM_Core_Invoke::runItem((Array:14))
+#14 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(52): CRM_Core_Invoke::_invoke((Array:3))
+#15 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm.php(1227): CRM_Core_Invoke::invoke((Array:3))
+#16 /home/gstc/public_html/wp-content/plugins/civicrm/includes/civicrm.shortcodes.php(290): CiviCRM_For_WordPress->invoke()
+#17 [internal function](): CiviCRM_For_WordPress_Shortcodes->render_single((Array:4), "", "civicrm")
+#18 /home/gstc/public_html/wp-includes/shortcodes.php(345): call_user_func((Array:2), (Array:4), "", "civicrm")
+#19 [internal function](): do_shortcode_tag((Array:7))
+#20 /home/gstc/public_html/wp-includes/shortcodes.php(223): preg_replace_callback("/\[(\[?)(civicrm)(?![\w-])([^\]\/]*(?:\/(?!\])[^\]\/]*)*?)(?:(\/)\]|\](?:([^\...", "do_shortcode_tag", "[civicrm component=\"profile\" gid=\"\" mode=\"create\" hijack=\"0\"]")
+#21 /home/gstc/public_html/wp-content/plugins/civicrm/includes/civicrm.shortcodes.php(198): do_shortcode("[civicrm component=\"profile\" gid=\"\" mode=\"create\" hijack=\"0\"]")
+#22 [internal function](): CiviCRM_For_WordPress_Shortcodes->prerender(Object(WP))
+#23 /home/gstc/public_html/wp-includes/class-wp-hook.php(298): call_user_func_array((Array:2), (Array:1))
+#24 /home/gstc/public_html/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters("", (Array:1))
+#25 /home/gstc/public_html/wp-includes/plugin.php(515): WP_Hook->do_action((Array:1))
+#26 /home/gstc/public_html/wp-includes/class-wp.php(746): do_action_ref_array("wp", (Array:1))
+#27 /home/gstc/public_html/wp-includes/functions.php(955): WP->main("")
+#28 /home/gstc/public_html/wp-blog-header.php(16): wp()
+#29 /home/gstc/public_html/index.php(17): require("/home/gstc/public_html/wp-blog-header.php")
+#30 {main}
+
+
+Jun 24 06:42:51  [info] $backTrace = #0 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Error.php(263): CRM_Core_Error::backtrace("backTrace", TRUE)
+#1 [internal function](): CRM_Core_Error::simpleHandler(Object(DB_Error))
+#2 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/packages/PEAR.php(921): call_user_func((Array:2), Object(DB_Error))
+#3 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/packages/DB.php(985): PEAR_Error->__construct("DB Error: connect failed", -24, 16, (Array:2), " [nativecode=User gstc_wp119 already has more than 'max_user_connections' act...")
+#4 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/packages/PEAR.php(575): DB_Error->__construct(-24, 16, (Array:2), " [nativecode=User gstc_wp119 already has more than 'max_user_connections' act...")
+#5 [internal function](): PEAR->_raiseError(Object(DB_mysqli), NULL, -24, NULL, NULL, " [nativecode=User gstc_wp119 already has more than 'max_user_connections' act...", "DB_Error", TRUE)
+#6 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/packages/PEAR.php(224): call_user_func_array((Array:2), (Array:8))
+#7 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/packages/DB/common.php(1905): PEAR->__call("raiseError", (Array:7))
+#8 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/packages/DB/common.php(1905): PEAR->raiseError(NULL, -24, NULL, NULL, " [nativecode=User gstc_wp119 already has more than 'max_user_connections' act...", "DB_Error", TRUE)
+#9 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/packages/DB/mysqli.php(339): DB_common->raiseError(-24, NULL, NULL, NULL, "User gstc_wp119 already has more than 'max_user_connections' active connections")
+#10 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/packages/DB.php(564): DB_mysqli->connect((Array:10), FALSE)
+#11 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/packages/DB/DataObject.php(2308): DB::connect((string))
+#12 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/DAO.php(388): DB_DataObject->_connect()
+#13 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/DAO.php(95): CRM_Core_DAO->initialize()
+#14 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/DAO.php(1287): CRM_Core_DAO->__construct()
+#15 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/DAO.php(124): CRM_Core_DAO::executeQuery("SET NAMES utf8")
+#16 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/Civi/Core/Container.php(362): CRM_Core_DAO::init("mysql://gstc_wp119:oI0@.S9pG9@localhost/gstc_wp_civicrm?new_link=true")
+#17 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Config.php(111): Civi\Core\Container::boot(TRUE)
+#18 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm.php(672): CRM_Core_Config::singleton()
+#19 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm.php(1121): CiviCRM_For_WordPress->initialize()
+#20 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm.php(969): CiviCRM_For_WordPress->add_core_resources(FALSE)
+#21 [internal function](): CiviCRM_For_WordPress->admin_page_load("")
+#22 /home/gstc/public_html/wp-includes/class-wp-hook.php(298): call_user_func_array((Array:2), (Array:1))
+#23 /home/gstc/public_html/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters("", (Array:1))
+#24 /home/gstc/public_html/wp-includes/plugin.php(453): WP_Hook->do_action((Array:1))
+#25 /home/gstc/public_html/wp-admin/admin.php(214): do_action("load-toplevel_page_CiviCRM")
+#26 {main}
+
+
+Jun 24 06:42:51  [info] $backTrace = #0 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Error.php(263): CRM_Core_Error::backtrace("backTrace", TRUE)
+#1 [internal function](): CRM_Core_Error::simpleHandler(Object(DB_Error))
+#2 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/packages/PEAR.php(921): call_user_func((Array:2), Object(DB_Error))
+#3 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/packages/DB.php(985): PEAR_Error->__construct("DB Error: connect failed", -24, 16, (Array:2), " [nativecode=User gstc_wp119 already has more than 'max_user_connections' act...")
+#4 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/packages/PEAR.php(575): DB_Error->__construct(-24, 16, (Array:2), " [nativecode=User gstc_wp119 already has more than 'max_user_connections' act...")
+#5 [internal function](): PEAR->_raiseError(Object(DB_mysqli), NULL, -24, NULL, NULL, " [nativecode=User gstc_wp119 already has more than 'max_user_connections' act...", "DB_Error", TRUE)
+#6 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/packages/PEAR.php(224): call_user_func_array((Array:2), (Array:8))
+#7 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/packages/DB/common.php(1905): PEAR->__call("raiseError", (Array:7))
+#8 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/packages/DB/common.php(1905): PEAR->raiseError(NULL, -24, NULL, NULL, " [nativecode=User gstc_wp119 already has more than 'max_user_connections' act...", "DB_Error", TRUE)
+#9 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/packages/DB/mysqli.php(339): DB_common->raiseError(-24, NULL, NULL, NULL, "User gstc_wp119 already has more than 'max_user_connections' active connections")
+#10 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/packages/DB.php(564): DB_mysqli->connect((Array:10), FALSE)
+#11 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/packages/DB/DataObject.php(2308): DB::connect((string))
+#12 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/DAO.php(388): DB_DataObject->_connect()
+#13 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/DAO.php(95): CRM_Core_DAO->initialize()
+#14 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/DAO.php(1287): CRM_Core_DAO->__construct()
+#15 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/Civi/Core/SettingsBag.php(151): CRM_Core_DAO::executeQuery("SELECT id, name, value, domain_id, contact_id, is_domain, component_id, creat...")
+#16 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/Civi/Core/SettingsManager.php(163): Civi\Core\SettingsBag->loadValues()
+#17 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/Civi.php(115): Civi\Core\SettingsManager->getBagByDomain(NULL)
+#18 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Config/MagicMerge.php(356): Civi::settings()
+#19 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Config/MagicMerge.php(220): CRM_Core_Config_MagicMerge->getSettings()
+#20 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Error.php(603): CRM_Core_Config_MagicMerge->__get("userFrameworkLogging")
+#21 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Error.php(571): CRM_Core_Error::debug_log_message("$backTrace = #0 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM...", FALSE, "")
+#22 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Error.php(714): CRM_Core_Error::debug_var("backTrace", "#0 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Error.p...")
+#23 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Error.php(263): CRM_Core_Error::backtrace("backTrace", TRUE)
+#24 [internal function](): CRM_Core_Error::simpleHandler(Object(DB_Error))
+#25 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/packages/PEAR.php(921): call_user_func((Array:2), Object(DB_Error))
+#26 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/packages/DB.php(985): PEAR_Error->__construct("DB Error: connect failed", -24, 16, (Array:2), " [nativecode=User gstc_wp119 already has more than 'max_user_connections' act...")
+#27 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/packages/PEAR.php(575): DB_Error->__construct(-24, 16, (Array:2), " [nativecode=User gstc_wp119 already has more than 'max_user_connections' act...")
+#28 [internal function](): PEAR->_raiseError(Object(DB_mysqli), NULL, -24, NULL, NULL, " [nativecode=User gstc_wp119 already has more than 'max_user_connections' act...", "DB_Error", TRUE)
+#29 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/packages/PEAR.php(224): call_user_func_array((Array:2), (Array:8))
+#30 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/packages/DB/common.php(1905): PEAR->__call("raiseError", (Array:7))
+#31 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/packages/DB/common.php(1905): PEAR->raiseError(NULL, -24, NULL, NULL, " [nativecode=User gstc_wp119 already has more than 'max_user_connections' act...", "DB_Error", TRUE)
+#32 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/packages/DB/mysqli.php(339): DB_common->raiseError(-24, NULL, NULL, NULL, "User gstc_wp119 already has more than 'max_user_connections' active connections")
+#33 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/packages/DB.php(564): DB_mysqli->connect((Array:10), FALSE)
+#34 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/packages/DB/DataObject.php(2308): DB::connect((string))
+#35 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/DAO.php(388): DB_DataObject->_connect()
+#36 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/DAO.php(95): CRM_Core_DAO->initialize()
+#37 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/DAO.php(1287): CRM_Core_DAO->__construct()
+#38 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/DAO.php(124): CRM_Core_DAO::executeQuery("SET NAMES utf8")
+#39 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/Civi/Core/Container.php(362): CRM_Core_DAO::init("mysql://gstc_wp119:oI0@.S9pG9@localhost/gstc_wp_civicrm?new_link=true")
+#40 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Config.php(111): Civi\Core\Container::boot(TRUE)
+#41 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm.php(672): CRM_Core_Config::singleton()
+#42 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm.php(1121): CiviCRM_For_WordPress->initialize()
+#43 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm.php(969): CiviCRM_For_WordPress->add_core_resources(FALSE)
+#44 [internal function](): CiviCRM_For_WordPress->admin_page_load("")
+#45 /home/gstc/public_html/wp-includes/class-wp-hook.php(298): call_user_func_array((Array:2), (Array:1))
+#46 /home/gstc/public_html/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters("", (Array:1))
+#47 /home/gstc/public_html/wp-includes/plugin.php(453): WP_Hook->do_action((Array:1))
+#48 /home/gstc/public_html/wp-admin/admin.php(214): do_action("load-toplevel_page_CiviCRM")
+#49 {main}
+
+
+Jun 24 06:43:01  [info] $backTrace = #0 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Error.php(263): CRM_Core_Error::backtrace("backTrace", TRUE)
+#1 [internal function](): CRM_Core_Error::simpleHandler(Object(DB_Error))
+#2 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/packages/PEAR.php(921): call_user_func((Array:2), Object(DB_Error))
+#3 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/packages/DB.php(985): PEAR_Error->__construct("DB Error: connect failed", -24, 16, (Array:2), " [nativecode=User gstc_wp119 already has more than 'max_user_connections' act...")
+#4 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/packages/PEAR.php(575): DB_Error->__construct(-24, 16, (Array:2), " [nativecode=User gstc_wp119 already has more than 'max_user_connections' act...")
+#5 [internal function](): PEAR->_raiseError(Object(DB_mysqli), NULL, -24, NULL, NULL, " [nativecode=User gstc_wp119 already has more than 'max_user_connections' act...", "DB_Error", TRUE)
+#6 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/packages/PEAR.php(224): call_user_func_array((Array:2), (Array:8))
+#7 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/packages/DB/common.php(1905): PEAR->__call("raiseError", (Array:7))
+#8 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/packages/DB/common.php(1905): PEAR->raiseError(NULL, -24, NULL, NULL, " [nativecode=User gstc_wp119 already has more than 'max_user_connections' act...", "DB_Error", TRUE)
+#9 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/packages/DB/mysqli.php(339): DB_common->raiseError(-24, NULL, NULL, NULL, "User gstc_wp119 already has more than 'max_user_connections' active connections")
+#10 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/packages/DB.php(564): DB_mysqli->connect((Array:10), FALSE)
+#11 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/packages/DB/DataObject.php(2308): DB::connect((string))
+#12 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/DAO.php(388): DB_DataObject->_connect()
+#13 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/DAO.php(95): CRM_Core_DAO->initialize()
+#14 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/DAO.php(1287): CRM_Core_DAO->__construct()
+#15 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/DAO.php(124): CRM_Core_DAO::executeQuery("SET NAMES utf8")
+#16 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/Civi/Core/Container.php(362): CRM_Core_DAO::init("mysql://gstc_wp119:oI0@.S9pG9@localhost/gstc_wp_civicrm?new_link=true")
+#17 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Config.php(111): Civi\Core\Container::boot(TRUE)
+#18 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm.php(672): CRM_Core_Config::singleton()
+#19 /home/gstc/public_html/wp-content/plugins/civicrm/includes/civicrm.shortcodes.modal.php(122): CiviCRM_For_WordPress->initialize()
+#20 [internal function](): CiviCRM_For_WordPress_Shortcodes_Modal->add_core_resources("")
+#21 /home/gstc/public_html/wp-includes/class-wp-hook.php(298): call_user_func_array((Array:2), (Array:1))
+#22 /home/gstc/public_html/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters("", (Array:1))
+#23 /home/gstc/public_html/wp-includes/plugin.php(453): WP_Hook->do_action((Array:1))
+#24 /home/gstc/public_html/wp-admin/admin.php(332): do_action("load-post.php")
+#25 /home/gstc/public_html/wp-admin/post.php(12): require_once("/home/gstc/public_html/wp-admin/admin.php")
+#26 {main}
+
+
+Jun 24 06:43:01  [info] $backTrace = #0 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Error.php(263): CRM_Core_Error::backtrace("backTrace", TRUE)
+#1 [internal function](): CRM_Core_Error::simpleHandler(Object(DB_Error))
+#2 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/packages/PEAR.php(921): call_user_func((Array:2), Object(DB_Error))
+#3 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/packages/DB.php(985): PEAR_Error->__construct("DB Error: connect failed", -24, 16, (Array:2), " [nativecode=User gstc_wp119 already has more than 'max_user_connections' act...")
+#4 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/packages/PEAR.php(575): DB_Error->__construct(-24, 16, (Array:2), " [nativecode=User gstc_wp119 already has more than 'max_user_connections' act...")
+#5 [internal function](): PEAR->_raiseError(Object(DB_mysqli), NULL, -24, NULL, NULL, " [nativecode=User gstc_wp119 already has more than 'max_user_connections' act...", "DB_Error", TRUE)
+#6 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/packages/PEAR.php(224): call_user_func_array((Array:2), (Array:8))
+#7 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/packages/DB/common.php(1905): PEAR->__call("raiseError", (Array:7))
+#8 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/packages/DB/common.php(1905): PEAR->raiseError(NULL, -24, NULL, NULL, " [nativecode=User gstc_wp119 already has more than 'max_user_connections' act...", "DB_Error", TRUE)
+#9 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/packages/DB/mysqli.php(339): DB_common->raiseError(-24, NULL, NULL, NULL, "User gstc_wp119 already has more than 'max_user_connections' active connections")
+#10 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/packages/DB.php(564): DB_mysqli->connect((Array:10), FALSE)
+#11 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/packages/DB/DataObject.php(2308): DB::connect((string))
+#12 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/DAO.php(388): DB_DataObject->_connect()
+#13 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/DAO.php(95): CRM_Core_DAO->initialize()
+#14 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/DAO.php(1287): CRM_Core_DAO->__construct()
+#15 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/Civi/Core/SettingsBag.php(151): CRM_Core_DAO::executeQuery("SELECT id, name, value, domain_id, contact_id, is_domain, component_id, creat...")
+#16 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/Civi/Core/SettingsManager.php(163): Civi\Core\SettingsBag->loadValues()
+#17 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/Civi.php(115): Civi\Core\SettingsManager->getBagByDomain(NULL)
+#18 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Config/MagicMerge.php(356): Civi::settings()
+#19 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Config/MagicMerge.php(220): CRM_Core_Config_MagicMerge->getSettings()
+#20 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Error.php(603): CRM_Core_Config_MagicMerge->__get("userFrameworkLogging")
+#21 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Error.php(571): CRM_Core_Error::debug_log_message("$backTrace = #0 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM...", FALSE, "")
+#22 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Error.php(714): CRM_Core_Error::debug_var("backTrace", "#0 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Error.p...")
+#23 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Error.php(263): CRM_Core_Error::backtrace("backTrace", TRUE)
+#24 [internal function](): CRM_Core_Error::simpleHandler(Object(DB_Error))
+#25 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/packages/PEAR.php(921): call_user_func((Array:2), Object(DB_Error))
+#26 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/packages/DB.php(985): PEAR_Error->__construct("DB Error: connect failed", -24, 16, (Array:2), " [nativecode=User gstc_wp119 already has more than 'max_user_connections' act...")
+#27 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/packages/PEAR.php(575): DB_Error->__construct(-24, 16, (Array:2), " [nativecode=User gstc_wp119 already has more than 'max_user_connections' act...")
+#28 [internal function](): PEAR->_raiseError(Object(DB_mysqli), NULL, -24, NULL, NULL, " [nativecode=User gstc_wp119 already has more than 'max_user_connections' act...", "DB_Error", TRUE)
+#29 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/packages/PEAR.php(224): call_user_func_array((Array:2), (Array:8))
+#30 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/packages/DB/common.php(1905): PEAR->__call("raiseError", (Array:7))
+#31 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/packages/DB/common.php(1905): PEAR->raiseError(NULL, -24, NULL, NULL, " [nativecode=User gstc_wp119 already has more than 'max_user_connections' act...", "DB_Error", TRUE)
+#32 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/packages/DB/mysqli.php(339): DB_common->raiseError(-24, NULL, NULL, NULL, "User gstc_wp119 already has more than 'max_user_connections' active connections")
+#33 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/packages/DB.php(564): DB_mysqli->connect((Array:10), FALSE)
+#34 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/packages/DB/DataObject.php(2308): DB::connect((string))
+#35 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/DAO.php(388): DB_DataObject->_connect()
+#36 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/DAO.php(95): CRM_Core_DAO->initialize()
+#37 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/DAO.php(1287): CRM_Core_DAO->__construct()
+#38 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/DAO.php(124): CRM_Core_DAO::executeQuery("SET NAMES utf8")
+#39 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/Civi/Core/Container.php(362): CRM_Core_DAO::init("mysql://gstc_wp119:oI0@.S9pG9@localhost/gstc_wp_civicrm?new_link=true")
+#40 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Config.php(111): Civi\Core\Container::boot(TRUE)
+#41 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm.php(672): CRM_Core_Config::singleton()
+#42 /home/gstc/public_html/wp-content/plugins/civicrm/includes/civicrm.shortcodes.modal.php(122): CiviCRM_For_WordPress->initialize()
+#43 [internal function](): CiviCRM_For_WordPress_Shortcodes_Modal->add_core_resources("")
+#44 /home/gstc/public_html/wp-includes/class-wp-hook.php(298): call_user_func_array((Array:2), (Array:1))
+#45 /home/gstc/public_html/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters("", (Array:1))
+#46 /home/gstc/public_html/wp-includes/plugin.php(453): WP_Hook->do_action((Array:1))
+#47 /home/gstc/public_html/wp-admin/admin.php(332): do_action("load-post.php")
+#48 /home/gstc/public_html/wp-admin/post.php(12): require_once("/home/gstc/public_html/wp-admin/admin.php")
+#49 {main}
+
+
+Jun 25 10:51:11  [info] $Fatal Error Details = Array
+(
+    [message] => processor_id (value: ) is not of the type Integer
+    [code] => 
+)
+
+
+Jun 25 10:51:11  [info] $backTrace = #0 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Error.php(373): CRM_Core_Error::backtrace("backTrace", TRUE)
+#1 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Utils/Type.php(428): CRM_Core_Error::fatal("processor_id (value: ) is not of the type Integer")
+#2 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Utils/Request.php(110): CRM_Utils_Type::validate("", "Integer", TRUE, "processor_id")
+#3 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Financial/Form/Payment.php(55): CRM_Utils_Request::retrieve("processor_id", "Integer", NULL, TRUE)
+#4 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Form.php(531): CRM_Financial_Form_Payment->preProcess()
+#5 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/QuickForm/Action/Display.php(92): CRM_Core_Form->buildForm()
+#6 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/packages/HTML/QuickForm/Controller.php(203): CRM_Core_QuickForm_Action_Display->perform(Object(CRM_Financial_Form_Payment), "display")
+#7 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/packages/HTML/QuickForm/Page.php(103): HTML_QuickForm_Controller->handle(Object(CRM_Financial_Form_Payment), "display")
+#8 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Controller.php(351): HTML_QuickForm_Page->handle("display")
+#9 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Utils/Wrapper.php(113): CRM_Core_Controller->run()
+#10 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(284): CRM_Utils_Wrapper->run("CRM_Financial_Form_Payment", NULL, NULL)
+#11 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(84): CRM_Core_Invoke::runItem((Array:14))
+#12 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(52): CRM_Core_Invoke::_invoke((Array:3))
+#13 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm.php(1227): CRM_Core_Invoke::invoke((Array:3))
+#14 /home/gstc/public_html/wp-content/plugins/civicrm/includes/civicrm.basepage.php(132): CiviCRM_For_WordPress->invoke()
+#15 [internal function](): CiviCRM_For_WordPress_Basepage->basepage_handler(Object(WP))
+#16 /home/gstc/public_html/wp-includes/class-wp-hook.php(298): call_user_func_array((Array:2), (Array:1))
+#17 /home/gstc/public_html/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters("", (Array:1))
+#18 /home/gstc/public_html/wp-includes/plugin.php(515): WP_Hook->do_action((Array:1))
+#19 /home/gstc/public_html/wp-includes/class-wp.php(746): do_action_ref_array("wp", (Array:1))
+#20 /home/gstc/public_html/wp-includes/functions.php(955): WP->main("")
+#21 /home/gstc/public_html/wp-blog-header.php(16): wp()
+#22 /home/gstc/public_html/index.php(17): require("/home/gstc/public_html/wp-blog-header.php")
+#23 {main}
+
+
+Jun 25 15:52:13  [info] $Fatal Error Details = Array
+(
+    [message] => processor_id (value: ) is not of the type Integer
+    [code] => 
+)
+
+
+Jun 25 15:52:13  [info] $backTrace = #0 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Error.php(373): CRM_Core_Error::backtrace("backTrace", TRUE)
+#1 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Utils/Type.php(428): CRM_Core_Error::fatal("processor_id (value: ) is not of the type Integer")
+#2 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Utils/Request.php(110): CRM_Utils_Type::validate("", "Integer", TRUE, "processor_id")
+#3 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Financial/Form/Payment.php(55): CRM_Utils_Request::retrieve("processor_id", "Integer", NULL, TRUE)
+#4 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Form.php(531): CRM_Financial_Form_Payment->preProcess()
+#5 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/QuickForm/Action/Display.php(92): CRM_Core_Form->buildForm()
+#6 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/packages/HTML/QuickForm/Controller.php(203): CRM_Core_QuickForm_Action_Display->perform(Object(CRM_Financial_Form_Payment), "display")
+#7 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/packages/HTML/QuickForm/Page.php(103): HTML_QuickForm_Controller->handle(Object(CRM_Financial_Form_Payment), "display")
+#8 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Controller.php(351): HTML_QuickForm_Page->handle("display")
+#9 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Utils/Wrapper.php(113): CRM_Core_Controller->run()
+#10 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(284): CRM_Utils_Wrapper->run("CRM_Financial_Form_Payment", NULL, NULL)
+#11 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(84): CRM_Core_Invoke::runItem((Array:14))
+#12 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(52): CRM_Core_Invoke::_invoke((Array:3))
+#13 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm.php(1227): CRM_Core_Invoke::invoke((Array:3))
+#14 /home/gstc/public_html/wp-content/plugins/civicrm/includes/civicrm.basepage.php(132): CiviCRM_For_WordPress->invoke()
+#15 [internal function](): CiviCRM_For_WordPress_Basepage->basepage_handler(Object(WP))
+#16 /home/gstc/public_html/wp-includes/class-wp-hook.php(298): call_user_func_array((Array:2), (Array:1))
+#17 /home/gstc/public_html/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters("", (Array:1))
+#18 /home/gstc/public_html/wp-includes/plugin.php(515): WP_Hook->do_action((Array:1))
+#19 /home/gstc/public_html/wp-includes/class-wp.php(746): do_action_ref_array("wp", (Array:1))
+#20 /home/gstc/public_html/wp-includes/functions.php(955): WP->main("")
+#21 /home/gstc/public_html/wp-blog-header.php(16): wp()
+#22 /home/gstc/public_html/index.php(17): require("/home/gstc/public_html/wp-blog-header.php")
+#23 {main}
+
+
+Jun 25 18:11:49  [info] $Fatal Error Details = Array
+(
+    [message] => processor_id (value: ) is not of the type Integer
+    [code] => 
+)
+
+
+Jun 25 18:11:49  [info] $backTrace = #0 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Error.php(373): CRM_Core_Error::backtrace("backTrace", TRUE)
+#1 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Utils/Type.php(428): CRM_Core_Error::fatal("processor_id (value: ) is not of the type Integer")
+#2 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Utils/Request.php(110): CRM_Utils_Type::validate("", "Integer", TRUE, "processor_id")
+#3 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Financial/Form/Payment.php(55): CRM_Utils_Request::retrieve("processor_id", "Integer", NULL, TRUE)
+#4 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Form.php(531): CRM_Financial_Form_Payment->preProcess()
+#5 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/QuickForm/Action/Display.php(92): CRM_Core_Form->buildForm()
+#6 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/packages/HTML/QuickForm/Controller.php(203): CRM_Core_QuickForm_Action_Display->perform(Object(CRM_Financial_Form_Payment), "display")
+#7 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/packages/HTML/QuickForm/Page.php(103): HTML_QuickForm_Controller->handle(Object(CRM_Financial_Form_Payment), "display")
+#8 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Controller.php(351): HTML_QuickForm_Page->handle("display")
+#9 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Utils/Wrapper.php(113): CRM_Core_Controller->run()
+#10 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(284): CRM_Utils_Wrapper->run("CRM_Financial_Form_Payment", NULL, NULL)
+#11 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(84): CRM_Core_Invoke::runItem((Array:14))
+#12 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(52): CRM_Core_Invoke::_invoke((Array:3))
+#13 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm.php(1227): CRM_Core_Invoke::invoke((Array:3))
+#14 /home/gstc/public_html/wp-content/plugins/civicrm/includes/civicrm.basepage.php(132): CiviCRM_For_WordPress->invoke()
+#15 [internal function](): CiviCRM_For_WordPress_Basepage->basepage_handler(Object(WP))
+#16 /home/gstc/public_html/wp-includes/class-wp-hook.php(298): call_user_func_array((Array:2), (Array:1))
+#17 /home/gstc/public_html/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters("", (Array:1))
+#18 /home/gstc/public_html/wp-includes/plugin.php(515): WP_Hook->do_action((Array:1))
+#19 /home/gstc/public_html/wp-includes/class-wp.php(746): do_action_ref_array("wp", (Array:1))
+#20 /home/gstc/public_html/wp-includes/functions.php(955): WP->main("")
+#21 /home/gstc/public_html/wp-blog-header.php(16): wp()
+#22 /home/gstc/public_html/index.php(17): require("/home/gstc/public_html/wp-blog-header.php")
+#23 {main}
+
+
+Jun 25 20:11:30  [info] $Fatal Error Details = Array
+(
+    [message] => Could not find valid value for id
+    [code] => 
+)
+
+
+Jun 25 20:11:30  [info] $backTrace = #0 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Error.php(373): CRM_Core_Error::backtrace("backTrace", TRUE)
+#1 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Utils/Request.php(120): CRM_Core_Error::fatal("Could not find valid value for id")
+#2 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Event/Page/EventInfo.php(50): CRM_Utils_Request::retrieve("id", "Positive", Object(CRM_Event_Page_EventInfo), TRUE)
+#3 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(310): CRM_Event_Page_EventInfo->run((Array:3), NULL)
+#4 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(84): CRM_Core_Invoke::runItem((Array:15))
+#5 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(52): CRM_Core_Invoke::_invoke((Array:3))
+#6 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm.php(1227): CRM_Core_Invoke::invoke((Array:3))
+#7 [internal function](): CiviCRM_For_WordPress->invoke(Object(WP))
+#8 /home/gstc/public_html/wp-includes/class-wp-hook.php(298): call_user_func_array((Array:2), (Array:1))
+#9 /home/gstc/public_html/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters("", (Array:1))
+#10 /home/gstc/public_html/wp-includes/plugin.php(515): WP_Hook->do_action((Array:1))
+#11 /home/gstc/public_html/wp-includes/class-wp.php(746): do_action_ref_array("wp", (Array:1))
+#12 /home/gstc/public_html/wp-includes/functions.php(955): WP->main("")
+#13 /home/gstc/public_html/wp-blog-header.php(16): wp()
+#14 /home/gstc/public_html/index.php(17): require("/home/gstc/public_html/wp-blog-header.php")
+#15 {main}
+
+
+Jun 25 20:27:05  [info] $Fatal Error Details = Array
+(
+    [message] => Could not find valid value for id
+    [code] => 
+)
+
+
+Jun 25 20:27:05  [info] $backTrace = #0 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Error.php(373): CRM_Core_Error::backtrace("backTrace", TRUE)
+#1 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Utils/Request.php(120): CRM_Core_Error::fatal("Could not find valid value for id")
+#2 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Event/Page/EventInfo.php(50): CRM_Utils_Request::retrieve("id", "Positive", Object(CRM_Event_Page_EventInfo), TRUE)
+#3 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(310): CRM_Event_Page_EventInfo->run((Array:3), NULL)
+#4 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(84): CRM_Core_Invoke::runItem((Array:15))
+#5 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(52): CRM_Core_Invoke::_invoke((Array:3))
+#6 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm.php(1227): CRM_Core_Invoke::invoke((Array:3))
+#7 [internal function](): CiviCRM_For_WordPress->invoke(Object(WP))
+#8 /home/gstc/public_html/wp-includes/class-wp-hook.php(298): call_user_func_array((Array:2), (Array:1))
+#9 /home/gstc/public_html/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters("", (Array:1))
+#10 /home/gstc/public_html/wp-includes/plugin.php(515): WP_Hook->do_action((Array:1))
+#11 /home/gstc/public_html/wp-includes/class-wp.php(746): do_action_ref_array("wp", (Array:1))
+#12 /home/gstc/public_html/wp-includes/functions.php(955): WP->main("")
+#13 /home/gstc/public_html/wp-blog-header.php(16): wp()
+#14 /home/gstc/public_html/index.php(17): require("/home/gstc/public_html/wp-blog-header.php")
+#15 {main}
+
+
+Jun 26 00:30:16  [info] $backTrace = #0 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Error.php(263): CRM_Core_Error::backtrace("backTrace", TRUE)
+#1 [internal function](): CRM_Core_Error::simpleHandler(Object(DB_Error))
+#2 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/packages/PEAR.php(921): call_user_func((Array:2), Object(DB_Error))
+#3 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/packages/DB.php(985): PEAR_Error->__construct("DB Error: connect failed", -24, 16, (Array:2), " [nativecode=User gstc_wp119 already has more than 'max_user_connections' act...")
+#4 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/packages/PEAR.php(575): DB_Error->__construct(-24, 16, (Array:2), " [nativecode=User gstc_wp119 already has more than 'max_user_connections' act...")
+#5 [internal function](): PEAR->_raiseError(Object(DB_mysqli), NULL, -24, NULL, NULL, " [nativecode=User gstc_wp119 already has more than 'max_user_connections' act...", "DB_Error", TRUE)
+#6 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/packages/PEAR.php(224): call_user_func_array((Array:2), (Array:8))
+#7 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/packages/DB/common.php(1905): PEAR->__call("raiseError", (Array:7))
+#8 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/packages/DB/common.php(1905): PEAR->raiseError(NULL, -24, NULL, NULL, " [nativecode=User gstc_wp119 already has more than 'max_user_connections' act...", "DB_Error", TRUE)
+#9 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/packages/DB/mysqli.php(339): DB_common->raiseError(-24, NULL, NULL, NULL, "User gstc_wp119 already has more than 'max_user_connections' active connections")
+#10 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/packages/DB.php(564): DB_mysqli->connect((Array:10), FALSE)
+#11 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/packages/DB/DataObject.php(2308): DB::connect((string))
+#12 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/DAO.php(388): DB_DataObject->_connect()
+#13 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/DAO.php(95): CRM_Core_DAO->initialize()
+#14 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/DAO.php(1287): CRM_Core_DAO->__construct()
+#15 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/DAO.php(124): CRM_Core_DAO::executeQuery("SET NAMES utf8")
+#16 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/Civi/Core/Container.php(362): CRM_Core_DAO::init("mysql://gstc_wp119:oI0@.S9pG9@localhost/gstc_wp_civicrm?new_link=true")
+#17 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Config.php(111): Civi\Core\Container::boot(TRUE)
+#18 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm.php(672): CRM_Core_Config::singleton()
+#19 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm.php(1121): CiviCRM_For_WordPress->initialize()
+#20 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm.php(969): CiviCRM_For_WordPress->add_core_resources(FALSE)
+#21 [internal function](): CiviCRM_For_WordPress->admin_page_load("")
+#22 /home/gstc/public_html/wp-includes/class-wp-hook.php(298): call_user_func_array((Array:2), (Array:1))
+#23 /home/gstc/public_html/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters("", (Array:1))
+#24 /home/gstc/public_html/wp-includes/plugin.php(453): WP_Hook->do_action((Array:1))
+#25 /home/gstc/public_html/wp-admin/admin.php(214): do_action("load-toplevel_page_CiviCRM")
+#26 {main}
+
+
+Jun 26 00:30:16  [info] $backTrace = #0 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Error.php(263): CRM_Core_Error::backtrace("backTrace", TRUE)
+#1 [internal function](): CRM_Core_Error::simpleHandler(Object(DB_Error))
+#2 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/packages/PEAR.php(921): call_user_func((Array:2), Object(DB_Error))
+#3 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/packages/DB.php(985): PEAR_Error->__construct("DB Error: connect failed", -24, 16, (Array:2), " [nativecode=User gstc_wp119 already has more than 'max_user_connections' act...")
+#4 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/packages/PEAR.php(575): DB_Error->__construct(-24, 16, (Array:2), " [nativecode=User gstc_wp119 already has more than 'max_user_connections' act...")
+#5 [internal function](): PEAR->_raiseError(Object(DB_mysqli), NULL, -24, NULL, NULL, " [nativecode=User gstc_wp119 already has more than 'max_user_connections' act...", "DB_Error", TRUE)
+#6 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/packages/PEAR.php(224): call_user_func_array((Array:2), (Array:8))
+#7 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/packages/DB/common.php(1905): PEAR->__call("raiseError", (Array:7))
+#8 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/packages/DB/common.php(1905): PEAR->raiseError(NULL, -24, NULL, NULL, " [nativecode=User gstc_wp119 already has more than 'max_user_connections' act...", "DB_Error", TRUE)
+#9 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/packages/DB/mysqli.php(339): DB_common->raiseError(-24, NULL, NULL, NULL, "User gstc_wp119 already has more than 'max_user_connections' active connections")
+#10 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/packages/DB.php(564): DB_mysqli->connect((Array:10), FALSE)
+#11 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/packages/DB/DataObject.php(2308): DB::connect((string))
+#12 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/DAO.php(388): DB_DataObject->_connect()
+#13 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/DAO.php(95): CRM_Core_DAO->initialize()
+#14 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/DAO.php(1287): CRM_Core_DAO->__construct()
+#15 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/Civi/Core/SettingsBag.php(151): CRM_Core_DAO::executeQuery("SELECT id, name, value, domain_id, contact_id, is_domain, component_id, creat...")
+#16 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/Civi/Core/SettingsManager.php(163): Civi\Core\SettingsBag->loadValues()
+#17 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/Civi.php(115): Civi\Core\SettingsManager->getBagByDomain(NULL)
+#18 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Config/MagicMerge.php(356): Civi::settings()
+#19 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Config/MagicMerge.php(220): CRM_Core_Config_MagicMerge->getSettings()
+#20 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Error.php(603): CRM_Core_Config_MagicMerge->__get("userFrameworkLogging")
+#21 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Error.php(571): CRM_Core_Error::debug_log_message("$backTrace = #0 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM...", FALSE, "")
+#22 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Error.php(714): CRM_Core_Error::debug_var("backTrace", "#0 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Error.p...")
+#23 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Error.php(263): CRM_Core_Error::backtrace("backTrace", TRUE)
+#24 [internal function](): CRM_Core_Error::simpleHandler(Object(DB_Error))
+#25 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/packages/PEAR.php(921): call_user_func((Array:2), Object(DB_Error))
+#26 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/packages/DB.php(985): PEAR_Error->__construct("DB Error: connect failed", -24, 16, (Array:2), " [nativecode=User gstc_wp119 already has more than 'max_user_connections' act...")
+#27 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/packages/PEAR.php(575): DB_Error->__construct(-24, 16, (Array:2), " [nativecode=User gstc_wp119 already has more than 'max_user_connections' act...")
+#28 [internal function](): PEAR->_raiseError(Object(DB_mysqli), NULL, -24, NULL, NULL, " [nativecode=User gstc_wp119 already has more than 'max_user_connections' act...", "DB_Error", TRUE)
+#29 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/packages/PEAR.php(224): call_user_func_array((Array:2), (Array:8))
+#30 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/packages/DB/common.php(1905): PEAR->__call("raiseError", (Array:7))
+#31 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/packages/DB/common.php(1905): PEAR->raiseError(NULL, -24, NULL, NULL, " [nativecode=User gstc_wp119 already has more than 'max_user_connections' act...", "DB_Error", TRUE)
+#32 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/packages/DB/mysqli.php(339): DB_common->raiseError(-24, NULL, NULL, NULL, "User gstc_wp119 already has more than 'max_user_connections' active connections")
+#33 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/packages/DB.php(564): DB_mysqli->connect((Array:10), FALSE)
+#34 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/packages/DB/DataObject.php(2308): DB::connect((string))
+#35 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/DAO.php(388): DB_DataObject->_connect()
+#36 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/DAO.php(95): CRM_Core_DAO->initialize()
+#37 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/DAO.php(1287): CRM_Core_DAO->__construct()
+#38 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/DAO.php(124): CRM_Core_DAO::executeQuery("SET NAMES utf8")
+#39 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/Civi/Core/Container.php(362): CRM_Core_DAO::init("mysql://gstc_wp119:oI0@.S9pG9@localhost/gstc_wp_civicrm?new_link=true")
+#40 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Config.php(111): Civi\Core\Container::boot(TRUE)
+#41 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm.php(672): CRM_Core_Config::singleton()
+#42 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm.php(1121): CiviCRM_For_WordPress->initialize()
+#43 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm.php(969): CiviCRM_For_WordPress->add_core_resources(FALSE)
+#44 [internal function](): CiviCRM_For_WordPress->admin_page_load("")
+#45 /home/gstc/public_html/wp-includes/class-wp-hook.php(298): call_user_func_array((Array:2), (Array:1))
+#46 /home/gstc/public_html/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters("", (Array:1))
+#47 /home/gstc/public_html/wp-includes/plugin.php(453): WP_Hook->do_action((Array:1))
+#48 /home/gstc/public_html/wp-admin/admin.php(214): do_action("load-toplevel_page_CiviCRM")
+#49 {main}
+
+
+Jun 26 08:31:20  [info] Deprecated: Group=''. Name='cvv_backoffice_required'. Defaults should come from metadata
+
+
+Jun 26 08:31:27  [info] Deprecated: Group=''. Name='cvv_backoffice_required'. Defaults should come from metadata
+
+
+Jun 26 10:19:05  [info] $Fatal Error Details = Array
+(
+    [message] => processor_id (value: ) is not of the type Integer
+    [code] => 
+)
+
+
+Jun 26 10:19:05  [info] $backTrace = #0 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Error.php(373): CRM_Core_Error::backtrace("backTrace", TRUE)
+#1 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Utils/Type.php(428): CRM_Core_Error::fatal("processor_id (value: ) is not of the type Integer")
+#2 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Utils/Request.php(110): CRM_Utils_Type::validate("", "Integer", TRUE, "processor_id")
+#3 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Financial/Form/Payment.php(55): CRM_Utils_Request::retrieve("processor_id", "Integer", NULL, TRUE)
+#4 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Form.php(531): CRM_Financial_Form_Payment->preProcess()
+#5 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/QuickForm/Action/Display.php(92): CRM_Core_Form->buildForm()
+#6 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/packages/HTML/QuickForm/Controller.php(203): CRM_Core_QuickForm_Action_Display->perform(Object(CRM_Financial_Form_Payment), "display")
+#7 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/packages/HTML/QuickForm/Page.php(103): HTML_QuickForm_Controller->handle(Object(CRM_Financial_Form_Payment), "display")
+#8 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Controller.php(351): HTML_QuickForm_Page->handle("display")
+#9 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Utils/Wrapper.php(113): CRM_Core_Controller->run()
+#10 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(284): CRM_Utils_Wrapper->run("CRM_Financial_Form_Payment", NULL, NULL)
+#11 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(84): CRM_Core_Invoke::runItem((Array:14))
+#12 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(52): CRM_Core_Invoke::_invoke((Array:3))
+#13 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm.php(1227): CRM_Core_Invoke::invoke((Array:3))
+#14 /home/gstc/public_html/wp-content/plugins/civicrm/includes/civicrm.basepage.php(132): CiviCRM_For_WordPress->invoke()
+#15 [internal function](): CiviCRM_For_WordPress_Basepage->basepage_handler(Object(WP))
+#16 /home/gstc/public_html/wp-includes/class-wp-hook.php(298): call_user_func_array((Array:2), (Array:1))
+#17 /home/gstc/public_html/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters("", (Array:1))
+#18 /home/gstc/public_html/wp-includes/plugin.php(515): WP_Hook->do_action((Array:1))
+#19 /home/gstc/public_html/wp-includes/class-wp.php(746): do_action_ref_array("wp", (Array:1))
+#20 /home/gstc/public_html/wp-includes/functions.php(955): WP->main("")
+#21 /home/gstc/public_html/wp-blog-header.php(16): wp()
+#22 /home/gstc/public_html/index.php(17): require("/home/gstc/public_html/wp-blog-header.php")
+#23 {main}
+
+
+Jun 26 13:46:17  [info] $Fatal Error Details = Array
+(
+    [message] => Could not find valid value for id
+    [code] => 
+)
+
+
+Jun 26 13:46:17  [info] $backTrace = #0 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Error.php(373): CRM_Core_Error::backtrace("backTrace", TRUE)
+#1 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Utils/Request.php(120): CRM_Core_Error::fatal("Could not find valid value for id")
+#2 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Event/StateMachine/Registration.php(52): CRM_Utils_Request::retrieve("id", "Positive", Object(CRM_Event_Controller_Registration), TRUE)
+#3 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Event/Controller/Registration.php(47): CRM_Event_StateMachine_Registration->__construct(Object(CRM_Event_Controller_Registration), TRUE)
+#4 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(305): CRM_Event_Controller_Registration->__construct("Event Registration", TRUE, "null", NULL, "false")
+#5 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(84): CRM_Core_Invoke::runItem((Array:15))
+#6 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(52): CRM_Core_Invoke::_invoke((Array:3))
+#7 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm.php(1227): CRM_Core_Invoke::invoke((Array:3))
+#8 /home/gstc/public_html/wp-content/plugins/civicrm/includes/civicrm.basepage.php(132): CiviCRM_For_WordPress->invoke()
+#9 [internal function](): CiviCRM_For_WordPress_Basepage->basepage_handler(Object(WP))
+#10 /home/gstc/public_html/wp-includes/class-wp-hook.php(298): call_user_func_array((Array:2), (Array:1))
+#11 /home/gstc/public_html/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters("", (Array:1))
+#12 /home/gstc/public_html/wp-includes/plugin.php(515): WP_Hook->do_action((Array:1))
+#13 /home/gstc/public_html/wp-includes/class-wp.php(746): do_action_ref_array("wp", (Array:1))
+#14 /home/gstc/public_html/wp-includes/functions.php(955): WP->main("")
+#15 /home/gstc/public_html/wp-blog-header.php(16): wp()
+#16 /home/gstc/public_html/index.php(17): require("/home/gstc/public_html/wp-blog-header.php")
+#17 {main}
+
+
+Jun 26 16:19:15  [info] $Fatal Error Details = Array
+(
+    [message] => Could not find valid value for id
+    [code] => 
+)
+
+
+Jun 26 16:19:15  [info] $backTrace = #0 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Error.php(373): CRM_Core_Error::backtrace("backTrace", TRUE)
+#1 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Utils/Request.php(120): CRM_Core_Error::fatal("Could not find valid value for id")
+#2 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Event/Page/EventInfo.php(50): CRM_Utils_Request::retrieve("id", "Positive", Object(CRM_Event_Page_EventInfo), TRUE)
+#3 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(310): CRM_Event_Page_EventInfo->run((Array:3), NULL)
+#4 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(84): CRM_Core_Invoke::runItem((Array:15))
+#5 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(52): CRM_Core_Invoke::_invoke((Array:3))
+#6 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm.php(1227): CRM_Core_Invoke::invoke((Array:3))
+#7 [internal function](): CiviCRM_For_WordPress->invoke(Object(WP))
+#8 /home/gstc/public_html/wp-includes/class-wp-hook.php(298): call_user_func_array((Array:2), (Array:1))
+#9 /home/gstc/public_html/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters("", (Array:1))
+#10 /home/gstc/public_html/wp-includes/plugin.php(515): WP_Hook->do_action((Array:1))
+#11 /home/gstc/public_html/wp-includes/class-wp.php(746): do_action_ref_array("wp", (Array:1))
+#12 /home/gstc/public_html/wp-includes/functions.php(955): WP->main("")
+#13 /home/gstc/public_html/wp-blog-header.php(16): wp()
+#14 /home/gstc/public_html/index.php(17): require("/home/gstc/public_html/wp-blog-header.php")
+#15 {main}
+
+
+Jun 26 22:41:43  [info] $Fatal Error Details = Array
+(
+    [message] => processor_id (value: ) is not of the type Integer
+    [code] => 
+)
+
+
+Jun 26 22:41:43  [info] $backTrace = #0 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Error.php(373): CRM_Core_Error::backtrace("backTrace", TRUE)
+#1 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Utils/Type.php(428): CRM_Core_Error::fatal("processor_id (value: ) is not of the type Integer")
+#2 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Utils/Request.php(110): CRM_Utils_Type::validate("", "Integer", TRUE, "processor_id")
+#3 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Financial/Form/Payment.php(55): CRM_Utils_Request::retrieve("processor_id", "Integer", NULL, TRUE)
+#4 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Form.php(531): CRM_Financial_Form_Payment->preProcess()
+#5 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/QuickForm/Action/Display.php(92): CRM_Core_Form->buildForm()
+#6 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/packages/HTML/QuickForm/Controller.php(203): CRM_Core_QuickForm_Action_Display->perform(Object(CRM_Financial_Form_Payment), "display")
+#7 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/packages/HTML/QuickForm/Page.php(103): HTML_QuickForm_Controller->handle(Object(CRM_Financial_Form_Payment), "display")
+#8 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Controller.php(351): HTML_QuickForm_Page->handle("display")
+#9 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Utils/Wrapper.php(113): CRM_Core_Controller->run()
+#10 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(284): CRM_Utils_Wrapper->run("CRM_Financial_Form_Payment", NULL, NULL)
+#11 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(84): CRM_Core_Invoke::runItem((Array:14))
+#12 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(52): CRM_Core_Invoke::_invoke((Array:3))
+#13 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm.php(1227): CRM_Core_Invoke::invoke((Array:3))
+#14 /home/gstc/public_html/wp-content/plugins/civicrm/includes/civicrm.basepage.php(132): CiviCRM_For_WordPress->invoke()
+#15 [internal function](): CiviCRM_For_WordPress_Basepage->basepage_handler(Object(WP))
+#16 /home/gstc/public_html/wp-includes/class-wp-hook.php(298): call_user_func_array((Array:2), (Array:1))
+#17 /home/gstc/public_html/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters("", (Array:1))
+#18 /home/gstc/public_html/wp-includes/plugin.php(515): WP_Hook->do_action((Array:1))
+#19 /home/gstc/public_html/wp-includes/class-wp.php(746): do_action_ref_array("wp", (Array:1))
+#20 /home/gstc/public_html/wp-includes/functions.php(955): WP->main("")
+#21 /home/gstc/public_html/wp-blog-header.php(16): wp()
+#22 /home/gstc/public_html/index.php(17): require("/home/gstc/public_html/wp-blog-header.php")
+#23 {main}
+
+
+Jun 26 22:49:30  [info] $Fatal Error Details = Array
+(
+    [message] => processor_id (value: ) is not of the type Integer
+    [code] => 
+)
+
+
+Jun 26 22:49:30  [info] $backTrace = #0 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Error.php(373): CRM_Core_Error::backtrace("backTrace", TRUE)
+#1 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Utils/Type.php(428): CRM_Core_Error::fatal("processor_id (value: ) is not of the type Integer")
+#2 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Utils/Request.php(110): CRM_Utils_Type::validate("", "Integer", TRUE, "processor_id")
+#3 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Financial/Form/Payment.php(55): CRM_Utils_Request::retrieve("processor_id", "Integer", NULL, TRUE)
+#4 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Form.php(531): CRM_Financial_Form_Payment->preProcess()
+#5 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/QuickForm/Action/Display.php(92): CRM_Core_Form->buildForm()
+#6 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/packages/HTML/QuickForm/Controller.php(203): CRM_Core_QuickForm_Action_Display->perform(Object(CRM_Financial_Form_Payment), "display")
+#7 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/packages/HTML/QuickForm/Page.php(103): HTML_QuickForm_Controller->handle(Object(CRM_Financial_Form_Payment), "display")
+#8 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Controller.php(351): HTML_QuickForm_Page->handle("display")
+#9 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Utils/Wrapper.php(113): CRM_Core_Controller->run()
+#10 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(284): CRM_Utils_Wrapper->run("CRM_Financial_Form_Payment", NULL, NULL)
+#11 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(84): CRM_Core_Invoke::runItem((Array:14))
+#12 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(52): CRM_Core_Invoke::_invoke((Array:3))
+#13 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm.php(1227): CRM_Core_Invoke::invoke((Array:3))
+#14 /home/gstc/public_html/wp-content/plugins/civicrm/includes/civicrm.basepage.php(132): CiviCRM_For_WordPress->invoke()
+#15 [internal function](): CiviCRM_For_WordPress_Basepage->basepage_handler(Object(WP))
+#16 /home/gstc/public_html/wp-includes/class-wp-hook.php(298): call_user_func_array((Array:2), (Array:1))
+#17 /home/gstc/public_html/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters("", (Array:1))
+#18 /home/gstc/public_html/wp-includes/plugin.php(515): WP_Hook->do_action((Array:1))
+#19 /home/gstc/public_html/wp-includes/class-wp.php(746): do_action_ref_array("wp", (Array:1))
+#20 /home/gstc/public_html/wp-includes/functions.php(955): WP->main("")
+#21 /home/gstc/public_html/wp-blog-header.php(16): wp()
+#22 /home/gstc/public_html/index.php(17): require("/home/gstc/public_html/wp-blog-header.php")
+#23 {main}
+
+
+Jun 27 07:09:38  [info] $Fatal Error Details = Array
+(
+    [message] => processor_id (value: ) is not of the type Integer
+    [code] => 
+)
+
+
+Jun 27 07:09:38  [info] $backTrace = #0 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Error.php(373): CRM_Core_Error::backtrace("backTrace", TRUE)
+#1 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Utils/Type.php(428): CRM_Core_Error::fatal("processor_id (value: ) is not of the type Integer")
+#2 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Utils/Request.php(110): CRM_Utils_Type::validate("", "Integer", TRUE, "processor_id")
+#3 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Financial/Form/Payment.php(55): CRM_Utils_Request::retrieve("processor_id", "Integer", NULL, TRUE)
+#4 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Form.php(531): CRM_Financial_Form_Payment->preProcess()
+#5 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/QuickForm/Action/Display.php(92): CRM_Core_Form->buildForm()
+#6 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/packages/HTML/QuickForm/Controller.php(203): CRM_Core_QuickForm_Action_Display->perform(Object(CRM_Financial_Form_Payment), "display")
+#7 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/packages/HTML/QuickForm/Page.php(103): HTML_QuickForm_Controller->handle(Object(CRM_Financial_Form_Payment), "display")
+#8 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Controller.php(351): HTML_QuickForm_Page->handle("display")
+#9 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Utils/Wrapper.php(113): CRM_Core_Controller->run()
+#10 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(284): CRM_Utils_Wrapper->run("CRM_Financial_Form_Payment", NULL, NULL)
+#11 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(84): CRM_Core_Invoke::runItem((Array:14))
+#12 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(52): CRM_Core_Invoke::_invoke((Array:3))
+#13 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm.php(1227): CRM_Core_Invoke::invoke((Array:3))
+#14 /home/gstc/public_html/wp-content/plugins/civicrm/includes/civicrm.basepage.php(132): CiviCRM_For_WordPress->invoke()
+#15 [internal function](): CiviCRM_For_WordPress_Basepage->basepage_handler(Object(WP))
+#16 /home/gstc/public_html/wp-includes/class-wp-hook.php(298): call_user_func_array((Array:2), (Array:1))
+#17 /home/gstc/public_html/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters("", (Array:1))
+#18 /home/gstc/public_html/wp-includes/plugin.php(515): WP_Hook->do_action((Array:1))
+#19 /home/gstc/public_html/wp-includes/class-wp.php(746): do_action_ref_array("wp", (Array:1))
+#20 /home/gstc/public_html/wp-includes/functions.php(955): WP->main("")
+#21 /home/gstc/public_html/wp-blog-header.php(16): wp()
+#22 /home/gstc/public_html/index.php(17): require("/home/gstc/public_html/wp-blog-header.php")
+#23 {main}
+
+
+Jun 27 07:15:23  [info] $Fatal Error Details = Array
+(
+    [message] => processor_id (value: ) is not of the type Integer
+    [code] => 
+)
+
+
+Jun 27 07:15:23  [info] $backTrace = #0 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Error.php(373): CRM_Core_Error::backtrace("backTrace", TRUE)
+#1 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Utils/Type.php(428): CRM_Core_Error::fatal("processor_id (value: ) is not of the type Integer")
+#2 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Utils/Request.php(110): CRM_Utils_Type::validate("", "Integer", TRUE, "processor_id")
+#3 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Financial/Form/Payment.php(55): CRM_Utils_Request::retrieve("processor_id", "Integer", NULL, TRUE)
+#4 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Form.php(531): CRM_Financial_Form_Payment->preProcess()
+#5 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/QuickForm/Action/Display.php(92): CRM_Core_Form->buildForm()
+#6 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/packages/HTML/QuickForm/Controller.php(203): CRM_Core_QuickForm_Action_Display->perform(Object(CRM_Financial_Form_Payment), "display")
+#7 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/packages/HTML/QuickForm/Page.php(103): HTML_QuickForm_Controller->handle(Object(CRM_Financial_Form_Payment), "display")
+#8 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Controller.php(351): HTML_QuickForm_Page->handle("display")
+#9 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Utils/Wrapper.php(113): CRM_Core_Controller->run()
+#10 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(284): CRM_Utils_Wrapper->run("CRM_Financial_Form_Payment", NULL, NULL)
+#11 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(84): CRM_Core_Invoke::runItem((Array:14))
+#12 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(52): CRM_Core_Invoke::_invoke((Array:3))
+#13 /home/gstc/public_html/wp-content/plugins/civicrm/civicrm.php(1227): CRM_Core_Invoke::invoke((Array:3))
+#14 /home/gstc/public_html/wp-content/plugins/civicrm/includes/civicrm.basepage.php(132): CiviCRM_For_WordPress->invoke()
+#15 [internal function](): CiviCRM_For_WordPress_Basepage->basepage_handler(Object(WP))
+#16 /home/gstc/public_html/wp-includes/class-wp-hook.php(298): call_user_func_array((Array:2), (Array:1))
+#17 /home/gstc/public_html/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters("", (Array:1))
+#18 /home/gstc/public_html/wp-includes/plugin.php(515): WP_Hook->do_action((Array:1))
+#19 /home/gstc/public_html/wp-includes/class-wp.php(746): do_action_ref_array("wp", (Array:1))
+#20 /home/gstc/public_html/wp-includes/functions.php(955): WP->main("")
+#21 /home/gstc/public_html/wp-blog-header.php(16): wp()
+#22 /home/gstc/public_html/index.php(17): require("/home/gstc/public_html/wp-blog-header.php")
+#23 {main}
+
+

@@ -1,0 +1,21 @@
+<?php
+global $default_settings_logo;
+$default_settings_logo=array(
+	'bg_color'=>'#222222', 
+	'height'=>'180',
+	'width'=>'960',
+	'iwidth'=>'0',
+	'border'=>'0',
+	'brcolor'=>'#dddddd',
+	'image_only'=>'1',
+	'img_align'=>'none',
+	'img_height'=>'180',
+	'img_width'=>'',
+	'img_border'=>'0',
+	'img_brcolor'=>'#D8E7EE',
+	'timthumb'=>'1',
+	'bg'=>'1',
+	'show_content'=>'0',
+	'content_from'=>'content'
+);
+?>

@@ -1,0 +1,2881 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Placid Slider\n"
+"POT-Creation-Date: 2017-06-20 12:51+0530\n"
+"PO-Revision-Date: 2016-11-28 14:16+0530\n"
+"Last-Translator: \n"
+"Language-Team: WebFanzine Team <sagar.katarnaware@webfanzine.com>\n"
+"Language: en_GB\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.12\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e;esc_attr__;esc_attr_e;esc_html__;esc_html_e;_x;"
+"_etc\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: css/css\n"
+"X-Poedit-SearchPathExcluded-1: css/images\n"
+"X-Poedit-SearchPathExcluded-2: images\n"
+"X-Poedit-SearchPathExcluded-3: js\n"
+"X-Poedit-SearchPathExcluded-4: languages\n"
+
+#: css/skins/default/functions.php:1111
+msgid "Go to Checkout"
+msgstr ""
+
+#: includes/BFI_Thumb.php:120
+msgid ""
+"The server does not have ImageMagick or GD installed and/or enabled! Any of "
+"these libraries are required for WordPress to be able to resize images. "
+"Please contact your server administrator to enable this before continuing."
+msgstr ""
+
+#: includes/BFI_Thumb.php:235
+msgid "Image rotate failed."
+msgstr ""
+
+#: includes/BFI_Thumb.php:257
+msgid "Image opacity change failed."
+msgstr ""
+
+#: includes/BFI_Thumb.php:335
+msgid "Image color change failed."
+msgstr ""
+
+#: includes/BFI_Thumb.php:351
+msgid "Image grayscale failed."
+msgstr ""
+
+#: includes/BFI_Thumb.php:367
+msgid "Image negate failed."
+msgstr ""
+
+#: includes/addons/events.php:74
+msgid "Please activate event manager plugin"
+msgstr ""
+
+#: includes/addons/fb.php:71 includes/addons/fb.php:100
+msgid "Please Eneter the Facebook API Key on Global Settings!"
+msgstr ""
+
+#: includes/addons/flickr.php:48 settings/admin-ajax.php:745
+msgid "Please enter the correct user"
+msgstr ""
+
+#: includes/addons/flickr.php:86 settings/admin-ajax.php:763
+msgid "Please enter the correct album"
+msgstr ""
+
+#: includes/addons/flickr.php:116 includes/addons/flickr.php:142
+msgid "Please Eneter the flickr Customer Key on Global Settings!"
+msgstr ""
+
+#: includes/addons/instagram.php:48 includes/addons/instagram.php:51
+#: includes/addons/px.php:49 settings/admin-ajax.php:608
+#: settings/admin-ajax.php:817
+msgid "Please enter the correct information"
+msgstr ""
+
+#: includes/addons/instagram.php:76 includes/addons/instagram.php:100
+msgid "Please Eneter the Instagram Access Token on Global Settings!"
+msgstr ""
+
+#: includes/addons/px.php:76 includes/addons/px.php:102
+msgid "Please Eneter the 500px Consumer Key on Global Settings!"
+msgstr ""
+
+#: includes/addons/youtube.php:48
+msgid "Please Enter the correct playlist"
+msgstr ""
+
+#: includes/addons/youtube.php:88
+msgid "No videos found for this search term"
+msgstr ""
+
+#: includes/addons/youtube.php:118 includes/addons/youtube.php:145
+msgid "Please Enter The YouTube API Key on Global Settings!"
+msgstr ""
+
+#: includes/fonts.php:96
+msgid "Google Serif Fonts"
+msgstr ""
+
+#: includes/fonts.php:107
+msgid "Google Sans Serif Fonts"
+msgstr ""
+
+#: includes/fonts.php:118
+msgid "Google Display Fonts"
+msgstr ""
+
+#: includes/fonts.php:129
+msgid "Google Handwriting Fonts"
+msgstr ""
+
+#: includes/fonts.php:140
+msgid "Google Monospace Fonts"
+msgstr ""
+
+#: includes/fonts.php:158 includes/fonts.php:163
+msgid "&mdash; Font Weight &mdash;"
+msgstr ""
+
+#: includes/fonts.php:186
+msgid "&mdash; Font Subset &mdash;"
+msgstr ""
+
+#: includes/help.php:31
+msgid ""
+"Paste your License key in this input box to receive future updates for "
+"Placid Slider."
+msgstr ""
+
+#: includes/help.php:35
+msgid ""
+"You can perform following actions on already created sliders using this "
+"screen:"
+msgstr ""
+
+#: includes/help.php:37
+msgid "Delete Slider"
+msgstr ""
+
+#: includes/help.php:38
+msgid "Rename Slider"
+msgstr ""
+
+#: includes/help.php:39 includes/help.php:67
+msgid "Get Slider Embed Code"
+msgstr ""
+
+#: includes/help.php:40
+msgid "Live Preview the Slider (Click on \"Edit\" Slider)"
+msgstr ""
+
+#: includes/help.php:41
+msgid "Add Slides (Click on \"Edit\" Slider)"
+msgstr ""
+
+#: includes/help.php:42
+msgid "Remove Slides (Click on \"Edit\" Slider)"
+msgstr ""
+
+#: includes/help.php:43
+msgid "Reorder Slides (Click on \"Edit\" Slider)"
+msgstr ""
+
+#: includes/help.php:44
+msgid "Change Slider Settings (Click on \"Edit\" Slider)"
+msgstr ""
+
+#: includes/help.php:45
+msgid "Change Slider Type (Click on \"Edit\" Slider)"
+msgstr ""
+
+#: includes/help.php:50
+msgid "You can create a slider using this panel. Select one of"
+msgstr ""
+
+#: includes/help.php:50
+msgid "19 Slider Types"
+msgstr ""
+
+#: includes/help.php:50
+msgid ""
+" Placid offers and follow the step by step procedure to create your slider. "
+"You can select the layout, name the slider and specify different slider "
+"parameters depending upon the type of slider you wish to create."
+msgstr ""
+
+#: includes/help.php:51
+msgid ""
+"For example, if you want to create Custom Slider, just follow the steps and "
+"finally you will be directed to a panel where you can add different type of "
+"slides (i.e. Posts/Pages/Media Images/Blank Slides etc) to your custom "
+"slider."
+msgstr ""
+
+#: includes/help.php:55
+msgid ""
+"You can edit each Setting Set create individually thru this panel. You can "
+"select to preview any type of slider using the selected setting set. This "
+"panel will generate type specific shortcode which will not be dependent on "
+"whether that slider is being created or not using 'Create New' panel."
+msgstr ""
+
+#: includes/help.php:56
+msgid ""
+"This is an advanced panel for those who wish to use one settings set for "
+"multiple type of sliders or show one type of slider content using different "
+"settings sets."
+msgstr ""
+
+#: includes/help.php:60
+msgid ""
+"These Settings will be applied to all the Sliders Created. You can set who "
+"can add slides to the slider, you can disable Placid Slider metabox on Edit "
+"Posts or Pages etc. Also, if you wish to embed social slider or fetch social "
+"slides in Custom Slider, you will have to enter the repective API keys on "
+"this panel."
+msgstr ""
+
+#: includes/help.php:64
+msgid ""
+"This panel is a all-in-one super panel to manage your created Slider. You can"
+msgstr ""
+
+#: includes/help.php:66
+msgid "Live Preview the Slider"
+msgstr ""
+
+#: includes/help.php:68
+msgid ""
+"Change Slider Settings like auto sliding, transitions, fonts, colors etc."
+msgstr ""
+
+#: includes/help.php:69 settings/easy_builder.php:621
+msgid "Change Slider Type"
+msgstr ""
+
+#: includes/help.php:70
+msgid "Change Slider Parameters"
+msgstr ""
+
+#: includes/help.php:71
+msgid "Add Slides (for Custom/Image Slider)"
+msgstr ""
+
+#: includes/help.php:72
+msgid "Remove Slides (for Custom/Image Slider)"
+msgstr ""
+
+#: includes/help.php:73
+msgid "Reorder Slides (for Custom/Image Slider)"
+msgstr ""
+
+#: includes/help.php:78
+msgid ""
+"Thank you for using SliderVilla Slider. Please find the detailed and updated "
+"documentation for this section and overall Placid Slider on the below guide "
+"page:"
+msgstr ""
+
+#: includes/help.php:79 includes/help.php:121
+msgid "Placid Slider Documentation"
+msgstr ""
+
+#: includes/help.php:82
+msgid ""
+"In case of any issues, you can post your support query on SliderVilla's "
+"dedicated support forum:"
+msgstr ""
+
+#: includes/help.php:83 includes/help.php:123
+msgid "SliderVilla Support Forum"
+msgstr ""
+
+#: includes/help.php:110 placid-slider.php:421 settings/easy_builder.php:1364
+msgid "Placid Slider"
+msgstr ""
+
+#: includes/help.php:119
+msgid "Overview:"
+msgstr ""
+
+#: includes/help.php:119
+msgid ""
+"You can add the current post/page/media image etc to the Slider using Placid "
+"Slider metabox. You can customize each slide properties using this metabox "
+"like should this slide link to permalink or custom url or should not link to "
+"any page, what should be transitions for wach of the slide elements and set "
+"different navigation title, navigation thumb etc."
+msgstr ""
+
+#: includes/help.php:120
+msgid ""
+"Thank you for using SliderVilla Slider. Please find the detailed and updated "
+"documentation for Placid Slider on the below guide page:"
+msgstr ""
+
+#: includes/help.php:122
+msgid "In case of any issues, you can post your support query on the forum:"
+msgstr ""
+
+#: includes/placid-slider-functions.php:236
+msgid "Choose Transition"
+msgstr ""
+
+#: includes/placid-slider-functions.php:237
+msgid "Attention Seekers"
+msgstr ""
+
+#: includes/placid-slider-functions.php:238
+msgid "bounce"
+msgstr ""
+
+#: includes/placid-slider-functions.php:239
+msgid "flash"
+msgstr ""
+
+#: includes/placid-slider-functions.php:240
+msgid "pulse"
+msgstr ""
+
+#: includes/placid-slider-functions.php:241
+msgid "rubberBand"
+msgstr ""
+
+#: includes/placid-slider-functions.php:242
+msgid "shake"
+msgstr ""
+
+#: includes/placid-slider-functions.php:243
+msgid "swing"
+msgstr ""
+
+#: includes/placid-slider-functions.php:244
+msgid "tada"
+msgstr ""
+
+#: includes/placid-slider-functions.php:245
+msgid "wobble"
+msgstr ""
+
+#: includes/placid-slider-functions.php:247
+msgid "Bouncing Entrances"
+msgstr ""
+
+#: includes/placid-slider-functions.php:248
+msgid "bounceIn"
+msgstr ""
+
+#: includes/placid-slider-functions.php:249
+msgid "bounceInDown"
+msgstr ""
+
+#: includes/placid-slider-functions.php:250
+msgid "bounceInLeft"
+msgstr ""
+
+#: includes/placid-slider-functions.php:251
+msgid "bounceInRight"
+msgstr ""
+
+#: includes/placid-slider-functions.php:252
+msgid "bounceInUp"
+msgstr ""
+
+#: includes/placid-slider-functions.php:255
+msgid "Fading Entrances"
+msgstr ""
+
+#: includes/placid-slider-functions.php:256
+msgid "fadeIn"
+msgstr ""
+
+#: includes/placid-slider-functions.php:257
+msgid "fadeInDown"
+msgstr ""
+
+#: includes/placid-slider-functions.php:258
+msgid "fadeInDownBig"
+msgstr ""
+
+#: includes/placid-slider-functions.php:259
+msgid "fadeInLeft"
+msgstr ""
+
+#: includes/placid-slider-functions.php:260
+msgid "fadeInLeftBig"
+msgstr ""
+
+#: includes/placid-slider-functions.php:261
+msgid "fadeInRight"
+msgstr ""
+
+#: includes/placid-slider-functions.php:262
+msgid "fadeInRightBig"
+msgstr ""
+
+#: includes/placid-slider-functions.php:263
+msgid "fadeInUp"
+msgstr ""
+
+#: includes/placid-slider-functions.php:264
+msgid "fadeInUpBig"
+msgstr ""
+
+#: includes/placid-slider-functions.php:267
+msgid "Flippers"
+msgstr ""
+
+#: includes/placid-slider-functions.php:268
+msgid "flip"
+msgstr ""
+
+#: includes/placid-slider-functions.php:269
+msgid "flipInX"
+msgstr ""
+
+#: includes/placid-slider-functions.php:270
+msgid "flipInY"
+msgstr ""
+
+#: includes/placid-slider-functions.php:273
+msgid "Lightspeed"
+msgstr ""
+
+#: includes/placid-slider-functions.php:274
+msgid "lightSpeedIn"
+msgstr ""
+
+#: includes/placid-slider-functions.php:277
+msgid "Rotating Entrances"
+msgstr ""
+
+#: includes/placid-slider-functions.php:278
+msgid "rotateIn"
+msgstr ""
+
+#: includes/placid-slider-functions.php:279
+msgid "rotateInDownLeft"
+msgstr ""
+
+#: includes/placid-slider-functions.php:280
+msgid "rotateInDownRight"
+msgstr ""
+
+#: includes/placid-slider-functions.php:281
+msgid "rotateInUpLeft"
+msgstr ""
+
+#: includes/placid-slider-functions.php:282
+msgid "rotateInUpRight"
+msgstr ""
+
+#: includes/placid-slider-functions.php:285
+msgid "Specials"
+msgstr ""
+
+#: includes/placid-slider-functions.php:286
+msgid "hinge"
+msgstr ""
+
+#: includes/placid-slider-functions.php:287
+msgid "rollIn"
+msgstr ""
+
+#: includes/placid-slider-functions.php:290
+msgid "Zoom Entrances"
+msgstr ""
+
+#: includes/placid-slider-functions.php:291
+msgid "zoomIn"
+msgstr ""
+
+#: includes/placid-slider-functions.php:292
+msgid "zoomInDown"
+msgstr ""
+
+#: includes/placid-slider-functions.php:293
+msgid "zoomInLeft"
+msgstr ""
+
+#: includes/placid-slider-functions.php:294
+msgid "zoomInRight"
+msgstr ""
+
+#: includes/placid-slider-functions.php:295
+msgid "zoomInUp"
+msgstr ""
+
+#: includes/placid-slider-functions.php:298
+msgid "Slide Entrances"
+msgstr ""
+
+#: includes/placid-slider-functions.php:299
+msgid "slideInDown"
+msgstr ""
+
+#: includes/placid-slider-functions.php:300
+msgid "slideInLef"
+msgstr ""
+
+#: includes/placid-slider-functions.php:301
+msgid "slideInRight"
+msgstr ""
+
+#: includes/placid-slider-functions.php:302
+msgid "slideInUp"
+msgstr ""
+
+#: includes/tinymce/format/500pxattr.php:6
+#: includes/tinymce/format/flickrattr.php:7
+#: includes/tinymce/format/vimeoattr.php:7 includes/tinymce/format/ytattr.php:7
+#: settings/admin-ajax.php:1513 settings/admin-ajax.php:1539
+#: settings/admin-ajax.php:1551 settings/create-new.php:653
+#: settings/create-new.php:682 settings/create-new.php:695
+#: settings/easy_builder.php:1060 settings/easy_builder.php:1134
+#: settings/easy_builder.php:1155
+msgid "Select type"
+msgstr ""
+
+#: includes/tinymce/format/500pxattr.php:27
+#: includes/tinymce/format/igattr.php:6 settings/admin-ajax.php:789
+#: settings/admin-ajax.php:1534 settings/admin-ajax.php:1565
+#: settings/create-new.php:676 settings/create-new.php:709
+#: settings/easy_builder.php:1129
+msgid "User Name"
+msgstr ""
+
+#: includes/tinymce/format/default.php:4
+msgid "Embed Already Built Slider"
+msgstr ""
+
+#: includes/tinymce/format/default.php:23 settings/create-new.php:740
+#: settings/easy_builder.php:425 settings/settings.php:458
+msgid "Default Settings Set"
+msgstr ""
+
+#: includes/tinymce/format/default.php:64
+msgid "Build and Embed the Slider"
+msgstr ""
+
+#: includes/tinymce/format/default.php:69 settings/admin-ajax.php:3276
+#: settings/sliders.php:38 settings/sliders.php:47
+msgid "Slider Type"
+msgstr ""
+
+#: includes/tinymce/format/default.php:73
+msgid "Recent Placid Slider"
+msgstr ""
+
+#: includes/tinymce/format/default.php:74
+msgid "Category Placid Slider"
+msgstr ""
+
+#: includes/tinymce/format/default.php:75
+msgid "Custom Slider with Slider ID"
+msgstr ""
+
+#: includes/tinymce/format/default.php:76 settings/easy_builder.php:644
+msgid "Woo Commerce Slider"
+msgstr ""
+
+#: includes/tinymce/format/default.php:77 settings/admin-ajax.php:3286
+msgid "eCommerce Slider"
+msgstr ""
+
+#: includes/tinymce/format/default.php:78 settings/admin-ajax.php:1122
+#: settings/create-new.php:1276
+msgid "Event Manager"
+msgstr ""
+
+#: includes/tinymce/format/default.php:79 settings/admin-ajax.php:1133
+#: settings/create-new.php:1282
+msgid "Event Calendar"
+msgstr ""
+
+#: includes/tinymce/format/default.php:80 settings/admin-ajax.php:1024
+#: settings/admin-ajax.php:1195 settings/admin-ajax.php:3294
+#: settings/create-new.php:318 settings/create-new.php:1206
+#: settings/easy_builder.php:668
+msgid "Taxonomy Slider"
+msgstr ""
+
+#: includes/tinymce/format/default.php:81 settings/admin-ajax.php:1145
+#: settings/admin-ajax.php:3296 settings/create-new.php:1291
+msgid "RSS feed Slider"
+msgstr ""
+
+#: includes/tinymce/format/default.php:82 settings/admin-ajax.php:1141
+#: settings/admin-ajax.php:3298 settings/create-new.php:1288
+msgid "Post Attachments Slider"
+msgstr ""
+
+#: includes/tinymce/format/default.php:83 settings/admin-ajax.php:3301
+msgid "NextGenGallery Slider"
+msgstr ""
+
+#: includes/tinymce/format/default.php:84 settings/admin-ajax.php:1033
+#: settings/admin-ajax.php:1227 settings/create-new.php:358
+#: settings/create-new.php:1214 settings/easy_builder.php:706
+msgid "Facebook Album Slider"
+msgstr ""
+
+#: includes/tinymce/format/default.php:85
+msgid "Flickr Album Slider"
+msgstr ""
+
+#: includes/tinymce/format/default.php:86 settings/admin-ajax.php:1040
+#: settings/admin-ajax.php:1231 settings/create-new.php:363
+#: settings/create-new.php:1219 settings/easy_builder.php:711
+msgid "Instagram Slider"
+msgstr ""
+
+#: includes/tinymce/format/default.php:87
+msgid "500PX Slider"
+msgstr ""
+
+#: includes/tinymce/format/default.php:88
+msgid "Youtube Slider"
+msgstr ""
+
+#: includes/tinymce/format/default.php:89 settings/admin-ajax.php:1076
+#: settings/admin-ajax.php:1223 settings/create-new.php:353
+#: settings/create-new.php:1244 settings/easy_builder.php:701
+msgid "Vimeo Slider"
+msgstr ""
+
+#: includes/tinymce/format/default.php:96 settings/easy_builder.php:415
+msgid "Setting Set"
+msgstr ""
+
+#: includes/tinymce/format/default.php:106 settings/admin-ajax.php:1248
+#: settings/admin-ajax.php:2967 settings/create-new.php:383
+#: settings/easy_builder.php:1195
+msgid "Offset"
+msgstr ""
+
+#: includes/tinymce/format/default.php:113
+msgid "Slider"
+msgstr ""
+
+#: includes/tinymce/format/default.php:123
+#: includes/tinymce/format/emanattr.php:32 settings/admin-ajax.php:1260
+#: settings/create-new.php:396 settings/easy_builder.php:745
+msgid "Category"
+msgstr ""
+
+#: includes/tinymce/format/default.php:136 settings/admin-ajax.php:329
+#: settings/admin-ajax.php:478 settings/admin-ajax.php:544
+#: settings/admin-ajax.php:616 settings/admin-ajax.php:695
+#: settings/admin-ajax.php:773 settings/admin-ajax.php:826
+msgid "Insert"
+msgstr ""
+
+#: includes/tinymce/format/ecalattr.php:17
+#: includes/tinymce/format/ecomattr.php:13
+msgid "Slide type"
+msgstr ""
+
+#: includes/tinymce/format/ecalattr.php:22
+#: includes/tinymce/format/emanattr.php:22 settings/admin-ajax.php:1329
+#: settings/admin-ajax.php:1361 settings/admin-ajax.php:3075
+#: settings/admin-ajax.php:3111 settings/create-new.php:467
+#: settings/create-new.php:499 settings/easy_builder.php:812
+#: settings/easy_builder.php:836
+msgid "Future Events"
+msgstr ""
+
+#: includes/tinymce/format/ecalattr.php:23
+#: includes/tinymce/format/emanattr.php:23 settings/admin-ajax.php:1330
+#: settings/admin-ajax.php:1362 settings/admin-ajax.php:3076
+#: settings/admin-ajax.php:3112 settings/create-new.php:468
+#: settings/create-new.php:500 settings/easy_builder.php:813
+#: settings/easy_builder.php:837
+msgid "Past Events"
+msgstr ""
+
+#: includes/tinymce/format/ecalattr.php:24
+#: includes/tinymce/format/emanattr.php:24 settings/admin-ajax.php:1331
+#: settings/admin-ajax.php:1363 settings/admin-ajax.php:3077
+#: settings/admin-ajax.php:3113 settings/create-new.php:469
+#: settings/create-new.php:501 settings/easy_builder.php:814
+#: settings/easy_builder.php:838
+msgid "Recent Events"
+msgstr ""
+
+#: includes/tinymce/format/ecalattr.php:31
+#: includes/tinymce/format/ecalattr.php:40
+#: includes/tinymce/format/ecomattr.php:27
+#: includes/tinymce/format/wooattr.php:35
+msgid "category"
+msgstr ""
+
+#: includes/tinymce/format/ecalattr.php:48
+#: includes/tinymce/format/ecomattr.php:37
+#: includes/tinymce/format/emanattr.php:49
+msgid "Taxonomy(Read only)"
+msgstr ""
+
+#: includes/tinymce/format/ecomattr.php:18 settings/admin-ajax.php:1305
+#: settings/admin-ajax.php:3041 settings/create-new.php:441
+#: settings/easy_builder.php:792
+msgid "eCom Recent Product Slider"
+msgstr ""
+
+#: includes/tinymce/format/ecomattr.php:19 settings/admin-ajax.php:1306
+#: settings/admin-ajax.php:3042 settings/create-new.php:442
+#: settings/easy_builder.php:793
+msgid "eCom Product Category Slider"
+msgstr ""
+
+#: includes/tinymce/format/emanattr.php:17
+msgid "Slider Scope"
+msgstr ""
+
+#: includes/tinymce/format/emanattr.php:41
+msgid "Tags"
+msgstr ""
+
+#: includes/tinymce/format/fbattr.php:7 settings/admin-ajax.php:633
+#: settings/admin-ajax.php:1525 settings/create-new.php:666
+#: settings/easy_builder.php:1089
+msgid "Page Url"
+msgstr ""
+
+#: includes/tinymce/format/flickrattr.php:21 settings/admin-ajax.php:1546
+#: settings/create-new.php:689
+msgid "User ID"
+msgstr ""
+
+#: includes/tinymce/format/nggattr.php:8 settings/admin-ajax.php:1492
+#: settings/admin-ajax.php:3229 settings/create-new.php:630
+#: settings/easy_builder.php:1036
+msgid "Select Gallery"
+msgstr ""
+
+#: includes/tinymce/format/postattr.php:7
+msgid "Post ID"
+msgstr ""
+
+#: includes/tinymce/format/postattr.php:7
+msgid "Keep empty to pull current post's attachments"
+msgstr ""
+
+#: includes/tinymce/format/rssattr.php:7 settings/admin-ajax.php:1430
+#: settings/create-new.php:566 settings/easy_builder.php:954
+msgid "Feedurl"
+msgstr ""
+
+#: includes/tinymce/format/taxattr.php:9 settings/admin-ajax.php:352
+#: settings/admin-ajax.php:499 settings/admin-ajax.php:1382
+#: settings/admin-ajax.php:3125 settings/create-new.php:519
+#: settings/easy_builder.php:855 settings/easy_builder.php:1272
+msgid "Post Type"
+msgstr ""
+
+#: includes/tinymce/format/taxattr.php:25 settings/admin-ajax.php:1390
+#: settings/admin-ajax.php:2784 settings/admin-ajax.php:2785
+#: settings/admin-ajax.php:2786 settings/admin-ajax.php:3132
+#: settings/create-new.php:527 settings/easy_builder.php:870
+msgid "Taxonomy"
+msgstr ""
+
+#: includes/tinymce/format/vimeoattr.php:21 settings/admin-ajax.php:1520
+#: settings/create-new.php:660
+msgid "Channel Name"
+msgstr ""
+
+#: includes/tinymce/format/wooattr.php:12
+msgid "Slider type"
+msgstr ""
+
+#: includes/tinymce/format/wooattr.php:17 settings/admin-ajax.php:1275
+#: settings/admin-ajax.php:3017 settings/create-new.php:412
+#: settings/easy_builder.php:765
+msgid "Recent Product Slider"
+msgstr ""
+
+#: includes/tinymce/format/wooattr.php:18 settings/admin-ajax.php:1276
+#: settings/admin-ajax.php:3018 settings/create-new.php:413
+#: settings/easy_builder.php:766
+msgid "Upsells Product Slider"
+msgstr ""
+
+#: includes/tinymce/format/wooattr.php:19 settings/admin-ajax.php:1277
+#: settings/admin-ajax.php:3019 settings/create-new.php:414
+#: settings/easy_builder.php:767
+msgid "Crosssells Product Slider"
+msgstr ""
+
+#: includes/tinymce/format/wooattr.php:20 settings/admin-ajax.php:1278
+#: settings/admin-ajax.php:3020 settings/create-new.php:415
+#: settings/easy_builder.php:768
+msgid "External Product Slider"
+msgstr ""
+
+#: includes/tinymce/format/wooattr.php:21 settings/admin-ajax.php:1279
+#: settings/admin-ajax.php:3021 settings/create-new.php:416
+#: settings/easy_builder.php:769
+msgid "Grouped Product Slider"
+msgstr ""
+
+#: includes/tinymce/format/wooattr.php:28
+msgid "Product ID"
+msgstr ""
+
+#: includes/tinymce/format/ytattr.php:21
+msgid "Playlist ID"
+msgstr ""
+
+#: includes/tinymce/window.php:6
+msgid "You are not allowed to be here"
+msgstr ""
+
+#: includes/tinymce/window.php:11
+msgid "Embed Slider"
+msgstr ""
+
+#: includes/tinymce/window.php:58 includes/tinymce/window.php:62
+msgid "Select Slider"
+msgstr ""
+
+#: placid-slider.php:563
+msgid "Basic"
+msgstr ""
+
+#: placid-slider.php:564
+msgid "Transitions"
+msgstr ""
+
+#: placid-slider.php:565
+msgid "Advanced"
+msgstr ""
+
+#: placid-slider.php:571
+msgid "Help ?"
+msgstr ""
+
+#: placid-slider.php:576
+msgid "Add this post/page to"
+msgstr ""
+
+#: placid-slider.php:589
+msgid "Show All"
+msgstr ""
+
+#: placid-slider.php:595
+msgid "Slide Link URL "
+msgstr ""
+
+#: placid-slider.php:596
+msgid "If left empty, it will be by default linked to the permalink."
+msgstr ""
+
+#: placid-slider.php:600
+msgid "Disable Slide Link"
+msgstr ""
+
+#: placid-slider.php:612
+msgid "Slide Transition"
+msgstr ""
+
+#: placid-slider.php:616
+msgid "Transition"
+msgstr ""
+
+#: placid-slider.php:620 settings/admin-ajax.php:1896
+#: settings/admin-ajax.php:3704
+msgid "Duration (seconds)"
+msgstr ""
+
+#: placid-slider.php:624
+msgid "Delay (seconds)"
+msgstr ""
+
+#: placid-slider.php:648
+msgid "Custom Image url"
+msgstr ""
+
+#: placid-slider.php:654
+msgid "Hide Image"
+msgstr ""
+
+#: placid-slider.php:664
+msgid "Slide Link (anchor) attributes "
+msgstr ""
+
+#: placid-slider.php:667
+msgid "e.g. target=\"_blank\" rel=\"external nofollow\""
+msgstr ""
+
+#: placid-slider.php:673
+msgid "Shortcode to Replace Image"
+msgstr ""
+
+#: placid-slider.php:682
+msgid "Expiry Date"
+msgstr ""
+
+#: placid-slider.php:685 settings/settings.php:441
+msgid "None"
+msgstr ""
+
+#: placid-slider.php:693
+msgid "Force Display Slider"
+msgstr ""
+
+#: placid-slider.php:705
+msgid "Force Apply Setting"
+msgstr ""
+
+#: placid-slider.php:738 settings/sliders.php:10
+msgid "Settings"
+msgstr ""
+
+#: placid-slider.php:752
+msgid "SliderVilla Slides"
+msgstr ""
+
+#: placid-slider.php:753
+msgid "SliderVilla Slide"
+msgstr ""
+
+#: placid-slider.php:754
+msgid "Add New"
+msgstr ""
+
+#: placid-slider.php:755
+msgid "Add New SliderVilla Slide"
+msgstr ""
+
+#: placid-slider.php:756
+msgid "Edit SliderVilla Slide"
+msgstr ""
+
+#: placid-slider.php:757
+msgid "New SliderVilla Slide"
+msgstr ""
+
+#: placid-slider.php:758
+msgid "All SliderVilla Slides"
+msgstr ""
+
+#: placid-slider.php:759
+msgid "View SliderVilla Slide"
+msgstr ""
+
+#: placid-slider.php:760
+msgid "Search SliderVilla Slides"
+msgstr ""
+
+#: placid-slider.php:761
+msgid "No SliderVilla slides found"
+msgstr ""
+
+#: placid-slider.php:762
+msgid "No SliderVilla slides found in Trash"
+msgstr ""
+
+#: placid-slider.php:790
+#, php-format
+msgid "SliderVilla Slide updated. <a href=\"%s\">View SliderVilla slide</a>"
+msgstr ""
+
+#: placid-slider.php:791
+msgid "Custom field updated."
+msgstr ""
+
+#: placid-slider.php:792
+msgid "Custom field deleted."
+msgstr ""
+
+#: placid-slider.php:793
+msgid "SliderVilla Slide updated."
+msgstr ""
+
+#: placid-slider.php:795
+#, php-format
+msgid "SliderVilla Slide restored to revision from %s"
+msgstr ""
+
+#: placid-slider.php:796
+#, php-format
+msgid "SliderVilla Slide published. <a href=\"%s\">View SliderVilla slide</a>"
+msgstr ""
+
+#: placid-slider.php:797
+msgid "Placid saved."
+msgstr ""
+
+#: placid-slider.php:798
+#, php-format
+msgid ""
+"SliderVilla Slide submitted. <a target=\"_blank\" href=\"%s\">Preview "
+"SliderVilla slide</a>"
+msgstr ""
+
+#: placid-slider.php:799
+#, php-format
+msgid ""
+"SliderVilla Slides scheduled for: <strong>%1$s</strong>. <a target=\"_blank"
+"\" href=\"%2$s\">Preview SliderVilla slide</a>"
+msgstr ""
+
+#: placid-slider.php:801
+msgid "M j, Y @ G:i"
+msgstr ""
+
+#: placid-slider.php:802
+#, php-format
+msgid ""
+"SliderVilla Slide draft updated. <a target=\"_blank\" href=\"%s\">Preview "
+"SliderVilla slide</a>"
+msgstr ""
+
+#: settings/admin-ajax.php:97 settings/easy_builder.php:515
+msgid "Live Preview"
+msgstr ""
+
+#: settings/admin-ajax.php:218
+msgid "Open Edit Window"
+msgstr ""
+
+#: settings/admin-ajax.php:234 settings/easy_builder.php:1354
+msgid ""
+"No posts/pages have been added to the Slider - You can add respective post/"
+"page to slider on the Edit screen for that Post/Page"
+msgstr ""
+
+#: settings/admin-ajax.php:266 settings/admin-ajax.php:267
+#: settings/admin-ajax.php:268 settings/admin-ajax.php:657
+#: settings/easy_builder.php:1110
+msgid "Albums"
+msgstr ""
+
+#: settings/admin-ajax.php:284 settings/admin-ajax.php:287
+msgid "Please Enter correct url"
+msgstr ""
+
+#: settings/admin-ajax.php:304 settings/admin-ajax.php:529
+msgid "Title"
+msgstr ""
+
+#: settings/admin-ajax.php:308
+msgid "Image"
+msgstr ""
+
+#: settings/admin-ajax.php:309
+msgid "Upload"
+msgstr ""
+
+#: settings/admin-ajax.php:312
+msgid "Slide Url"
+msgstr ""
+
+#: settings/admin-ajax.php:316
+msgid "Description"
+msgstr ""
+
+#: settings/admin-ajax.php:328 settings/admin-ajax.php:543
+msgid "Add More"
+msgstr ""
+
+#: settings/admin-ajax.php:354 settings/admin-ajax.php:501
+msgid "Select Post Type"
+msgstr ""
+
+#: settings/admin-ajax.php:404 settings/admin-ajax.php:723
+#: settings/easy_builder.php:1147 settings/sliders.php:36
+#: settings/sliders.php:45
+msgid "ID"
+msgstr ""
+
+#: settings/admin-ajax.php:405 settings/admin-ajax.php:589
+#: settings/easy_builder.php:1073 settings/easy_builder.php:1184
+#: settings/sliders.php:37 settings/sliders.php:46
+msgid "Name"
+msgstr ""
+
+#: settings/admin-ajax.php:456
+msgid "Page"
+msgstr ""
+
+#: settings/admin-ajax.php:456
+msgid "of"
+msgstr ""
+
+#: settings/admin-ajax.php:457
+msgid "First"
+msgstr ""
+
+#: settings/admin-ajax.php:458
+msgid "Previous"
+msgstr ""
+
+#: settings/admin-ajax.php:467 settings/admin-ajax.php:470
+#: settings/create-new.php:716 settings/create-new.php:912
+#: settings/create-new.php:913 settings/create-new.php:1109
+msgid "Next"
+msgstr ""
+
+#: settings/admin-ajax.php:468 settings/admin-ajax.php:471
+msgid "Last"
+msgstr ""
+
+#: settings/admin-ajax.php:533
+msgid "Video Url"
+msgstr ""
+
+#: settings/admin-ajax.php:573 settings/admin-ajax.php:715
+msgid "Type"
+msgstr ""
+
+#: settings/admin-ajax.php:575 settings/admin-ajax.php:1553
+#: settings/create-new.php:697 settings/easy_builder.php:1171
+msgid "Popular"
+msgstr ""
+
+#: settings/admin-ajax.php:576 settings/admin-ajax.php:1554
+#: settings/create-new.php:698 settings/easy_builder.php:1172
+msgid "Highest Rated"
+msgstr ""
+
+#: settings/admin-ajax.php:577 settings/admin-ajax.php:1555
+#: settings/create-new.php:699 settings/easy_builder.php:1173
+msgid "Upcoming"
+msgstr ""
+
+#: settings/admin-ajax.php:578 settings/admin-ajax.php:1556
+#: settings/create-new.php:700 settings/easy_builder.php:1174
+msgid "Editors"
+msgstr ""
+
+#: settings/admin-ajax.php:579 settings/admin-ajax.php:1557
+#: settings/create-new.php:701 settings/easy_builder.php:1175
+msgid "Fresh Today"
+msgstr ""
+
+#: settings/admin-ajax.php:580 settings/admin-ajax.php:1558
+#: settings/create-new.php:702 settings/easy_builder.php:1176
+msgid "Fresh Yesterday"
+msgstr ""
+
+#: settings/admin-ajax.php:581 settings/admin-ajax.php:1559
+#: settings/create-new.php:703 settings/easy_builder.php:1177
+msgid "Fresh Week"
+msgstr ""
+
+#: settings/admin-ajax.php:582 settings/admin-ajax.php:717
+#: settings/admin-ajax.php:1541 settings/admin-ajax.php:1560
+#: settings/create-new.php:684 settings/create-new.php:704
+#: settings/easy_builder.php:1142 settings/easy_builder.php:1178
+msgid "User"
+msgstr ""
+
+#: settings/admin-ajax.php:583 settings/admin-ajax.php:1561
+#: settings/create-new.php:705 settings/easy_builder.php:1179
+msgid "User favorites"
+msgstr ""
+
+#: settings/admin-ajax.php:585 settings/admin-ajax.php:635
+#: settings/admin-ajax.php:720 settings/admin-ajax.php:791
+#: settings/admin-ajax.php:1527 settings/create-new.php:668
+#: settings/easy_builder.php:1095
+msgid "Connect"
+msgstr ""
+
+#: settings/admin-ajax.php:683 settings/admin-ajax.php:686
+msgid "Please enter correct url"
+msgstr ""
+
+#: settings/admin-ajax.php:718 settings/admin-ajax.php:1516
+#: settings/admin-ajax.php:1542 settings/create-new.php:656
+#: settings/create-new.php:685 settings/easy_builder.php:1069
+#: settings/easy_builder.php:1098 settings/easy_builder.php:1143
+msgid "Album"
+msgstr ""
+
+#: settings/admin-ajax.php:1010 settings/create-new.php:1195
+msgid "WordPress Core"
+msgstr ""
+
+#: settings/admin-ajax.php:1013 settings/admin-ajax.php:1167
+#: settings/admin-ajax.php:3279 settings/create-new.php:283
+#: settings/create-new.php:1197
+msgid "Recent Posts Slider"
+msgstr ""
+
+#: settings/admin-ajax.php:1016 settings/admin-ajax.php:1171
+#: settings/admin-ajax.php:3280 settings/create-new.php:288
+#: settings/create-new.php:1200 settings/easy_builder.php:638
+msgid "Category Slider"
+msgstr ""
+
+#: settings/admin-ajax.php:1020 settings/admin-ajax.php:1175
+#: settings/admin-ajax.php:3281 settings/create-new.php:293
+#: settings/create-new.php:1203 settings/easy_builder.php:625
+msgid "Custom Slider"
+msgstr ""
+
+#: settings/admin-ajax.php:1028 settings/admin-ajax.php:1199
+#: settings/create-new.php:323 settings/create-new.php:1209
+#: settings/easy_builder.php:721
+msgid "Image Slider"
+msgstr ""
+
+#: settings/admin-ajax.php:1030 settings/create-new.php:1211
+msgid "Social Network"
+msgstr ""
+
+#: settings/admin-ajax.php:1035
+msgid "Add Facebook App Key on Global Settings"
+msgstr ""
+
+#: settings/admin-ajax.php:1042
+msgid "Add Instagram Access Token on Global Settings"
+msgstr ""
+
+#: settings/admin-ajax.php:1047 settings/admin-ajax.php:1235
+#: settings/create-new.php:368 settings/create-new.php:1224
+#: settings/easy_builder.php:716
+msgid "Flickr Slider"
+msgstr ""
+
+#: settings/admin-ajax.php:1049
+msgid "Add Flickr API Key on Global Settings"
+msgstr ""
+
+#: settings/admin-ajax.php:1054 settings/admin-ajax.php:1239
+#: settings/create-new.php:373 settings/create-new.php:1229
+#: settings/easy_builder.php:726
+msgid "500px Slider"
+msgstr ""
+
+#: settings/admin-ajax.php:1056
+msgid "Add 500px Consumer Key on Global Settings"
+msgstr ""
+
+#: settings/admin-ajax.php:1060 settings/create-new.php:1232
+msgid "Videos"
+msgstr ""
+
+#: settings/admin-ajax.php:1063 settings/create-new.php:1235
+msgid "YouTube Playlist Slider"
+msgstr ""
+
+#: settings/admin-ajax.php:1065 settings/admin-ajax.php:1072
+msgid "Add Youtube API Key on Global Settings"
+msgstr ""
+
+#: settings/admin-ajax.php:1070 settings/admin-ajax.php:1219
+#: settings/create-new.php:348 settings/create-new.php:1240
+#: settings/easy_builder.php:696
+msgid "YouTube Search Slider"
+msgstr ""
+
+#: settings/admin-ajax.php:1084 settings/create-new.php:1251
+msgid "Gallary Integration"
+msgstr ""
+
+#: settings/admin-ajax.php:1086 settings/admin-ajax.php:1211
+#: settings/create-new.php:338 settings/create-new.php:1253
+#: settings/easy_builder.php:686
+msgid "NextGen Gallery Slider"
+msgstr ""
+
+#: settings/admin-ajax.php:1088
+msgid "Install NextGen Gallery Plugin to use it"
+msgstr ""
+
+#: settings/admin-ajax.php:1092 settings/create-new.php:1256
+msgid "Ecommerce"
+msgstr ""
+
+#: settings/admin-ajax.php:1099 settings/admin-ajax.php:1179
+#: settings/admin-ajax.php:3283 settings/create-new.php:298
+#: settings/create-new.php:1261
+msgid "WooCommerce Slider"
+msgstr ""
+
+#: settings/admin-ajax.php:1101
+msgid "Install WooCommerce Plugin to use it"
+msgstr ""
+
+#: settings/admin-ajax.php:1110 settings/create-new.php:1267
+msgid "WP Ecommerce Slider"
+msgstr ""
+
+#: settings/admin-ajax.php:1112
+msgid "Install WP Ecommerce Plugin to use it"
+msgstr ""
+
+#: settings/admin-ajax.php:1115 settings/create-new.php:1271
+#: settings/easy_builder.php:466
+msgid "Events"
+msgstr ""
+
+#: settings/admin-ajax.php:1124
+msgid "Install Event Manager Plugin to use it"
+msgstr ""
+
+#: settings/admin-ajax.php:1135
+msgid "Install Event Calendar Plugin to use it"
+msgstr ""
+
+#: settings/admin-ajax.php:1139 settings/admin-ajax.php:4325
+#: settings/create-new.php:1286 settings/easy_builder.php:449
+#: settings/settings.php:411
+msgid "Miscellaneous"
+msgstr ""
+
+#: settings/admin-ajax.php:1183 settings/create-new.php:303
+msgid "ECommerce Slider"
+msgstr ""
+
+#: settings/admin-ajax.php:1187 settings/create-new.php:308
+msgid "Event Manager Slider"
+msgstr ""
+
+#: settings/admin-ajax.php:1191 settings/create-new.php:313
+#: settings/easy_builder.php:662
+msgid "Event Calendar Slider"
+msgstr ""
+
+#: settings/admin-ajax.php:1203 settings/create-new.php:328
+msgid "RSS Feed Slider"
+msgstr ""
+
+#: settings/admin-ajax.php:1207 settings/create-new.php:333
+#: settings/easy_builder.php:680
+msgid "Post Attachment Slider"
+msgstr ""
+
+#: settings/admin-ajax.php:1215 settings/create-new.php:343
+#: settings/easy_builder.php:691
+msgid "Youtube Playlist Slider"
+msgstr ""
+
+#: settings/admin-ajax.php:1244 settings/admin-ajax.php:2177
+#: settings/admin-ajax.php:3823 settings/create-new.php:379
+#: settings/easy_builder.php:736
+msgid "Slider Name"
+msgstr ""
+
+#: settings/admin-ajax.php:1273 settings/admin-ajax.php:1303
+#: settings/admin-ajax.php:1359 settings/admin-ajax.php:3015
+#: settings/admin-ajax.php:3039 settings/admin-ajax.php:3109
+#: settings/create-new.php:410 settings/create-new.php:439
+#: settings/create-new.php:497 settings/create-new.php:1192
+#: settings/easy_builder.php:763 settings/easy_builder.php:790
+#: settings/easy_builder.php:810 settings/easy_builder.php:834
+msgid "Select Slider Type"
+msgstr ""
+
+#: settings/admin-ajax.php:1283 settings/create-new.php:420
+msgid "Enter Product"
+msgstr ""
+
+#: settings/admin-ajax.php:1288 settings/admin-ajax.php:1310
+#: settings/admin-ajax.php:1335 settings/admin-ajax.php:1367
+#: settings/admin-ajax.php:2990 settings/admin-ajax.php:3025
+#: settings/admin-ajax.php:3043 settings/admin-ajax.php:3079
+#: settings/admin-ajax.php:3115 settings/create-new.php:425
+#: settings/create-new.php:446 settings/create-new.php:473
+#: settings/create-new.php:505
+msgid "Select Category"
+msgstr ""
+
+#: settings/admin-ajax.php:1327 settings/admin-ajax.php:3073
+#: settings/create-new.php:465
+msgid "Select Slider Scope"
+msgstr ""
+
+#: settings/admin-ajax.php:1340 settings/admin-ajax.php:1372
+#: settings/create-new.php:477 settings/create-new.php:509
+msgid "Select Tags"
+msgstr ""
+
+#: settings/admin-ajax.php:1402 settings/admin-ajax.php:3157
+#: settings/create-new.php:538 settings/easy_builder.php:902
+msgid "Show"
+msgstr ""
+
+#: settings/admin-ajax.php:1404 settings/admin-ajax.php:3159
+#: settings/create-new.php:540 settings/create-new.php:939
+#: settings/create-new.php:949 settings/easy_builder.php:910
+msgid "Default"
+msgstr ""
+
+#: settings/admin-ajax.php:1405 settings/admin-ajax.php:3160
+#: settings/create-new.php:541 settings/easy_builder.php:911
+msgid "One Per Tax"
+msgstr ""
+
+#: settings/admin-ajax.php:1409 settings/admin-ajax.php:3166
+#: settings/create-new.php:545 settings/easy_builder.php:917
+msgid "Operator"
+msgstr ""
+
+#: settings/admin-ajax.php:1411 settings/admin-ajax.php:3168
+#: settings/create-new.php:547 settings/easy_builder.php:926
+msgid "IN"
+msgstr ""
+
+#: settings/admin-ajax.php:1412 settings/admin-ajax.php:3169
+#: settings/create-new.php:548 settings/easy_builder.php:927
+msgid "NOT IN"
+msgstr ""
+
+#: settings/admin-ajax.php:1413 settings/admin-ajax.php:3170
+#: settings/create-new.php:549 settings/easy_builder.php:928
+msgid "AND"
+msgstr ""
+
+#: settings/admin-ajax.php:1417 settings/admin-ajax.php:3172
+#: settings/create-new.php:553 settings/easy_builder.php:934
+msgid "Author"
+msgstr ""
+
+#: settings/admin-ajax.php:1435 settings/admin-ajax.php:3187
+#: settings/create-new.php:571 settings/easy_builder.php:959
+msgid "RSS Slider Id"
+msgstr ""
+
+#: settings/admin-ajax.php:1440 settings/create-new.php:576
+#: settings/easy_builder.php:964
+msgid "Default image"
+msgstr ""
+
+#: settings/admin-ajax.php:1445 settings/admin-ajax.php:3189
+#: settings/create-new.php:581 settings/easy_builder.php:969
+msgid "Image Class"
+msgstr ""
+
+#: settings/admin-ajax.php:1450 settings/admin-ajax.php:3191
+#: settings/admin-ajax.php:4229 settings/create-new.php:586
+#: settings/easy_builder.php:974
+msgid "Source"
+msgstr ""
+
+#: settings/admin-ajax.php:1452 settings/admin-ajax.php:1460
+#: settings/admin-ajax.php:1472 settings/admin-ajax.php:3193
+#: settings/admin-ajax.php:3203 settings/admin-ajax.php:3214
+#: settings/create-new.php:588 settings/create-new.php:596
+#: settings/create-new.php:608 settings/easy_builder.php:982
+#: settings/easy_builder.php:993 settings/easy_builder.php:1008
+msgid "Other"
+msgstr ""
+
+#: settings/admin-ajax.php:1453 settings/admin-ajax.php:3194
+#: settings/create-new.php:589 settings/easy_builder.php:983
+msgid "Smugmug"
+msgstr ""
+
+#: settings/admin-ajax.php:1458 settings/admin-ajax.php:3201
+#: settings/create-new.php:594 settings/easy_builder.php:989
+msgid "Feed"
+msgstr ""
+
+#: settings/admin-ajax.php:1461 settings/admin-ajax.php:3204
+#: settings/create-new.php:597 settings/easy_builder.php:994
+msgid "Atom"
+msgstr ""
+
+#: settings/admin-ajax.php:1466 settings/admin-ajax.php:2078
+#: settings/admin-ajax.php:2201 settings/admin-ajax.php:2249
+#: settings/admin-ajax.php:2308 settings/admin-ajax.php:2386
+#: settings/admin-ajax.php:3208 settings/admin-ajax.php:4309
+#: settings/create-new.php:602 settings/easy_builder.php:1000
+msgid "Size"
+msgstr ""
+
+#: settings/admin-ajax.php:1468 settings/admin-ajax.php:3210
+#: settings/create-new.php:604 settings/easy_builder.php:1004
+msgid "Tiny thumbnails"
+msgstr ""
+
+#: settings/admin-ajax.php:1469 settings/admin-ajax.php:3211
+#: settings/create-new.php:605 settings/easy_builder.php:1005
+msgid "Large thumbnails"
+msgstr ""
+
+#: settings/admin-ajax.php:1470 settings/admin-ajax.php:3212
+#: settings/create-new.php:606 settings/easy_builder.php:1006
+msgid "Small"
+msgstr ""
+
+#: settings/admin-ajax.php:1471 settings/admin-ajax.php:3213
+#: settings/create-new.php:607 settings/easy_builder.php:1007
+msgid "Medium"
+msgstr ""
+
+#: settings/admin-ajax.php:1473 settings/admin-ajax.php:3215
+#: settings/create-new.php:609 settings/easy_builder.php:1009
+msgid "Large"
+msgstr ""
+
+#: settings/admin-ajax.php:1474 settings/admin-ajax.php:3216
+#: settings/create-new.php:610 settings/easy_builder.php:1010
+msgid "X2Large"
+msgstr ""
+
+#: settings/admin-ajax.php:1475 settings/admin-ajax.php:3217
+#: settings/create-new.php:611 settings/easy_builder.php:1011
+msgid "X3Large"
+msgstr ""
+
+#: settings/admin-ajax.php:1476 settings/admin-ajax.php:3218
+#: settings/create-new.php:612 settings/easy_builder.php:1012
+msgid "Original"
+msgstr ""
+
+#: settings/admin-ajax.php:1481 settings/admin-ajax.php:3222
+#: settings/create-new.php:617 settings/easy_builder.php:1018
+msgid "Scan child node content for images"
+msgstr ""
+
+#: settings/admin-ajax.php:1486 settings/admin-ajax.php:3225
+#: settings/create-new.php:623 settings/easy_builder.php:1027
+msgid "Post Id"
+msgstr ""
+
+#: settings/admin-ajax.php:1498 settings/admin-ajax.php:3233
+#: settings/create-new.php:636 settings/easy_builder.php:1045
+msgid "Link"
+msgstr ""
+
+#: settings/admin-ajax.php:1503 settings/create-new.php:641
+#: settings/easy_builder.php:1050
+msgid "Playlist id"
+msgstr ""
+
+#: settings/admin-ajax.php:1508 settings/admin-ajax.php:2810
+#: settings/admin-ajax.php:2811 settings/admin-ajax.php:2812
+#: settings/admin-ajax.php:3143 settings/create-new.php:647
+#: settings/easy_builder.php:885 settings/easy_builder.php:1055
+msgid "Term"
+msgstr ""
+
+#: settings/admin-ajax.php:1515 settings/create-new.php:655
+#: settings/easy_builder.php:1068
+msgid "Channel"
+msgstr ""
+
+#: settings/admin-ajax.php:1570 settings/easy_builder.php:1200
+msgid "Update"
+msgstr ""
+
+#: settings/admin-ajax.php:1571 settings/create-new.php:715
+#: settings/create-new.php:911 settings/create-new.php:1108
+msgid "Back"
+msgstr ""
+
+#: settings/admin-ajax.php:1779 settings/admin-ajax.php:3313
+msgid "Skin"
+msgstr ""
+
+#: settings/admin-ajax.php:1793 settings/admin-ajax.php:3624
+msgid "Speed"
+msgstr ""
+
+#: settings/admin-ajax.php:1798 settings/admin-ajax.php:3637
+msgid "Frame Rate"
+msgstr ""
+
+#: settings/admin-ajax.php:1803 settings/admin-ajax.php:3648
+msgid "No. of Posts"
+msgstr ""
+
+#: settings/admin-ajax.php:1808 settings/admin-ajax.php:3653
+msgid "Orientation"
+msgstr ""
+
+#: settings/admin-ajax.php:1810 settings/admin-ajax.php:3655
+msgid "Horizontal"
+msgstr ""
+
+#: settings/admin-ajax.php:1811 settings/admin-ajax.php:3656
+msgid "Vertical"
+msgstr ""
+
+#: settings/admin-ajax.php:1816 settings/admin-ajax.php:3662
+#: settings/create-new.php:969
+msgid "Reverse Direction"
+msgstr ""
+
+#: settings/admin-ajax.php:1826 settings/admin-ajax.php:1836
+#: settings/admin-ajax.php:3675
+msgid "Width"
+msgstr ""
+
+#: settings/admin-ajax.php:1827 settings/admin-ajax.php:1832
+#: settings/admin-ajax.php:1837 settings/admin-ajax.php:1842
+#: settings/admin-ajax.php:1847 settings/admin-ajax.php:1852
+#: settings/admin-ajax.php:1885 settings/admin-ajax.php:3677
+#: settings/admin-ajax.php:3688 settings/admin-ajax.php:3718
+#: settings/admin-ajax.php:3729 settings/admin-ajax.php:3742
+#: settings/admin-ajax.php:3753 settings/admin-ajax.php:3770
+#: settings/admin-ajax.php:3787 settings/admin-ajax.php:3853
+#: settings/admin-ajax.php:3913 settings/admin-ajax.php:4034
+#: settings/admin-ajax.php:4214 settings/admin-ajax.php:4258
+#: settings/admin-ajax.php:4627 settings/admin-ajax.php:4690
+#: settings/admin-ajax.php:4814 settings/admin-ajax.php:4874
+#: settings/admin-ajax.php:4929
+msgid "px"
+msgstr ""
+
+#: settings/admin-ajax.php:1831 settings/admin-ajax.php:1841
+#: settings/admin-ajax.php:3687
+msgid "Height"
+msgstr ""
+
+#: settings/admin-ajax.php:1846 settings/admin-ajax.php:3741
+msgid "Slide Width"
+msgstr ""
+
+#: settings/admin-ajax.php:1851 settings/admin-ajax.php:3752
+msgid "Slide Height"
+msgstr ""
+
+#: settings/admin-ajax.php:1856 settings/admin-ajax.php:3757
+msgid "Background"
+msgstr ""
+
+#: settings/admin-ajax.php:1865
+msgid "Enable Transparent Background"
+msgstr ""
+
+#: settings/admin-ajax.php:1869 settings/admin-ajax.php:2088
+msgid "Border"
+msgstr ""
+
+#: settings/admin-ajax.php:1872 settings/admin-ajax.php:2091
+msgid "Thickness"
+msgstr ""
+
+#: settings/admin-ajax.php:1876 settings/admin-ajax.php:2095
+#: settings/admin-ajax.php:2196 settings/admin-ajax.php:2244
+#: settings/admin-ajax.php:2303
+msgid "Color"
+msgstr ""
+
+#: settings/admin-ajax.php:1884
+msgid "Spacing"
+msgstr ""
+
+#: settings/admin-ajax.php:1890 settings/admin-ajax.php:3697
+msgid "Slide animation"
+msgstr ""
+
+#: settings/admin-ajax.php:1901 settings/admin-ajax.php:3710
+msgid "Delay time (seconds)"
+msgstr ""
+
+#: settings/admin-ajax.php:1905 settings/admin-ajax.php:2014
+#: settings/admin-ajax.php:2161 settings/admin-ajax.php:2355
+#: settings/admin-ajax.php:2393 settings/admin-ajax.php:2542
+#: settings/admin-ajax.php:2707 settings/admin-ajax.php:3793
+#: settings/admin-ajax.php:3869 settings/admin-ajax.php:3943
+#: settings/admin-ajax.php:4167 settings/admin-ajax.php:4269
+#: settings/admin-ajax.php:4315 settings/admin-ajax.php:4580
+#: settings/admin-ajax.php:4642 settings/admin-ajax.php:4705
+#: settings/admin-ajax.php:4767 settings/admin-ajax.php:4829
+#: settings/admin-ajax.php:4889 settings/admin-ajax.php:4956
+#: settings/global_settings.php:127 settings/license.php:20
+#: settings/settings.php:416
+msgid "Save Changes"
+msgstr ""
+
+#: settings/admin-ajax.php:1906 settings/admin-ajax.php:2015
+#: settings/admin-ajax.php:2162 settings/admin-ajax.php:2356
+#: settings/admin-ajax.php:2394 settings/admin-ajax.php:2543
+#: settings/admin-ajax.php:2708 settings/admin-ajax.php:3332
+#: settings/admin-ajax.php:3794 settings/admin-ajax.php:3870
+#: settings/admin-ajax.php:3944 settings/admin-ajax.php:4168
+#: settings/admin-ajax.php:4270 settings/admin-ajax.php:4316
+#: settings/admin-ajax.php:4643 settings/admin-ajax.php:4706
+#: settings/admin-ajax.php:4768 settings/admin-ajax.php:4830
+#: settings/admin-ajax.php:4890 settings/admin-ajax.php:4957
+msgid "Undo"
+msgstr ""
+
+#: settings/admin-ajax.php:1912 settings/admin-ajax.php:4366
+msgid "Pause On Hover"
+msgstr ""
+
+#: settings/admin-ajax.php:1921 settings/admin-ajax.php:4382
+msgid "Lightbox Effect"
+msgstr ""
+
+#: settings/admin-ajax.php:1931 settings/admin-ajax.php:4400
+msgid "Select LightBox"
+msgstr ""
+
+#: settings/admin-ajax.php:1933 settings/admin-ajax.php:4404
+msgid "PrettyPhoto"
+msgstr ""
+
+#: settings/admin-ajax.php:1934 settings/admin-ajax.php:4405
+msgid "Nivo box"
+msgstr ""
+
+#: settings/admin-ajax.php:1935 settings/admin-ajax.php:4406
+msgid "Photo box"
+msgstr ""
+
+#: settings/admin-ajax.php:1936 settings/admin-ajax.php:4407
+msgid "Smooth box"
+msgstr ""
+
+#: settings/admin-ajax.php:1937 settings/admin-ajax.php:4408
+msgid "Swipe box"
+msgstr ""
+
+#: settings/admin-ajax.php:1941
+msgid "Read more Text"
+msgstr ""
+
+#: settings/admin-ajax.php:1946
+msgid "Retain tags"
+msgstr ""
+
+#: settings/admin-ajax.php:1951
+msgid "Link attributes  "
+msgstr ""
+
+#: settings/admin-ajax.php:1956 settings/admin-ajax.php:4443
+msgid "Disable Slider view"
+msgstr ""
+
+#: settings/admin-ajax.php:1965 settings/admin-ajax.php:4459
+msgid "Enable FOUC"
+msgstr ""
+
+#: settings/admin-ajax.php:1974
+msgid "Custom fields"
+msgstr ""
+
+#: settings/admin-ajax.php:1979 settings/admin-ajax.php:4425
+msgid "Append Slides Counter"
+msgstr ""
+
+#: settings/admin-ajax.php:1981 settings/admin-ajax.php:4428
+msgid "0"
+msgstr ""
+
+#: settings/admin-ajax.php:1982 settings/admin-ajax.php:4429
+msgid "1"
+msgstr ""
+
+#: settings/admin-ajax.php:1983 settings/admin-ajax.php:4430
+msgid "2"
+msgstr ""
+
+#: settings/admin-ajax.php:1984 settings/admin-ajax.php:4431
+msgid "3"
+msgstr ""
+
+#: settings/admin-ajax.php:1989
+msgid "Randomize slides"
+msgstr ""
+
+#: settings/admin-ajax.php:1997 settings/admin-ajax.php:4475
+msgid "Do not link slide to any url"
+msgstr ""
+
+#: settings/admin-ajax.php:2005 settings/admin-ajax.php:4485
+msgid "Disable Slider on Mobiles and Tablets"
+msgstr ""
+
+#: settings/admin-ajax.php:2031 settings/admin-ajax.php:3953
+msgid "Image Source"
+msgstr ""
+
+#: settings/admin-ajax.php:2038 settings/admin-ajax.php:3969
+msgid "Custom field"
+msgstr ""
+
+#: settings/admin-ajax.php:2040 settings/admin-ajax.php:3971
+msgid "(Set custom field name on Default Settings)"
+msgstr ""
+
+#: settings/admin-ajax.php:2049 settings/admin-ajax.php:3981
+msgid "Featured Image"
+msgstr ""
+
+#: settings/admin-ajax.php:2058 settings/admin-ajax.php:3990
+msgid "Attached image,order"
+msgstr ""
+
+#: settings/admin-ajax.php:2068 settings/admin-ajax.php:4000
+msgid "Scan content"
+msgstr ""
+
+#: settings/admin-ajax.php:2072 settings/admin-ajax.php:4018
+msgid "Fetched Image size"
+msgstr ""
+
+#: settings/admin-ajax.php:2102 settings/admin-ajax.php:4056
+msgid "Cropping"
+msgstr ""
+
+#: settings/admin-ajax.php:2103 settings/admin-ajax.php:4058
+msgid "OFF"
+msgstr ""
+
+#: settings/admin-ajax.php:2105 settings/admin-ajax.php:4066
+msgid "ON (Hard cropping using php)"
+msgstr ""
+
+#: settings/admin-ajax.php:2107 settings/admin-ajax.php:4074
+msgid "ON (Image Positioning using JS)"
+msgstr ""
+
+#: settings/admin-ajax.php:2115
+msgid "X-axis"
+msgstr ""
+
+#: settings/admin-ajax.php:2119
+msgid "Y-axis"
+msgstr ""
+
+#: settings/admin-ajax.php:2125
+msgid "Image title on hover"
+msgstr ""
+
+#: settings/admin-ajax.php:2135
+msgid "Pure image slider"
+msgstr ""
+
+#: settings/admin-ajax.php:2144
+msgid "Grayscale image"
+msgstr ""
+
+#: settings/admin-ajax.php:2153 settings/admin-ajax.php:3188
+#: settings/admin-ajax.php:4149
+msgid "Default Image"
+msgstr ""
+
+#: settings/admin-ajax.php:2169
+msgid "Default Text"
+msgstr ""
+
+#: settings/admin-ajax.php:2174
+msgid "Pick Title From"
+msgstr ""
+
+#: settings/admin-ajax.php:2176 settings/admin-ajax.php:3815
+#: settings/admin-ajax.php:3822
+msgid "Default Title Text"
+msgstr ""
+
+#: settings/admin-ajax.php:2182 settings/admin-ajax.php:2230
+#: settings/admin-ajax.php:2289 settings/admin-ajax.php:2410
+#: settings/admin-ajax.php:2456 settings/admin-ajax.php:2497
+#: settings/admin-ajax.php:2586 settings/admin-ajax.php:2630
+#: settings/admin-ajax.php:2860 settings/admin-ajax.php:2909
+msgid "Font"
+msgstr ""
+
+#: settings/admin-ajax.php:2206 settings/admin-ajax.php:2254
+#: settings/admin-ajax.php:2313
+msgid "Style"
+msgstr ""
+
+#: settings/admin-ajax.php:2208 settings/admin-ajax.php:2256
+#: settings/admin-ajax.php:2315 settings/admin-ajax.php:2436
+#: settings/admin-ajax.php:2479 settings/admin-ajax.php:2520
+#: settings/admin-ajax.php:2611 settings/admin-ajax.php:2656
+#: settings/admin-ajax.php:3859 settings/admin-ajax.php:3919
+#: settings/admin-ajax.php:4220 settings/admin-ajax.php:4633
+#: settings/admin-ajax.php:4696 settings/admin-ajax.php:4820
+#: settings/admin-ajax.php:4880 settings/admin-ajax.php:4934
+msgid "Bold"
+msgstr ""
+
+#: settings/admin-ajax.php:2209 settings/admin-ajax.php:2257
+#: settings/admin-ajax.php:2316 settings/admin-ajax.php:2437
+#: settings/admin-ajax.php:2480 settings/admin-ajax.php:2521
+#: settings/admin-ajax.php:2612 settings/admin-ajax.php:2657
+#: settings/admin-ajax.php:3860 settings/admin-ajax.php:3920
+#: settings/admin-ajax.php:4221 settings/admin-ajax.php:4634
+#: settings/admin-ajax.php:4697 settings/admin-ajax.php:4821
+#: settings/admin-ajax.php:4881 settings/admin-ajax.php:4935
+msgid "Bold Italic"
+msgstr ""
+
+#: settings/admin-ajax.php:2210 settings/admin-ajax.php:2258
+#: settings/admin-ajax.php:2317 settings/admin-ajax.php:2438
+#: settings/admin-ajax.php:2481 settings/admin-ajax.php:2522
+#: settings/admin-ajax.php:2613 settings/admin-ajax.php:2658
+#: settings/admin-ajax.php:3861 settings/admin-ajax.php:3921
+#: settings/admin-ajax.php:4222 settings/admin-ajax.php:4635
+#: settings/admin-ajax.php:4698 settings/admin-ajax.php:4822
+#: settings/admin-ajax.php:4882 settings/admin-ajax.php:4936
+msgid "Italic"
+msgstr ""
+
+#: settings/admin-ajax.php:2211 settings/admin-ajax.php:2259
+#: settings/admin-ajax.php:2318 settings/admin-ajax.php:2439
+#: settings/admin-ajax.php:2482 settings/admin-ajax.php:2523
+#: settings/admin-ajax.php:2614 settings/admin-ajax.php:2659
+#: settings/admin-ajax.php:3862 settings/admin-ajax.php:3922
+#: settings/admin-ajax.php:4223 settings/admin-ajax.php:4636
+#: settings/admin-ajax.php:4699 settings/admin-ajax.php:4823
+#: settings/admin-ajax.php:4883 settings/admin-ajax.php:4937
+msgid "Normal"
+msgstr ""
+
+#: settings/admin-ajax.php:2221 settings/admin-ajax.php:3875
+#: settings/admin-ajax.php:3879
+msgid "Post Title"
+msgstr ""
+
+#: settings/admin-ajax.php:2264 settings/admin-ajax.php:3928
+msgid "HTML element"
+msgstr ""
+
+#: settings/admin-ajax.php:2280 settings/admin-ajax.php:4181
+msgid "Content"
+msgstr ""
+
+#: settings/admin-ajax.php:2324
+msgid "source"
+msgstr ""
+
+#: settings/admin-ajax.php:2326 settings/admin-ajax.php:4232
+msgid "Slider Content Custom field"
+msgstr ""
+
+#: settings/admin-ajax.php:2327 settings/admin-ajax.php:4233
+msgid "Post Excerpt"
+msgstr ""
+
+#: settings/admin-ajax.php:2328 settings/admin-ajax.php:4234
+msgid "From Content"
+msgstr ""
+
+#: settings/admin-ajax.php:2333 settings/admin-ajax.php:4241
+msgid "Length"
+msgstr ""
+
+#: settings/admin-ajax.php:2337 settings/admin-ajax.php:4245
+msgid " words"
+msgstr ""
+
+#: settings/admin-ajax.php:2342 settings/admin-ajax.php:4250
+msgid " Characters"
+msgstr ""
+
+#: settings/admin-ajax.php:2349
+msgid "Overlay width"
+msgstr ""
+
+#: settings/admin-ajax.php:2362 settings/admin-ajax.php:4281
+msgid "Arrows"
+msgstr ""
+
+#: settings/admin-ajax.php:2370
+msgid "Choose Arrow"
+msgstr ""
+
+#: settings/admin-ajax.php:2401 settings/admin-ajax.php:4779
+msgid "Event date-time"
+msgstr ""
+
+#: settings/admin-ajax.php:2424 settings/admin-ajax.php:2469
+#: settings/admin-ajax.php:2510 settings/admin-ajax.php:2600
+#: settings/admin-ajax.php:2645 settings/admin-ajax.php:3847
+#: settings/admin-ajax.php:3907 settings/admin-ajax.php:4208
+#: settings/admin-ajax.php:4621 settings/admin-ajax.php:4684
+#: settings/admin-ajax.php:4808 settings/admin-ajax.php:4868
+#: settings/admin-ajax.php:4924
+msgid "Font Color"
+msgstr ""
+
+#: settings/admin-ajax.php:2429 settings/admin-ajax.php:2473
+#: settings/admin-ajax.php:2514 settings/admin-ajax.php:2604
+#: settings/admin-ajax.php:2649 settings/admin-ajax.php:3852
+#: settings/admin-ajax.php:3912 settings/admin-ajax.php:4213
+#: settings/admin-ajax.php:4626 settings/admin-ajax.php:4689
+#: settings/admin-ajax.php:4813 settings/admin-ajax.php:4873
+#: settings/admin-ajax.php:4928
+msgid "Font Size"
+msgstr ""
+
+#: settings/admin-ajax.php:2434 settings/admin-ajax.php:2477
+#: settings/admin-ajax.php:2518 settings/admin-ajax.php:2609
+#: settings/admin-ajax.php:2654 settings/admin-ajax.php:3857
+#: settings/admin-ajax.php:3917 settings/admin-ajax.php:4218
+#: settings/admin-ajax.php:4631 settings/admin-ajax.php:4694
+#: settings/admin-ajax.php:4818 settings/admin-ajax.php:4878
+#: settings/admin-ajax.php:4932
+msgid "Font Style"
+msgstr ""
+
+#: settings/admin-ajax.php:2448 settings/admin-ajax.php:4837
+msgid "Event address"
+msgstr ""
+
+#: settings/admin-ajax.php:2489
+msgid "Event category"
+msgstr ""
+
+#: settings/admin-ajax.php:2531 settings/admin-ajax.php:4943
+msgid "Event Description"
+msgstr ""
+
+#: settings/admin-ajax.php:2555
+msgid "Slide Sale strip "
+msgstr ""
+
+#: settings/admin-ajax.php:2563 settings/admin-ajax.php:4565
+msgid "Strip Text"
+msgstr ""
+
+#: settings/admin-ajax.php:2567 settings/admin-ajax.php:4570
+msgid "Strip Color"
+msgstr ""
+
+#: settings/admin-ajax.php:2571 settings/admin-ajax.php:4575
+msgid "Text Color"
+msgstr ""
+
+#: settings/admin-ajax.php:2578
+msgid "Slide Regular price "
+msgstr ""
+
+#: settings/admin-ajax.php:2622
+msgid "Slide Sale price"
+msgstr ""
+
+#: settings/admin-ajax.php:2665 settings/admin-ajax.php:4712
+#: settings/admin-ajax.php:4717
+msgid "Stars"
+msgstr ""
+
+#: settings/admin-ajax.php:2865 settings/admin-ajax.php:2913
+msgid ""
+"This value will be fallback font if Google web font value is specified below"
+msgstr ""
+
+#: settings/admin-ajax.php:2875 settings/admin-ajax.php:2922
+msgid "Google Web Font"
+msgstr ""
+
+#: settings/admin-ajax.php:2883 settings/admin-ajax.php:2928
+msgid "Google Font Weight"
+msgstr ""
+
+#: settings/admin-ajax.php:2891 settings/admin-ajax.php:2935
+msgid "Google Font Subset"
+msgstr ""
+
+#: settings/admin-ajax.php:2899 settings/admin-ajax.php:2942
+msgid "Custom Font"
+msgstr ""
+
+#: settings/admin-ajax.php:2963
+msgid "Choose Sub Type"
+msgstr ""
+
+#: settings/admin-ajax.php:2966
+msgid "Preview Slider Params"
+msgstr ""
+
+#: settings/admin-ajax.php:2981
+msgid "Select Slider Name"
+msgstr ""
+
+#: settings/admin-ajax.php:3023 settings/easy_builder.php:773
+msgid "Product"
+msgstr ""
+
+#: settings/admin-ajax.php:3081 settings/admin-ajax.php:3117
+msgid "Select Tag"
+msgstr ""
+
+#: settings/admin-ajax.php:3186
+msgid "Feed Url"
+msgstr ""
+
+#: settings/admin-ajax.php:3259
+msgid "Slider Live Preview and Source Panel"
+msgstr ""
+
+#: settings/admin-ajax.php:3264
+msgid "Disable Live Preview"
+msgstr ""
+
+#: settings/admin-ajax.php:3289
+msgid "Events Manager Slider"
+msgstr ""
+
+#: settings/admin-ajax.php:3292
+msgid "Events Calendar Slider"
+msgstr ""
+
+#: settings/admin-ajax.php:3331
+msgid "Save and Preview Slider"
+msgstr ""
+
+#: settings/admin-ajax.php:3335 settings/easy_builder.php:532
+#: settings/sliders.php:39 settings/sliders.php:48
+msgid "Shortcode"
+msgstr ""
+
+#: settings/admin-ajax.php:3455 settings/easy_builder.php:536
+#: settings/sliders.php:40 settings/sliders.php:49
+msgid "Template Tag"
+msgstr ""
+
+#: settings/admin-ajax.php:3619 settings/easy_builder.php:445
+#: settings/settings.php:401
+msgid "Basic Settings"
+msgstr ""
+
+#: settings/admin-ajax.php:3628
+msgid ""
+"Speed of the slide animation, Higher value indicates faster. Enter value "
+"like 1 or 2 or 3 etc. Caution: Do not enter decimal values"
+msgstr ""
+
+#: settings/admin-ajax.php:3641
+msgid "Frame rate for the slide animation, Lower value indicates slower speed"
+msgstr ""
+
+#: settings/admin-ajax.php:3680 settings/admin-ajax.php:3721
+msgid "If set to 0, will take the container's width"
+msgstr ""
+
+#: settings/admin-ajax.php:3691 settings/admin-ajax.php:3733
+msgid ""
+"Visible height of the slider whent vertical orientation is selected. This "
+"height is excluding Slider title height"
+msgstr ""
+
+#: settings/admin-ajax.php:3717
+msgid "Complete Slider Width"
+msgstr ""
+
+#: settings/admin-ajax.php:3728
+msgid "Complete Slider Height"
+msgstr ""
+
+#: settings/admin-ajax.php:3745
+msgid ""
+"Either keep it blank for variable width items or Enter numeric value > 0"
+msgstr ""
+
+#: settings/admin-ajax.php:3764
+msgid " Use Transparent Background"
+msgstr ""
+
+#: settings/admin-ajax.php:3769
+msgid "Slide Border Thickness"
+msgstr ""
+
+#: settings/admin-ajax.php:3773
+msgid "Put 0 if no border is required"
+msgstr ""
+
+#: settings/admin-ajax.php:3780
+msgid "Slide Border Color"
+msgstr ""
+
+#: settings/admin-ajax.php:3786
+msgid "Space between slide"
+msgstr ""
+
+#: settings/admin-ajax.php:3811
+msgid "Slider Title"
+msgstr ""
+
+#: settings/admin-ajax.php:3820
+msgid "Pick Slider Title From"
+msgstr ""
+
+#: settings/admin-ajax.php:3829 settings/admin-ajax.php:3891
+#: settings/admin-ajax.php:4192 settings/admin-ajax.php:4604
+#: settings/admin-ajax.php:4667 settings/admin-ajax.php:4791
+#: settings/admin-ajax.php:4852 settings/admin-ajax.php:4909
+msgid "Font Type"
+msgstr ""
+
+#: settings/admin-ajax.php:3949
+msgid "Slide Image"
+msgstr ""
+
+#: settings/admin-ajax.php:3956
+msgid ""
+"The first one is having priority over second, the second having priority on "
+"third and so on"
+msgstr ""
+
+#: settings/admin-ajax.php:4008
+msgid "Align to"
+msgstr ""
+
+#: settings/admin-ajax.php:4010
+msgid "Left"
+msgstr ""
+
+#: settings/admin-ajax.php:4011
+msgid "Right"
+msgstr ""
+
+#: settings/admin-ajax.php:4012
+msgid "Center"
+msgstr ""
+
+#: settings/admin-ajax.php:4025
+msgid ""
+"This is for fast page load, in case you choose 'Custom Size' setting from "
+"below, you would not like to extract 'full' size image from the media "
+"library. In this case you can use, 'medium' or 'thumbnail' image. This is "
+"because, for every image upload to the media gallery WordPress creates four "
+"sizes of the same image. So you can choose which to load in the slider and "
+"then specify the actual size."
+msgstr ""
+
+#: settings/admin-ajax.php:4032
+msgid "Image Size"
+msgstr ""
+
+#: settings/admin-ajax.php:4039
+msgid "Border Thickness"
+msgstr ""
+
+#: settings/admin-ajax.php:4043
+msgid "put 0 if no border is required"
+msgstr ""
+
+#: settings/admin-ajax.php:4050
+msgid "Border Color"
+msgstr ""
+
+#: settings/admin-ajax.php:4079
+msgid "Focus X"
+msgstr ""
+
+#: settings/admin-ajax.php:4088
+msgid "Focus Y"
+msgstr ""
+
+#: settings/admin-ajax.php:4098 settings/create-new.php:982
+msgid "Pure Image Slider"
+msgstr ""
+
+#: settings/admin-ajax.php:4108
+msgid "check this to convert placid Slider to Image Slider with no content"
+msgstr ""
+
+#: settings/admin-ajax.php:4115
+msgid "Image Title on Hover"
+msgstr ""
+
+#: settings/admin-ajax.php:4124
+msgid ""
+"If you do not want to completely convert to Image Slider, using this option "
+"you can display the content over image only on hover"
+msgstr ""
+
+#: settings/admin-ajax.php:4131
+msgid "Grayscale image, show original image on hover"
+msgstr ""
+
+#: settings/admin-ajax.php:4142
+msgid ""
+"check this to show original colored image when user hovers on the image. "
+"Effect visible on Chrome 19+, IE 6-9, Firefox 10+, Safari 6+ . Not "
+"applicable to IE10"
+msgstr ""
+
+#: settings/admin-ajax.php:4159
+msgid ""
+"Enter the url of the default image i.e. the image to be displayed if there "
+"is no image available for the slide. By default, the url is <br />"
+msgstr ""
+
+#: settings/admin-ajax.php:4177
+msgid "Slide Content"
+msgstr ""
+
+#: settings/admin-ajax.php:4257
+msgid "Max width of the overlay text area"
+msgstr ""
+
+#: settings/admin-ajax.php:4261
+msgid ""
+"You need to enter this value if you have variable width images and have kept "
+"the 'Thumbnail Image Width' field empty."
+msgstr ""
+
+#: settings/admin-ajax.php:4277
+msgid "Navigational Arrows"
+msgstr ""
+
+#: settings/admin-ajax.php:4292
+msgid "Select Navigation Arrow"
+msgstr ""
+
+#: settings/admin-ajax.php:4330
+msgid "Retain these html tags"
+msgstr ""
+
+#: settings/admin-ajax.php:4334
+msgid "Continue Reading Text"
+msgstr ""
+
+#: settings/admin-ajax.php:4339
+msgid "Randomize Slides in Slider"
+msgstr ""
+
+#: settings/admin-ajax.php:4348
+msgid "Check this if you want the slides added to appear in random order"
+msgstr ""
+
+#: settings/admin-ajax.php:4355
+msgid "Slide Link ('a' element) attributes  "
+msgstr ""
+
+#: settings/admin-ajax.php:4359
+msgid "eg. target=\"_blank\" rel=\"external nofollow\""
+msgstr ""
+
+#: settings/admin-ajax.php:4375
+msgid "Pause the slider when user hovers over the slide"
+msgstr ""
+
+#: settings/admin-ajax.php:4391
+msgid ""
+"If checked, when user clicks the slide image, it will appear in a modal "
+"lightbox"
+msgstr ""
+
+#: settings/admin-ajax.php:4414
+msgid "Custom fields to display for post/pages"
+msgstr ""
+
+#: settings/admin-ajax.php:4418
+msgid "Separate different fields using commas eg. description,customfield2"
+msgstr ""
+
+#: settings/admin-ajax.php:4436
+msgid ""
+"Append Slides to the Slider in case the number of slides is less compared to "
+"width of the slider."
+msgstr ""
+
+#: settings/admin-ajax.php:4452
+msgid "Disable Sliding will show static images rather than sliding."
+msgstr ""
+
+#: settings/admin-ajax.php:4468
+msgid ""
+"If checked the Slider will show Flash of Unstyled Content when the page is "
+"loaded, i.e. the slider content will appear before the javascripts are "
+"loaded."
+msgstr ""
+
+#: settings/admin-ajax.php:4496
+msgid "Enable Generated CSS"
+msgstr ""
+
+#: settings/admin-ajax.php:4508
+msgid ""
+"Save Changes for the settings first and then view this data. You can use "
+"this CSS in your 'custom' stylesheets if you use other than 'default' value "
+"for the Stylesheet folder."
+msgstr ""
+
+#: settings/admin-ajax.php:4549
+msgid "Slide Sale strip"
+msgstr ""
+
+#: settings/admin-ajax.php:4554
+msgid "Sale Strip"
+msgstr ""
+
+#: settings/admin-ajax.php:4587
+msgid "Slide Regular price"
+msgstr ""
+
+#: settings/admin-ajax.php:4592
+msgid "Regular Price"
+msgstr ""
+
+#: settings/admin-ajax.php:4650
+msgid "Sale price"
+msgstr ""
+
+#: settings/admin-ajax.php:4655
+msgid "Sale Price"
+msgstr ""
+
+#: settings/admin-ajax.php:4728
+msgid "Select Star"
+msgstr ""
+
+#: settings/admin-ajax.php:4774
+msgid "Slide date-time"
+msgstr ""
+
+#: settings/admin-ajax.php:4841
+msgid "Event Address"
+msgstr ""
+
+#: settings/admin-ajax.php:4895 settings/admin-ajax.php:4898
+msgid "Event Category"
+msgstr ""
+
+#: settings/create-new.php:277
+msgid "Show All Types"
+msgstr ""
+
+#: settings/create-new.php:728
+msgid "Step 3"
+msgstr ""
+
+#: settings/create-new.php:728
+msgid "Select Skin"
+msgstr ""
+
+#: settings/create-new.php:733
+msgid "Choose from already created setting sets"
+msgstr ""
+
+#: settings/create-new.php:745
+msgid " (ID "
+msgstr ""
+
+#: settings/create-new.php:755
+msgid "Create new setting set"
+msgstr ""
+
+#: settings/create-new.php:927
+msgid "Step 4"
+msgstr ""
+
+#: settings/create-new.php:927
+msgid "Choose Layout"
+msgstr ""
+
+#: settings/create-new.php:957
+msgid "With Navigation"
+msgstr ""
+
+#: settings/create-new.php:963
+msgid "Vertical Slide"
+msgstr ""
+
+#: settings/create-new.php:975
+msgid "Grayscale"
+msgstr ""
+
+#: settings/create-new.php:1119
+msgid "Step 5"
+msgstr ""
+
+#: settings/create-new.php:1119
+msgid "Upload Images"
+msgstr ""
+
+#: settings/create-new.php:1172 settings/easy_builder.php:1236
+#: settings/easy_builder.php:1358
+msgid "Remove Selected"
+msgstr ""
+
+#: settings/create-new.php:1172 settings/easy_builder.php:370
+#: settings/easy_builder.php:1236 settings/easy_builder.php:1358
+msgid "Remove All at Once"
+msgstr ""
+
+#: settings/create-new.php:1172 settings/easy_builder.php:1358
+#: settings/global_settings.php:138 settings/global_settings.php:152
+#: settings/global_settings.php:164 settings/global_settings.php:176
+#: settings/global_settings.php:188
+msgid "Save"
+msgstr ""
+
+#: settings/create-new.php:1192
+msgid "Step 1"
+msgstr ""
+
+#: settings/easy_builder.php:382
+msgid "Add To Slider"
+msgstr ""
+
+#: settings/easy_builder.php:410
+msgid "Go to Sliders Panel"
+msgstr ""
+
+#: settings/easy_builder.php:436
+msgid "Rename Setting Set"
+msgstr ""
+
+#: settings/easy_builder.php:443
+msgid "Rename"
+msgstr ""
+
+#: settings/easy_builder.php:453
+msgid "Image Controls"
+msgstr ""
+
+#: settings/easy_builder.php:457
+msgid "Text Controls"
+msgstr ""
+
+#: settings/easy_builder.php:461 settings/settings.php:405
+msgid "Navigation Panel"
+msgstr ""
+
+#: settings/easy_builder.php:471
+msgid "E-Shop"
+msgstr ""
+
+#: settings/easy_builder.php:511
+msgid "Easy Builder"
+msgstr ""
+
+#: settings/easy_builder.php:632
+msgid "Recent Slider"
+msgstr ""
+
+#: settings/easy_builder.php:650
+msgid "Ecommerce Slider"
+msgstr ""
+
+#: settings/easy_builder.php:656
+msgid "Event Manger Slider"
+msgstr ""
+
+#: settings/easy_builder.php:674
+msgid "Rss Feed Slider"
+msgstr ""
+
+#: settings/easy_builder.php:779
+msgid "Woo Category"
+msgstr ""
+
+#: settings/easy_builder.php:797
+msgid "ecom Category"
+msgstr ""
+
+#: settings/easy_builder.php:818
+msgid "Events Category"
+msgstr ""
+
+#: settings/easy_builder.php:822
+msgid "Events Tags"
+msgstr ""
+
+#: settings/easy_builder.php:842
+msgid "Events Calendar Category"
+msgstr ""
+
+#: settings/easy_builder.php:846
+msgid "Events Calendar Tags"
+msgstr ""
+
+#: settings/easy_builder.php:1233
+msgid "Add Slides"
+msgstr ""
+
+#: settings/easy_builder.php:1268
+msgid "Blank"
+msgstr ""
+
+#: settings/easy_builder.php:1269
+msgid "Posts"
+msgstr ""
+
+#: settings/easy_builder.php:1270
+msgid "Pages"
+msgstr ""
+
+#: settings/easy_builder.php:1271
+msgid "Media"
+msgstr ""
+
+#: settings/easy_builder.php:1274
+msgid "Facebook"
+msgstr ""
+
+#: settings/easy_builder.php:1278
+msgid "Flickr"
+msgstr ""
+
+#: settings/easy_builder.php:1282
+msgid "Instagram"
+msgstr ""
+
+#: settings/easy_builder.php:1287
+msgid "Youtube"
+msgstr ""
+
+#: settings/easy_builder.php:1290
+msgid "Vimeo"
+msgstr ""
+
+#: settings/easy_builder.php:1293
+msgid "500PX"
+msgstr ""
+
+#: settings/easy_builder.php:1306
+msgid "Add Images to"
+msgstr ""
+
+#: settings/global_settings.php:18
+msgid "Global Settings"
+msgstr ""
+
+#: settings/global_settings.php:24
+msgid "Minimum User Level to add Post to the Slider"
+msgstr ""
+
+#: settings/global_settings.php:26
+msgid "Administrator"
+msgstr ""
+
+#: settings/global_settings.php:27
+msgid "Editor and Admininstrator"
+msgstr ""
+
+#: settings/global_settings.php:28
+msgid "Author, Editor and Admininstrator"
+msgstr ""
+
+#: settings/global_settings.php:29
+msgid "Contributor, Author, Editor and Admininstrator"
+msgstr ""
+
+#: settings/global_settings.php:35
+msgid "Text to display in the JavaScript disabled browser"
+msgstr ""
+
+#: settings/global_settings.php:40
+msgid "Enque scripts in header"
+msgstr ""
+
+#: settings/global_settings.php:51
+msgid "Edit Slider Link"
+msgstr ""
+
+#: settings/global_settings.php:67
+msgid "Create \"SliderVilla Slides\" Custom Post Type"
+msgstr ""
+
+#: settings/global_settings.php:69 settings/global_settings.php:120
+msgid "Yes"
+msgstr ""
+
+#: settings/global_settings.php:70 settings/global_settings.php:121
+msgid "No"
+msgstr ""
+
+#: settings/global_settings.php:77
+msgid "Custom Post Type Slug"
+msgstr ""
+
+#: settings/global_settings.php:84
+msgid "Remove Placid Slider Metabox on"
+msgstr ""
+
+#: settings/global_settings.php:101
+msgid ""
+"You can select single/multiple post types using Ctrl+Mouse Click. To "
+"deselect a single post type, use Ctrl+Mouse Click"
+msgstr ""
+
+#: settings/global_settings.php:108
+msgid "Custom Styles"
+msgstr ""
+
+#: settings/global_settings.php:112
+msgid ""
+"Custom css styles that you would want to be applied to the slider elements"
+msgstr ""
+
+#: settings/global_settings.php:118
+msgid "Show Slider Details on Admin Page"
+msgstr ""
+
+#: settings/global_settings.php:130
+msgid "API Keys"
+msgstr ""
+
+#: settings/global_settings.php:135
+msgid "Facebook App key"
+msgstr ""
+
+#: settings/global_settings.php:149
+msgid "Instagram Access Token"
+msgstr ""
+
+#: settings/global_settings.php:162
+msgid "Flickr API Key"
+msgstr ""
+
+#: settings/global_settings.php:174
+msgid "Youtube App ID"
+msgstr ""
+
+#: settings/global_settings.php:185
+msgid "500PX Consumer Key"
+msgstr ""
+
+#: settings/license.php:6
+msgid "License"
+msgstr ""
+
+#: settings/license.php:10
+msgid "License Key"
+msgstr ""
+
+#: settings/license.php:13
+msgid "Enter the License Key which you would have received on "
+msgstr ""
+
+#: settings/license.php:14
+msgid "My Downloads Area"
+msgstr ""
+
+#: settings/license.php:31
+msgid "Enter the License Key for Placid Slider on "
+msgstr ""
+
+#: settings/license.php:31
+msgid "this page"
+msgstr ""
+
+#: settings/settings.php:182 settings/settings.php:183
+msgid "Settings imported successfully "
+msgstr ""
+
+#: settings/settings.php:186 settings/settings.php:187
+msgid ""
+"Settings imported do not match to Placid Slider Settings. Please check the "
+"file."
+msgstr ""
+
+#: settings/settings.php:191 settings/settings.php:192
+msgid ""
+"Error in File, Settings not imported. Please check the file being imported. "
+msgstr ""
+
+#: settings/settings.php:261
+msgid "Placid Slider Settings: "
+msgstr ""
+
+#: settings/settings.php:267
+msgid "Preview"
+msgstr ""
+
+#: settings/settings.php:391
+msgid "Setting Set Name"
+msgstr ""
+
+#: settings/settings.php:399
+msgid "Slider Preview"
+msgstr ""
+
+#: settings/settings.php:403
+msgid "Slide Settings"
+msgstr ""
+
+#: settings/settings.php:407
+msgid "eCommerce"
+msgstr ""
+
+#: settings/settings.php:409
+msgid "Event Settings"
+msgstr ""
+
+#: settings/settings.php:439
+msgid "Reset Settings to"
+msgstr ""
+
+#: settings/settings.php:442
+msgid "Global Default"
+msgstr ""
+
+#: settings/settings.php:473
+msgid "Reset Settings"
+msgstr ""
+
+#: settings/settings.php:481
+msgid "Import Settings Set by uploading a Settings File"
+msgstr ""
+
+#: settings/settings.php:485
+msgid "Import Settings from a file"
+msgstr ""
+
+#: settings/settings.php:494
+msgid "Quick Embed Shortcode"
+msgstr ""
+
+#: settings/settings.php:617
+msgid "Quick Embed Template Tag"
+msgstr ""
+
+#: settings/settings.php:765
+msgid ""
+"Go to Sliders page where you can re-order the slide posts, delete the slides "
+"from the slider etc."
+msgstr ""
+
+#: settings/settings.php:765
+msgid "Go to Sliders Admin"
+msgstr ""
+
+#: settings/settings.php:767
+msgid "Export this Settings Set to a file"
+msgstr ""
+
+#: settings/settings.php:768
+msgid "Go to Import Settings Form"
+msgstr ""
+
+#: settings/settings.php:774
+msgid "Available Settings Sets"
+msgstr ""
+
+#: settings/settings.php:796
+msgid "About this Plugin:"
+msgstr ""
+
+#: settings/settings.php:799
+msgid "Placid Slider Homepage"
+msgstr ""
+
+#: settings/settings.php:800
+msgid "Plugin Homepage"
+msgstr ""
+
+#: settings/settings.php:801 settings/settings.php:802
+msgid "Support Forum"
+msgstr ""
+
+#: settings/settings.php:803 settings/settings.php:804
+msgid "Usage Guide"
+msgstr ""
+
+#: settings/sliders.php:7
+msgid "Manage Sliders"
+msgstr ""
+
+#: settings/sliders.php:9
+msgid "Create New Slider"
+msgstr ""
+
+#: settings/sliders.php:11
+msgid "Forum"
+msgstr ""
+
+#: settings/sliders.php:12
+msgid "Docs"
+msgstr ""
+
+#: settings/sliders.php:64
+msgid "Edit"
+msgstr ""
+
+#: settings/sliders.php:64
+msgid "delete_slider"
+msgstr ""
+
+#: slider_versions/placid_1.php:348 slider_versions/shortcodes_1.php:190
+msgid "Edit Slider"
+msgstr ""
+
+#: slider_versions/widgets_1.php:48 slider_versions/widgets_1.php:132
+msgid "Title:"
+msgstr ""
